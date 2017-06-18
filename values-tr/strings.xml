@@ -282,7 +282,7 @@
     <string name="delete_all_your_messages"><![CDATA[> Tüm sohbetleri sil]]></string>
     <string name="delete_your_account"><![CDATA[> Deactivate your account]]></string>
     <string name="deleting_your_account_will">HELLO hesabınız silindi.:</string>
-    <string name="alert_message_delete_account">Hesap silinmesine devam edilsin mi? Bu işlemin geri dönüşü yoktur. Gelecekte WhatsApp hesabınızı aktifleştirseniz bile, verileriniz kurtarılamaz.</string>
+    <string name="alert_message_delete_account">Hesap silinmesine devam edilsin mi? Bu işlemin geri dönüşü yoktur. Gelecekte HELLO hesabınızı aktifleştirseniz bile, verileriniz kurtarılamaz.</string>
     <string name="delete_account_failed_please_try_later">Hesabınız silinemedi. Lütfen daha sonra tekrar deneyin.</string>
     <string name="unexpected_reponse_from_server">Unexpected response from the server</string>
     <string name="you_send_messages"> Artık bu grubun katılımcısı değilsiniz.</string>
