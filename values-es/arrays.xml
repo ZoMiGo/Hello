@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="message_font_size_names">
-        <item>Small</item>
-        <item>Medium</item>
-        <item>Large</item>
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Grande</item>
     </string-array>
 
 
@@ -19,13 +19,13 @@
 
 
     <string-array name="light_names">
-        <item>Blue</item>
-        <item>White</item>
-        <item>Red</item>
-        <item>Yellow</item>
-        <item>Green</item>
-        <item>Cyan</item>
-        <item>Metallic</item>
+        <item>Azul</item>
+        <item>Blanco</item>
+        <item>Rojo</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Cian</item>
+        <item>Morado</item>
     </string-array>
 
 
