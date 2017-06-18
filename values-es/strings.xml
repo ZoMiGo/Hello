@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">HELLO</string>
-    <string name="Hello_get" >Merhaba HELLO APP yüzden kolayca birbirinden ile sohbet edebilirsiniz olsun!</string>
-    <string name="Hi_there" >Merhaba! Ben kullanarak HELLO </string>
+    <string name="Hello_get" >Hola APP HELLO conseguir fácilmente para que pueda conversar con ellos!</string>
+    <string name="Hi_there" >¡Hola! estoy usando HELLO </string>
 
 
     <!-- Date format -->
@@ -40,7 +40,7 @@
 
     <!--end icons -->
     <string name="number">Número de teléfono</string>
-    <string name="NoMessages">There\'s no conversations yet, you may start one now</string>
+    <string name="NoMessages">No hay conversaciones sin embargo, puede comenzar uno ahora</string>
     <string name="NoCalls">No hay llamadas</string>
     <string name="error_response">Unable to update.</string>
     <string name="NoContacts">There is no contacts .Please try again later or add new one</string>
@@ -387,7 +387,7 @@
     <string name="links">Enlaces</string>
     <string name="this_a_pdf_file_document">PDF Documento</string>
     <string name="fetching_urls_preview">Fetching …</string>
-    <string name="splash_message"> Enjoy your time while you are using this \"real-time\" chat application .</string>
+    <string name="splash_message"> Disfrutar de su tiempo mientras está usando este \ "en tiempo real \" aplicación de chat.</string>
     <string name="title_activity_privacy"><![CDATA[Términos y Privacidad]]></string>
     <string name="terms_and_privacy_policy">Términos y Privacidad</string>
     <string name="english">English</string>
