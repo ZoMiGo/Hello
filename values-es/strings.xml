@@ -347,7 +347,7 @@
     <string name="update">Sí, Actualizar %s</string>
     <string name="update_title">Actualizar %s</string>
     <string name="update_app">Actualizar ?</string>
-    <string name="update_app_message">Una nueva versión de WhatsApp está disponible. ¿Quieres instalarla ahora? </string>
+    <string name="update_app_message">Una nueva versión de HELLO está disponible. ¿Quieres instalarla ahora? </string>
     <string name="update_message_complete">"Esta versión de HELLO es antigua y no funciona correctamente. Por favor, ve a Google Play Store y descarga la última versión."</string>
     <string name="please_select_y_country">Elige un país</string>
     <string name="permission_alert">Para enviar un contacto, permite que HELLO pueda acceder a tus contactos.</string>
