@@ -42,16 +42,16 @@
     <string name="number">Телефонски број</string>
     <string name="NoMessages">Нема разговори, сепак, може да почнат еден сега</string>
     <string name="NoCalls">Нема повици</string>
-    <string name="error_response">Unable to update.</string>
-    <string name="NoContacts">There is no contacts .Please try again later or add new one</string>
+    <string name="error_response">Не може да се ажурира.</string>
+    <string name="NoContacts">Не постои контакти .Pleas обидете се повторно подоцна или да додадете нов</string>
     <string name="type_msg">Внеси порака</string>
-    <string name="NoResult">Nothing</string>
-    <string name="error_response_contacts">Unable to update your contacts.</string>
-    <string name="error_response_conversations">Unable to update conversations.</string>
-    <string name="error_response_groups">Unable to update groups.</string>
-    <string name="error_response_messages">Unable to update messages.</string>
-    <string name="name_is_too_short">the name is too short</string>
-    <string name="select_picture">select an image</string>
+    <string name="NoResult">ништо</string>
+    <string name="error_response_contacts">Не може да се ажурира вашите контакти.</string>
+    <string name="error_response_conversations">Не може да се ажурира разговори.</string>
+    <string name="error_response_groups">Не може да се ажурира групи.</string>
+    <string name="error_response_messages">Не може да се ажурира пораки.</string>
+    <string name="name_is_too_short">името е премногу краток</string>
+    <string name="select_picture">одберете некоја слика</string>
     <string name="new_group">Нова група</string>
     <string name="starred_messages">Пораки со ѕвезда</string>
     <string name="status">Твојот моментален статус</string>
@@ -69,14 +69,14 @@
     <string name="view_in_ad_book">Види во именик</string>
     <string name="hello_welcome_to_whats_clone">Welcome</string>
     <string name="next">Следно</string>
-    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">Set back and keep calm you will receive an sms of verification</string>
-    <string name="resend">You didn\'t receive any code? Resend</string>
-    <string name="enter_the_code_below_to_verify">Enter the code below to verify</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">Го врати назад и да ја задржите мирно ќе добиете SMS порака за потврдување</string>
+    <string name="resend">Вие не примиле код? препратат</string>
+    <string name="enter_the_code_below_to_verify">Внесете го кодот подолу за да се потврди</string>
     <string name="enter_your_code">-- -- -- -- -- --</string>
     <string name="ok">OK</string>
     <string name="please_enter_your_ver_code">Потврди ја твојата шифра:</string>
     <string name="enter_a_val_number">Молиме внеси го твојот телефонски број.</string>
-    <string name="change_number">Change number</string>
+    <string name="change_number">Сменете го телефонскиот број</string>
     <string name="invite">Покани</string>
     <string name="your_current_status">Мојот статус</string>
     <string name="select_your_new_status">Нов статус</string>
@@ -89,27 +89,27 @@
     <string name="cancel">Откажи</string>
     <string name="Ok">OK</string>
     <string name="write_something">Внеси порака</string>
-    <string name="error_response_status">Unable to get status</string>
-    <string name="title_activity_edit_status">Edit status</string>
+    <string name="error_response_status">Не може да се добие статус</string>
+    <string name="title_activity_edit_status">статус на уредникот</string>
     <string name="deleteALL">Избриши ги сите</string>
-    <string name="oops_something">Oops something went wrong </string>
-    <string name="oops_something_crashed">Oops !! something went wrong . Please send a report to the developer</string>
+    <string name="oops_something">Oops нешто не беше во ред </string>
+    <string name="oops_something_crashed">Oops !! нешто не беше во ред. Ве молиме испратете извештај до инвеститорот</string>
     <string name="no_status">*** нема статус ***</string>
-    <string name="no_username"> No username </string>
+    <string name="no_username"> Hема корисничко име </string>
     <string name="edit_status_activity_title">Додади нов статус</string>
-    <string name="title_activity_edit_name">Enter your name</string>
+    <string name="title_activity_edit_name">Внесете го вашето име</string>
     <string name="title_select_contacts">Мои контакти</string>
     <string name="success_response_contacts">Контактите се ажурирани.</string>
 
     <string name="edit_group_name">Внеси нов наслов</string>
     <string name="exit">Напушти</string>
-    <string name="shareContact">Share contact</string>
+    <string name="shareContact">Сподели контакт</string>
 
     <!--socket io -->
     <string name="isTyping">пишува...</string>
-    <string name="isOffline">Offline</string>
-    <string name="isOnline">онлајн</string>
-    <string name="lastSeen">видено</string>
+    <string name="isOffline">Oфлајн</string>
+    <string name="isOnline">Oнлајн</string>
+    <string name="lastSeen">Bидено</string>
 
 
     <!--end date format-->
@@ -122,7 +122,7 @@
     <string name="title_activity_edit_group_name">Внеси нов наслов</string>
     <string name="attach_contact">Контакт</string>
     <string name="attach_video">Bидео</string>
-    <string name="attach_video_record">Record video</string>
+    <string name="attach_video_record">Cнимате видео</string>
     <string name="attach_location">Локација</string>
     <string name="attach_audio">Аудио</string>
     <string name="attach_camera">Камера</string>
@@ -163,7 +163,7 @@
     <string name="get_accounts_permission_message">Get accounts permission . Please allow in App Settings for additional functionality.</string>
     <string name="write_sync_settings_permission_message">Write Sync settings permission . Please allow in App Settings for additional functionality.</string>
     <string name="read_sync_settings_permission_message">Read Sync settings permission . Please allow in App Settings for additional functionality.</string>
-    <string name="no_thanks">No Thanks</string>
+    <string name="no_thanks">Не, благодарам</string>
     <string name="yes">Да</string>
 
     <!--Permissions strings end -->
@@ -172,7 +172,7 @@
     <string name="copy_message">Копирај</string>
     <string name="transfer_message">Препрати до...</string>
     <string name="message_delete">Избриши порака?</string>
-    <string name="message_copy">Text message</string>
+    <string name="message_copy">Текстуална порака</string>
 
     <!--settings strings-->
     <string name="about_and_help">Инфо и помош</string>
@@ -274,17 +274,17 @@
     <string name="message_notifications_settings_vibrate_on">Вибрации On</string>
     <string name="call_notifications_settings_vibrate_off">Вибрации Off</string>
     <string name="call_notifications_settings_vibrate_on">Вибрации On</string>
-    <string name="enjoy_it">Enjoy it</string>
-    <string name="app_version">"Version "</string>
-    <string name="to_delete_your_account_from_confirm_your_phone_number">to delete your account, you need to confirm your phone number</string>
-    <string name="delete_user_account">DELETE MY ACCOUNT</string>
-    <string name="delete_you_from_groups"><![CDATA[> Delete you from all groups]]></string>
-    <string name="delete_all_your_messages"><![CDATA[> Delete all your messages (you can restore it if you have a backup)]]></string>
-    <string name="delete_your_account"><![CDATA[> Deactivate your account]]></string>
-    <string name="deleting_your_account_will">Твојата WhatsApp сметка е избришана.</string>
+    <string name="enjoy_it">Уживајте во неа</string>
+    <string name="app_version">"Верзија"</string>
+    <string name="to_delete_your_account_from_confirm_your_phone_number">за да го избришете вашиот профил, треба да се потврди вашиот телефонски број</string>
+    <string name="delete_user_account">Избришам мојот профил</string>
+    <string name="delete_you_from_groups"><![CDATA[> Избришете од сите групи]]></string>
+    <string name="delete_all_your_messages"><![CDATA[> Избриши ги сите вашите пораки (можете да го направите ако имате копија)]]></string>
+    <string name="delete_your_account"><![CDATA[> Деактивирате вашиот профил]]></string>
+    <string name="deleting_your_account_will">Твојата HELLO сметка е избришана.</string>
     <string name="alert_message_delete_account">Продолжи со бришење на твојата сметка? Невозможно е да се врати назад после ова! Доколку ја реактивираш HELLO сметката во иднина, нема да бидат вратени и податоците.</string>
     <string name="delete_account_failed_please_try_later">Не можеше да се избрише твојата сметка. Молиме обиди се подоцна.</string>
-    <string name="unexpected_reponse_from_server">Unexpected response from the server</string>
+    <string name="unexpected_reponse_from_server">Неочекуван одговор од серверот</string>
     <string name="you_send_messages"> Повеќе не си учесник.</string>
     <string name="file">File</string>
     <string name="waiting_for_network">Мрежата не е достапна. Молиме обиди се подоцна.</string>
@@ -293,7 +293,7 @@
     <string name="this_image_is_not_exist">Не можеше да се вчита оваа слика. Молиме обиди се повторно.</string>
     <string name="this_audio_is_not_exist">Ова аудио не е достапно бидејќи нешто е погрешно во самиот аудио фајл.</string>
     <string name="this_document_is_not_exist">Не се пронајдени документи</string>
-    <string name="account_added_already">" Account is added already "</string>
+    <string name="account_added_already">" Сметка е веќе додадена "</string>
     <string name="you_cannot_delete_your_account_please_contac">Не можеше да се избрише твојата сметка. Молиме обиди се подоцна.</string>
 
     <!--Directories strings-->
@@ -308,40 +308,40 @@
     <string name="directory_wallpaper">Позадина</string>
     <string name="directory_sent">Испорачано</string>
     <string name="video_thumbnail">Thumbnail</string>
-    <string name="image_saved">Image Saved</string>
+    <string name="image_saved">Слика Зачувани</string>
     <string name="save_to_gallery">Зачувано во галерија</string>
-    <string name="share_or_save">Share Or Save</string>
+    <string name="share_or_save">Сподели Зачувај го</string>
     <string name="shareItem">Сподели</string>
-    <string name="this_message_empty">This message is empty</string>
+    <string name="this_message_empty">Оваа порака е празна</string>
     <string name="share_message">Сподели</string>
-    <string name="you_can_share_more_then_one">You can\'t share more than one item</string>
+    <string name="you_can_share_more_then_one">Вие не може да делат повеќе од еден објект</string>
     <!--others -->
-    <string name="add_to_you_contact">ADD THIS PERSON TO YOUR CONTACTS </string>
+    <string name="add_to_you_contact">Додади ја оваа лицето на вашите контакти </string>
     <string name="status_and_phone">Статус и телефон</string>
-    <string name="failed_to_the_current_status">Failed to get current status</string>
-    <string name="please_enter_your_mobile_number">Please enter your mobile number</string>
+    <string name="failed_to_the_current_status">Не успеа да добие тековниот статус</string>
+    <string name="please_enter_your_mobile_number">Ве молиме внесете вашиот мобилен број</string>
     <string name="verify_mobile">Потврди</string>
     <string name="firstly_select_your_country_here">Одбери држава</string>
     <string name="activity_backup_drive_success">Архивирањето е завршено</string>
     <string name="activity_backup_drive_failed">Не можеше да се заврши архивирањето</string>
-    <string name="activity_backup_drive_message_restart">Restarting backup</string>
+    <string name="activity_backup_drive_message_restart">рестартирање на резерви</string>
     <string name="restore_data">Врати</string>
-    <string name="please_click_on_restore_button_to_restore_your_messages">Please click on start button to restore your Messages</string>
+    <string name="please_click_on_restore_button_to_restore_your_messages">Ве молиме кликнете на копчето Start за да се врати на вашите пораки</string>
     <string name="backup">Архивирај</string>
     <string name="chat_backup">Chat backup</string>
-    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Back up your messages .You can restore them when you reinstall the application.</string>
+    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Назад до вашите пораки .You може да ги вратите кога ќе ја инсталирате апликацијата.</string>
     <string name="back_up">Архивирај</string>
-    <string name="start_backing_up">Start backing up</string>
-    <string name="start_restore">Start restore Or skip</string>
+    <string name="start_backing_up">започне бекап</string>
+    <string name="start_restore">Започнете обновени или прескокнете</string>
     <string name="start">Почни</string>
     <string name="skip">Прескокни</string>
     <string name="finish">заврши</string>
 
     <!-- Rate Strings -->
     <string name="rate_title">Rate %s</string>
-    <string name="rate_message">If you enjoy using %s, would you mind taking a moment to rate it? Thanks for your support!</string>
+    <string name="rate_message">Ако уживате во користење на %s, ќе умот преземање на момент да го оценувате? Ви благодариме за вашата поддршка!</string>
     <string name="rate">Yes, Rate %s</string>
-    <string name="rate_later">Remind me later</string>
+    <string name="rate_later">Потсети ме подоцна</string>
     <string name="rate_cancel">No, Thanks</string>
     <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
     <string name="update">Да, Ажурирај %s</string>
@@ -373,8 +373,8 @@
     <string name="call_select_voice">Гласовен повик</string>
     <string name="call_select_video">Видео повик</string>
     <string name="you_couldnt_call_this_user_network">Провери ја Интернет конекцијата на твојот телефон и обиди се повторно.</string>
-    <string name="you_couldnt_call">Couldn\'t place call</string>
-    <string name="duration">Duration</string>
+    <string name="you_couldnt_call">Не може да се одржи повик</string>
+    <string name="duration">Траење</string>
     <string name="close">Спушти</string>
     <string name="open">Отвори</string>
     <string name="about_title">Инфо</string>
@@ -382,31 +382,31 @@
     <string name="default_wallpaper">Основни</string>
     <string name="wallpaper_gallery">Галерија</string>
     <string name="wallpaper_is_set">Поставено позадина</string>
-    <string name="you_can_copy_more_then_one">You can\'t copy more than one item</string>
+    <string name="you_can_copy_more_then_one">Не можете да копирате повеќе од еден објект</string>
     <string name="documents">Документи</string>
     <string name="links">Линкови</string>
-    <string name="this_a_pdf_file_document">PDF attach_document</string>
+    <string name="this_a_pdf_file_document">Приложите PDF документ</string>
     <string name="fetching_urls_preview">Fetching …</string>
-    <string name="splash_message"> Enjoy your time while you are using this \"real-time\" chat application .</string>
+    <string name="splash_message"> Уживајте во вашето време додека ја користите оваа \"во реално време\" разговор апликација.</string>
     <string name="title_activity_privacy"><![CDATA[Услови и Приватност]]></string>
     <string name="terms_and_privacy_policy">Услови и Приватност</string>
-    <string name="english">English</string>
-    <string name="german">Deutsch</string>
-    <string name="srbski">Serbisch</string>
-    <string name="romaneste">Romänisch</string>
-    <string name="french">French</string>
-    <string name="turski">Turkisch</string>
+    <string name="english">Англиски</string>
+    <string name="german">Германски</string>
+    <string name="srbski">Српски</string>
+    <string name="romaneste">Романскиот</string>
+    <string name="french">Француски</string>
+    <string name="turski">Турски</string>
     <string name="title_language">Јазик на апликацијата</string>
     <!--new strings-->
 
-    <string name="you_need_to_restart_the_application">You need to restart the application</string>
+    <string name="you_need_to_restart_the_application">Вие треба да го рестартирате апликацијата</string>
     <string name="you_are_using_a_moderate_connection">You are using a moderate connection</string>
-    <string name="you_are_using_a_poor_connection">You are using a poor connection</string>
-    <string name="you_are_using_a_good_connection">You are using a good connection</string>
-    <string name="you_are_using_a_slower_connection">You are using a slow connection</string>
+    <string name="you_are_using_a_poor_connection">Ќе се користи умерено врска</string>
+    <string name="you_are_using_a_good_connection">Го користите добра врска</string>
+    <string name="you_are_using_a_slower_connection">Вие користите бавна врска</string>
 
     <string name="selected">Избраните</string>
-    <string name="failed_to_restore_the_backup">Failed to restore the backup</string>
+    <string name="failed_to_restore_the_backup">Не успеав да го направите резервна копија</string>
     <string name="restore_is_done">Се архивираат пораките</string>
     <string name="failed_to_restore_the_backup_try">Не се архивираа пораките. Молиме обиди се подоцна.</string>
     <string name="please_wait_a_moment">Молиме почекај за момент</string>
@@ -416,7 +416,7 @@
     <string name="current_language">Mоментален</string>
 
     <string name="block_user_make_sure">Блокираните контакти нема повеќе да можат да ти се јавуваат или да ти праќаат пораки.</string>
-    <string name="unblock_user_make_sure">You will unblock this user ,so he will  be able to call you or send you messages .Are you sure ?</string>
+    <string name="unblock_user_make_sure">Ќе се деблокира на корисникот, па тој ќе биде во можност да се јавите или да ви испрати пораки што .Are сигурни?</string>
     <string name="unblock_user">Блокирај</string>
     <string name="title_blocked_contacts">Блокирани контакти</string>
     <string name="missed_video_call">Пропуштен видео повик</string>
@@ -424,7 +424,7 @@
     <string name="outgoing_video_call">Појдовен видео повик</string>
     <string name="outgoing_voice_call">Појдовен гласовен повик</string>
 
-    <string name="invitation_from">Invitation from</string>
-    <string name="your_session_expired">Your Session is Expired</string>
+    <string name="invitation_from">покана од</string>
+    <string name="your_session_expired">Вашата сесија е истечен</string>
 
 </resources>
