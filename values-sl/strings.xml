@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">HELLO</string>
+    
+    <!-- START Only for HELLO APP -->
     <string name="Hello_get" >Download HELLO APP Tako bomo lahko klepet in klepet brezplačno! </string>
     <string name="Hi_there" >Hi! Jaz sem z zdaj! HELLO </string>
-
+    <!-- END Only for HELLO APP -->
     <!-- Date format -->
     <string name="date_format_today">HH:mm</string>
     <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
