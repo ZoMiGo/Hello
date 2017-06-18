@@ -1,2 +1,2 @@
 # Hello
-Language Translation for WhatsClone
+Language Translation for HELLO & WhatsClone APP
