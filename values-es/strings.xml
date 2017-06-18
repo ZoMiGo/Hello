@@ -172,3 +172,32 @@
     <string name="copy_message">Copiar</string>
     <string name="transfer_message">Reenviar a...</string>
     <string name="message_delete">¿Eliminar este mensaje?</string>
+    <string name="message_copy">Text message</string>
+
+    <!--settings strings-->
+    <string name="about_and_help">Información y ayuda</string>
+    <string name="contacts">Contactos</string>
+    <string name="notifications">Notificaciones de mensaje</string>
+    <string name="chats">chats</string>
+    <string name="account">Cuenta</string>
+    <string name="delete_my_account">Eliminar mi cuenta</string>
+    <string name="chat_settings">Ajustes de chats</string>
+    <string name="enter_key_off">La tecla Enter añadirá una línea</string>
+    <string name="enter_key_on">La tecla Enter enviará tu mensaje</string>
+    <string name="enter_key">Enter para enviar</string>
+    <string name="message_font_size">Tamaño de fuente</string>
+    <string name="message_font_size_summary">Tamaño de fuente para la pantalla de chat</string>
+    <string name="wallpaper">Fondo</string>
+    <string name="conversation_tones_off">Reproducir sonidos para los mensajes entrantes y salientes.</string>
+    <string name="message_notifications_settings">Message bildirimleri</string>
+    <string name="notifications_settings_tone">Tono de notificación</string>
+    <string name="default_settings">Predeterminada</string>
+    <string name="message_notifications_settings_vibrate">Vibración</string>
+    <string name="message_notifications_settings_light">Luz</string>
+    <string name="call_notifications_settings_vibrate">Vibración</string>
+    <string name="call_notifications_settings_light">Luz</string>
+    <string name="conversation_tones">Tono de notificación</string>
+    <string name="message_group_notifications_settings">Notificaciones de grupo</string>
+    <string name="title_activity_delete_account">Eliminar cuenta</string>
+    <string name="title_activity_change_number">Cambiar número</string>
+    <string name="title_activity_account_settings">Cuenta</string>
