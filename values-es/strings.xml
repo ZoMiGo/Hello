@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HELLO</string>
+    <string name="Hello_get" >Merhaba HELLO APP yüzden kolayca birbirinden ile sohbet edebilirsiniz olsun!</string>
+    <string name="Hi_there" >Merhaba! Ben kullanarak HELLO </string>
+
+
+    <!-- Date format -->
+    <string name="date_format_today">HH:mm</string>
+    <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
+    <string name="date_format_yesterday">Ayer</string>
+    <string name="date_format">dd/MM/yy</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="title_home">Home</string>
+    <string name="title_Friends">Amigos</string>
+    <string name="title_conversations">Chats</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="title_feed_back"><![CDATA[Información y ayuda]]></string>
+    <string name="more">Más información</string>
+    <string name="title_sign_out">Cerrar sesión</string>
+    <string name="selected_count">%1$s Seleccionados</string>
+    <!-- icons -->
+    <string name="icon_no_calls">\ue830</string>
+    <string name="icon_crash">\ue840</string>
+    <string name="icon_update">\ue865</string>
+    <string name="icon_no_contacts">\ue82b</string>
+    <string name="icon_no_conversations">\ue818</string>
+    <string name="icon_menu_home">\ue800</string>
+    <string name="icon_menu_chat_on">\ue83f</string>
+    <string name="icon_menu_entertainment">\ue824</string>
+    <string name="icon_menu_news">\ue853</string>
+    <string name="icon_menu_shopping">\ue82e</string>
+    <string name="icon_menu_my_profile">\ue82a</string>
+    <string name="icon_menu_settings">\ue810</string>
+    <string name="icon_menu_help_feedback">\ue87d</string>
+    <string name="icon_menu_about_us">\ue87c</string>
+    <string name="icon_menu_share">\ue84b</string>
+    <string name="icon_menu_edit">\ue802</string>
+
+    <!--end icons -->
+    <string name="number">Número de teléfono</string>
+    <string name="NoMessages">There\'s no conversations yet, you may start one now</string>
+    <string name="NoCalls">No hay llamadas</string>
+    <string name="error_response">Unable to update.</string>
+    <string name="NoContacts">There is no contacts .Please try again later or add new one</string>
+    <string name="type_msg">Escribir mensaje</string>
+    <string name="NoResult">Nothing</string>
+    <string name="error_response_contacts">Unable to update your contacts.</string>
+    <string name="error_response_conversations">Unable to update conversations.</string>
+    <string name="error_response_groups">Unable to update groups.</string>
+    <string name="error_response_messages">Unable to update messages.</string>
+    <string name="name_is_too_short">the name is too short</string>
+    <string name="select_picture">select an image</string>
+    <string name="new_group">Nuevo grupo</string>
+    <string name="starred_messages">Mensajes destacados</string>
+    <string name="status">Tu estado actual</string>
+    <string name="settings">Ajustes</string>
+    <string name="refresh_contacts">Actualizar</string>
+    <string name="search">Buscar</string>
+    <string name="add_contact">Añadir contacto</string>
+    <string name="new_message">New Message</string>
+    <string name="use_whats_clone">hey i\'m using …</string>
+    <string name="title_activity_add_members_to_group">Nuevo grupo</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="title_activity_edit_profile">Info. de perfil</string>
+    <string name="share">Compartir</string>
+    <string name="edit">Editar</string>
+    <string name="view_in_ad_book">Ver en la lista de contactos</string>
+    <string name="hello_welcome_to_whats_clone">Welcome</string>
+    <string name="next">Sig.</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">Set back and keep calm you will receive an sms of verification</string>
+    <string name="resend">You didn\'t receive any code? Resend</string>
+    <string name="enter_the_code_below_to_verify">Enter the code below to verify</string>
+    <string name="enter_your_code">-- -- -- -- -- --</string>
+    <string name="ok">OK</string>
+    <string name="please_enter_your_ver_code">Confirma tu código:</string>
+    <string name="enter_a_val_number">Por favor, introduce tu número de teléfono.</string>
+    <string name="change_number">Change number</string>
+    <string name="invite">Invitar</string>
+    <string name="your_current_status">Mi estado</string>
+    <string name="select_your_new_status">Nueva actualización de estado</string>
+    <string name="title_activity_status">Mi estado</string>
+    <string name="Make_sure_delete_status">¿Eliminar todos tus estados?</string>
+    <string name="Yes">Sí</string>
+    <string name="No">No</string>
+    <string name="delete">Eliminar</string>
+    <string name="delete_status">Eliminar estado</string>
+    <string name="cancel">Cancelar</string>
+    <string name="Ok">OK</string>
+    <string name="write_something">Escribir mensaje</string>
+    <string name="error_response_status">Unable to get status</string>
+    <string name="title_activity_edit_status">Edit status</string>
+    <string name="deleteALL">Eliminar todos</string>
+    <string name="oops_something">Oops something went wrong </string>
+    <string name="oops_something_crashed">Oops !! something went wrong . Please send a report to the developer</string>
+    <string name="no_status">*** sin estado ***</string>
+    <string name="no_username"> No username </string>
+    <string name="edit_status_activity_title">Añadir nuevo estado</string>
+    <string name="title_activity_edit_name">Enter your name</string>
+    <string name="title_select_contacts">Mis contactos</string>
+    <string name="success_response_contacts">Los contactos se han actualizado.</string>
+
+    <string name="edit_group_name">Introduce un asunto nuevo</string>
+    <string name="exit">Salir</string>
+    <string name="shareContact">Share contact</string>
+
+    <!--socket io -->
+    <string name="isTyping">escribiendo...</string>
+    <string name="isOffline">Offline</string>
+    <string name="isOnline">en línea</string>
+    <string name="lastSeen">últ. vez</string>
+
+
+    <!--end date format-->
+    <string name="call">Llamada</string>
+    <string name="attach">Agregar</string>
+    <string name="search_">Buscar …</string>
