@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="message_font_size_names">
-        <item>Majhna</item>
-        <item>Srednja</item>
-        <item>Velika</item>
+        <item>Malé</item>
+        <item>Střední</item>
+        <item>Velké</item>
     </string-array>
 
 
@@ -19,13 +19,13 @@
 
 
     <string-array name="light_names">
-        <item>Modra</item>
-        <item>Bela</item>
-        <item>Rdeča</item>
-        <item>Rumena</item>
-        <item>Zelena</item>
-        <item>Cian</item>
-        <item>Metallic</item>
+      <item>Modrá</item>
+      <item>Bílá</item>
+      <item>Červená/item>
+      <item>Žlutá</item>
+      <item>Zelená</item>
+      <item>Azurová</item>
+      <item>Purpurová</item>
     </string-array>
 
 
