@@ -116,3 +116,59 @@
     <string name="call">Llamada</string>
     <string name="attach">Agregar</string>
     <string name="search_">Buscar …</string>
+    <string name="add_new_member">Agregar</string>
+    <string name="type_group_subject_here">Introduce un asunto nuevo</string>
+    <string name="provide_group_subject_and_optional_group_icon">Proporciona un asunto para el grupo y un icono (opcional)</string>
+    <string name="title_activity_edit_group_name">Introduce un asunto nuevo</string>
+    <string name="attach_contact">Contacto</string>
+    <string name="attach_video">Video</string>
+    <string name="attach_video_record">Record video</string>
+    <string name="attach_location">Ubicación</string>
+    <string name="attach_audio">Audio</string>
+    <string name="attach_camera">Cámara</string>
+    <string name="attach_gallery">Galería</string>
+    <string name="attach_document">Documento</string>
+    <string name="media">Archivos</string>
+    <string name="clear_chat">Vaciar chat</string>
+    <string name="view_contact">View Contact</string>
+    <string name="group_info">Info. del grupo</string>
+    <string name="search_hint">Buscar</string>
+    <string name="alert_message_delete_conversation">¿Borrar los mensajes de este chat?</string>
+    <string name="join_title">Volver a registrarse</string>
+    <string name="hold_to_record">Grabar mensaje de voz</string>
+
+    <!-- Permissions strings start -->
+    <string name="camera_permission">Camera Permission</string>
+    <string name="audio_permission">Audio Permission</string>
+    <string name="storage_permission">Storage Permission</string>
+    <string name="contacts_permission">Contacts Permission</string>
+    <string name="vibrate_permission">Vibrate Permission</string>
+    <string name="receive_sms_permission">Receive sms Permission</string>
+    <string name="read_sms_permission">Read sms Permission</string>
+    <string name="call_phone_permission">Call Phone Permission</string>
+    <string name="get_accounts_permission">Get accounts Permission</string>
+    <string name="write_sync_settings_permission">Get accounts Permission</string>
+    <string name="read_sync_settings_permission">Get accounts Permission</string>
+    <string name="camera_permission_message">HELLO necesita acceder a tu cámara para realizar o recibir videollamadas.</string>
+    <string name="record_audio_permission_message">Record audio permission allows you to  record audios. Please allow in App Settings for additional functionality.</string>
+    <string name="settings_audio_permission_message">HELLO necesita acceder a tu micrófono y cámara para realizar o recibir videollamadas.</string>
+    <string name="write_storage_permission_message">Write External permission allows us  access to your media. Please allow in App Settings for additional functionality.</string>
+    <string name="read_storage_permission_message">Read External permission allows us to read your media. Please allow in App Settings for additional functionality.</string>
+    <string name="read_contacts_permission_message">Read Contacts permission allows us to read your contacts. Please allow in App Settings for additional functionality.</string>
+    <string name="write_contacts_permission_message">Write Contacts permission allows you access to your contacts. Please allow in App Settings for additional functionality.</string>
+    <string name="vibrate_permission_message">Vibrate permission . Please allow in App Settings for additional functionality.</string>
+    <string name="receive_sms_permission_message">Receive sms permission allows you  to receive SMS messages. Please allow in App Settings for additional functionality.</string>
+    <string name="read_sms_permission_message">Read sms permission allows us access to your SMS messages. Please allow in App Settings for additional functionality.</string>
+    <string name="call_phone_permission_message">Call phone permission allows you make calls. Please allow in App Settings for additional functionality.</string>
+    <string name="get_accounts_permission_message">Get accounts permission . Please allow in App Settings for additional functionality.</string>
+    <string name="write_sync_settings_permission_message">Write Sync settings permission . Please allow in App Settings for additional functionality.</string>
+    <string name="read_sync_settings_permission_message">Read Sync settings permission . Please allow in App Settings for additional functionality.</string>
+    <string name="no_thanks">No Thanks</string>
+    <string name="yes">Sí</string>
+
+    <!--Permissions strings end -->
+
+    <string name="deleting_chat">"Eliminar chat"</string>
+    <string name="copy_message">Copiar</string>
+    <string name="transfer_message">Reenviar a...</string>
+    <string name="message_delete">¿Eliminar este mensaje?</string>
