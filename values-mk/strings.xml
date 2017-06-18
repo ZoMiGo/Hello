@@ -138,31 +138,31 @@
     <string name="hold_to_record">Сними гласовна порака</string>
 
     <!-- Permissions strings start -->
-    <string name="camera_permission">Camera Permission</string>
-    <string name="audio_permission">Audio Permission</string>
-    <string name="storage_permission">Storage Permission</string>
-    <string name="contacts_permission">Contacts Permission</string>
-    <string name="vibrate_permission">Vibrate Permission</string>
-    <string name="receive_sms_permission">Receive sms Permission</string>
-    <string name="read_sms_permission">Read sms Permission</string>
-    <string name="call_phone_permission">Call Phone Permission</string>
-    <string name="get_accounts_permission">Get accounts Permission</string>
-    <string name="write_sync_settings_permission">Get accounts Permission</string>
-    <string name="read_sync_settings_permission">Get accounts Permission</string>
+    <string name="camera_permission">дозвола камера</string>
+    <string name="audio_permission">Аудио дозвола</string>
+    <string name="storage_permission">дозвола за складирање</string>
+    <string name="contacts_permission">Контакт дозвола</string>
+    <string name="vibrate_permission">Вибрации дозвола</string>
+    <string name="receive_sms_permission">Примате SMS дозвола</string>
+    <string name="read_sms_permission">Чита СМС Дозвола</string>
+    <string name="call_phone_permission">Повик телефон Дозвола</string>
+    <string name="get_accounts_permission">Земете сметки дозвола</string>
+    <string name="write_sync_settings_permission">Земете сметки дозвола</string>
+    <string name="read_sync_settings_permission">Земете сметки дозвола</string>
     <string name="camera_permission_message">На HELLO му треба пристап до твојата камера за да може да воспоставува и прима видео повици.</string>
-    <string name="record_audio_permission_message">Record audio permission allows you to  record audios. Please allow in App Settings for additional functionality.</string>
+    <string name="record_audio_permission_message">Снимање на аудио дозвола ви овозможува да снимите аудио. Ве молиме овозможи во App Прилагодувања за дополнителна функционалност.</string>
     <string name="settings_audio_permission_message">На HELLO му треба пристап до твојот микрофон и камера за да може да воспоставува и прима видео повици.</string>
-    <string name="write_storage_permission_message">Write External permission allows us  access to your media. Please allow in App Settings for additional functionality.</string>
-    <string name="read_storage_permission_message">Read External permission allows us to read your media. Please allow in App Settings for additional functionality.</string>
-    <string name="read_contacts_permission_message">Read Contacts permission allows us to read your contacts. Please allow in App Settings for additional functionality.</string>
-    <string name="write_contacts_permission_message">Write Contacts permission allows you access to your contacts. Please allow in App Settings for additional functionality.</string>
-    <string name="vibrate_permission_message">Vibrate permission . Please allow in App Settings for additional functionality.</string>
-    <string name="receive_sms_permission_message">Receive sms permission allows you  to receive SMS messages. Please allow in App Settings for additional functionality.</string>
-    <string name="read_sms_permission_message">Read sms permission allows us access to your SMS messages. Please allow in App Settings for additional functionality.</string>
-    <string name="call_phone_permission_message">Call phone permission allows you make calls. Please allow in App Settings for additional functionality.</string>
-    <string name="get_accounts_permission_message">Get accounts permission . Please allow in App Settings for additional functionality.</string>
-    <string name="write_sync_settings_permission_message">Write Sync settings permission . Please allow in App Settings for additional functionality.</string>
-    <string name="read_sync_settings_permission_message">Read Sync settings permission . Please allow in App Settings for additional functionality.</string>
+    <string name="write_storage_permission_message">Напиши надворешни дозвола ни овозможува пристап до медиумите. Ве молиме овозможи во App Прилагодувања за дополнителна функционалност.</string>
+    <string name="read_storage_permission_message">Прочитај надворешни дозвола ни овозможува да ја прочитате вашата медиуми. Ве молиме овозможи во App Прилагодувања за дополнителна функционалност.</string>
+    <string name="read_contacts_permission_message">Прочитајте Контакти дозвола ни овозможува да ги прочитате вашите контакти. Ве молиме овозможи во App Прилагодувања за дополнителна функционалност.</string>
+    <string name="write_contacts_permission_message">Напиши Контакти дозвола овозможува пристап до вашите контакти. Ве молиме овозможи во App Прилагодувања за дополнителна функционалност.</string>
+    <string name="vibrate_permission_message">Вибрации дозвола. Ве молиме овозможи во App Прилагодувања за дополнителна функционалност.</string>
+    <string name="receive_sms_permission_message">Добие дозвола SMS Ви овозможува да примате SMS пораки. Ве молиме овозможи во App Прилагодувања за дополнителна функционалност.</string>
+    <string name="read_sms_permission_message">Дозвола за читање смс ни овозможува пристап до вашите SMS пораки. Ве молиме овозможи во App Прилагодувања за дополнителна функционалност.</string>
+    <string name="call_phone_permission_message">Повик дозвола телефон ви овозможува да се направи повици. Ве молиме овозможи во App Прилагодувања за дополнителна функционалност.</string>
+    <string name="get_accounts_permission_message">Добие дозвола сметки. Ве молиме овозможи во App Прилагодувања за дополнителна функционалност.</string>
+    <string name="write_sync_settings_permission_message">Дозвола за запишување Sync поставувања. Ве молиме овозможи во App Прилагодувања за дополнителна функционалност.</string>
+    <string name="read_sync_settings_permission_message">Дозвола за читање Sync поставувања. Ве молиме овозможи во App Прилагодувања за дополнителна функционалност.</string>
     <string name="no_thanks">Не, благодарам</string>
     <string name="yes">Да</string>
 
@@ -189,7 +189,7 @@
     <string name="message_font_size_summary">Големина на фонт за разговорите</string>
     <string name="wallpaper">Позадина</string>
     <string name="conversation_tones_off">Звуци за дојдовни и појдовни пораки.</string>
-    <string name="message_notifications_settings">Message bildirimleri</string>
+    <string name="message_notifications_settings">известувања порака</string>
     <string name="notifications_settings_tone">Звук за известувања</string>
     <string name="default_settings">Основни</string>
     <string name="message_notifications_settings_vibrate">Вибрации</string>
@@ -229,40 +229,40 @@
     <string name="failed_to_exit_this_group_check_connection">Не може да се напушти групата. Молиме обиди се повторно.</string>
     <string name="adding_new_status">Нов статус</string>
     <string name="add_to_group">"Додај "</string>
-    <string name="member_to_group">" member to group"</string>
-    <string name="adding_member">" Adding member … "</string>
+    <string name="member_to_group">" член на групата"</string>
+    <string name="adding_member">" додавајќи член … "</string>
     <string name="failed_to_add_member_to_group">Не може да се додаде учесникот. Молиме обиди се повторно.</string>
     <string name="you">Ти</string>
     <!--group member options start -->
     <string name="message_group_option">"Порака"</string>
     <string name="view_group_option">"Види "</string>
-    <string name="make_admin_group_option"> an admin</string>
-    <string name="make_member_group_option"> member</string>
-    <string name="make_group_option"> Make </string>
+    <string name="make_admin_group_option"> и администратор</string>
+    <string name="make_member_group_option"> член</string>
+    <string name="make_group_option"> Направи </string>
     <string name="remove_group_option">"Отстрани "</string>
     <!--group member options end -->
     <string name="remove_from_group">"Отстрани "</string>
-    <string name="from_group">" from group"</string>
+    <string name="from_group">" од група"</string>
     <string name="deleting_group">"Те отстранија"</string>
     <string name="failed_to_make_member_as_admin">Не можеш да менуваш администратори бидејќи не си администратор.</string>
     <string name="failed_to_remove_member">Не може да се отстрани учесникот. Молиме обиди се повторно.</string>
     <!--group adapters end -->
     <!--conversations and messages  adapters start-->
-    <string name="tap_to_create_group">Tap to create this group</string>
-    <string name="you_created_this_group">You created  this group</string>
-    <string name="he_created_this_group">" created  this group"</string>
-    <string name="you_left">You left</string>
+    <string name="tap_to_create_group">Допрете за да ја создаде оваа група</string>
+    <string name="you_created_this_group">Вие го создадовте ова група</string>
+    <string name="he_created_this_group">" создаде оваа група"</string>
+    <string name="you_left">Си замина</string>
     <string name="he_left">" left"</string>
     <string name="document">Документи</string>
-    <string name="no_application_to_show_image">"No Application Available to  show image "</string>
-    <string name="no_application_to_view_pdf">No Application Available to View PDF</string>
-    <string name="no_application_to_send_sms">No Application Available to Send SMS</string>
+    <string name="no_application_to_show_image">"Нема достапни за вашите апликации да се покаже слика "</string>
+    <string name="no_application_to_view_pdf">Нема апликација Достапно за да ја видите PDF</string>
+    <string name="no_application_to_send_sms">Нема достапни за вашите апликации да се испрати SMS</string>
     <!--conversations and messages adapters start-->
-    <string name="transfer_message_to">"Transfer  message or Share content to "</string>
-    <string name="no_app_to_play_video">"No Application Available to play video "</string>
-    <string name="no_app_to_play_audio">"No Application Available to play audio "</string>
+    <string name="transfer_message_to">"Трансфер порака или споделување на содржини на "</string>
+    <string name="no_app_to_play_video">"Нема достапни за вашите апликации да се играат видео "</string>
+    <string name="no_app_to_play_audio">"Нема апликација достапен да игра аудио "</string>
     <string name="delete_all_status_dialog">Избриши ги сите разговори</string>
-    <string name="deleting">Deleting...</string>
+    <string name="deleting">Бришење...</string>
     <string name="updating_status">Се постира статусот...</string>
     <string name="your_status_updated_successfully">Статусот е избришан</string>
 
@@ -340,9 +340,9 @@
     <!-- Rate Strings -->
     <string name="rate_title">Rate %s</string>
     <string name="rate_message">Ако уживате во користење на %s, ќе умот преземање на момент да го оценувате? Ви благодариме за вашата поддршка!</string>
-    <string name="rate">Yes, Rate %s</string>
+    <string name="rate">Да, Rate %s</string>
     <string name="rate_later">Потсети ме подоцна</string>
-    <string name="rate_cancel">No, Thanks</string>
+    <string name="rate_cancel">Нe, Thanks</string>
     <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
     <string name="update">Да, Ажурирај %s</string>
     <string name="update_title">Ажурирај %s</string>
@@ -361,7 +361,7 @@
     <string name="new_call">Нов повик</string>
     <string name="you_couldnt_call_this_user">Не може да се воспостави повик. Осигурај се дека телефонот има Интернет конекција и обиди се повторно.</string>
     <string name="fake_name">- - -</string>
-    <string name="mobile">"Mobile: "</string>
+    <string name="mobile">"Mобилни: "</string>
     <string name="click_to_make_an_action">лизгај за да одговориш</string>
     <string name="voice_call">Гласовен повик</string>
     <string name="video_call">Видео повик</string>
@@ -378,7 +378,7 @@
     <string name="close">Спушти</string>
     <string name="open">Отвори</string>
     <string name="about_title">Инфо</string>
-    <string name="page_not_found">Page Not Found</string>
+    <string name="page_not_found">Страната не е пронајдена</string>
     <string name="default_wallpaper">Основни</string>
     <string name="wallpaper_gallery">Галерија</string>
     <string name="wallpaper_is_set">Поставено позадина</string>
@@ -386,7 +386,7 @@
     <string name="documents">Документи</string>
     <string name="links">Линкови</string>
     <string name="this_a_pdf_file_document">Приложите PDF документ</string>
-    <string name="fetching_urls_preview">Fetching …</string>
+    <string name="fetching_urls_preview">Примам …</string>
     <string name="splash_message"> Уживајте во вашето време додека ја користите оваа \"во реално време\" разговор апликација.</string>
     <string name="title_activity_privacy"><![CDATA[Услови и Приватност]]></string>
     <string name="terms_and_privacy_policy">Услови и Приватност</string>
