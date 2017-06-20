@@ -4,7 +4,6 @@
     <string name="Hello_get" >Γεια σας HELLO APP εύκολα να πάρει ώστε να μπορείτε να συνομιλήσετε με ένα άλλο!</string>
     <string name="Hi_there" >Γεια σας! Ήμουν χρησιμοποιώντας το HELLO </string>
 
-
     <!-- Date format -->
     <string name="date_format_today">HH:mm</string>
     <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
@@ -236,6 +235,195 @@
     <!--group member options start -->
     <string name="message_group_option">"Μήνυμα"</string>
     <string name="view_group_option">"Προβολή "</string>
-    
-    
-    ...... NOT FINISH ......
+    <string name="make_admin_group_option"> an admin</string>
+    <string name="make_member_group_option"> member</string>
+    <string name="make_group_option"> Make </string>
+    <string name="remove_group_option">"Κατάργηση "</string>
+    <!--group member options end -->
+    <string name="remove_from_group">"Κατάργηση "</string>
+    <string name="from_group">" from group"</string>
+    <string name="deleting_group">"Καταργηθήκατε"</string>
+    <string name="failed_to_make_member_as_admin">Δεν μπορείτε να αλλάξετε διαχειριστές διότι δεν είστε διαχειριστής.</string>
+    <string name="failed_to_remove_member">Αδύνατη η κατάργηση του μέλους. Παρακαλώ δοκιμάστε ξανά.</string>
+    <!--group adapters end -->
+    <!--conversations and messages  adapters start-->
+    <string name="tap_to_create_group">Tap to create this group</string>
+    <string name="you_created_this_group">You created  this group</string>
+    <string name="he_created_this_group">" created  this group"</string>
+    <string name="you_left">You left</string>
+    <string name="he_left">" left"</string>
+    <string name="document">Έγγραφα</string>
+    <string name="no_application_to_show_image">"No Application Available to  show image "</string>
+    <string name="no_application_to_view_pdf">No Application Available to View PDF</string>
+    <string name="no_application_to_send_sms">No Application Available to Send SMS</string>
+    <!--conversations and messages adapters start-->
+    <string name="transfer_message_to">"Transfer  message or Share content to "</string>
+    <string name="no_app_to_play_video">"No Application Available to play video "</string>
+    <string name="no_app_to_play_audio">"No Application Available to play audio "</string>
+    <string name="delete_all_status_dialog">Διαγραφή όλων των συνομιλιών</string>
+    <string name="deleting">Deleting...</string>
+    <string name="updating_status">Ανάρτηση κατάστασης...</string>
+    <string name="your_status_updated_successfully">Ενημέρωση κατάστασης διαγράφηκε</string>
+
+
+    <string name="reply_message">Απάντηση</string>
+
+
+    <string name="message_notifications_settings_vibrate_off">Δόνηση Off</string>
+    <string name="message_notifications_settings_vibrate_on">Δόνηση On</string>
+    <string name="call_notifications_settings_vibrate_off">Δόνηση Off</string>
+    <string name="call_notifications_settings_vibrate_on">Δόνηση On</string>
+    <string name="enjoy_it">Enjoy it</string>
+    <string name="app_version">"Version "</string>
+    <string name="to_delete_your_account_from_confirm_your_phone_number">to delete your account, you need to confirm your phone number</string>
+    <string name="delete_user_account">DELETE MY ACCOUNT</string>
+    <string name="delete_you_from_groups"><![CDATA[> Delete you from all groups]]></string>
+    <string name="delete_all_your_messages"><![CDATA[> Delete all your messages (you can restore it if you have a backup)]]></string>
+    <string name="delete_your_account"><![CDATA[> Deactivate your account]]></string>
+    <string name="deleting_your_account_will">Ο λογαριασμός σας HELLO έχει διαγραφεί.</string>
+    <string name="alert_message_delete_account">Διαγραφή λογαριασμού; Η αναίρεση τέτοιας ενέργειας δεν είναι δυνατή. Η επανενεργοποίηση του λογαριασμού HELLO στο μέλλον, θα έχει ως αποτέλεσμα την απώλεια των δεδομένων σας.</string>
+    <string name="delete_account_failed_please_try_later">Αδύνατη η διαγραφή του λογαριασμού σας. Παρακαλώ ξαναδοκιμάστε αργότερα.</string>
+    <string name="unexpected_reponse_from_server">Unexpected response from the server</string>
+    <string name="you_send_messages"> Δεν είστε πλέον μέλος.</string>
+    <string name="file">File</string>
+    <string name="waiting_for_network">Δίκτυο μη διαθέσιμο. Παρακαλώ δοκιμάστε αργότερα.</string>
+    <string name="failed_exit_group">Αποτυχία εξόδου. Προσπαθήστε ξανά.</string>
+    <string name="this_video_is_not_exist">Αυτό το βίντεο δεν είναι διαθέσιμο διότι κάτι δεν πάει καλά με το αρχείο βίντεο.</string>
+    <string name="this_image_is_not_exist">Αδύνατη η φόρτωση της φωτογραφίας. Παρακαλώ δοκιμάστε ξανά.</string>
+    <string name="this_audio_is_not_exist">Αυτός ο ήχος δεν είναι διαθέσιμος διότι κάτι δεν πάει καλά με το αρχείο ήχου.</string>
+    <string name="this_document_is_not_exist">Δε βρέθηκε κανένα έγγραφο</string>
+    <string name="account_added_already">" Account is added already "</string>
+    <string name="you_cannot_delete_your_account_please_contac">Αδύνατη η διαγραφή του λογαριασμού σας. Παρακαλώ ξαναδοκιμάστε αργότερα.</string>
+
+    <!--Directories strings-->
+
+    <string name="profile_photos">Φωτογραφία προφίλ επαφής</string>
+    <string name="images_directory">Εικόνες</string>
+    <string name="data_cache_directory">Αναζήτηση για αντίγραφα</string>
+    <string name="videos_directory">Βίντεο</string>
+    <string name="audios_directory">Ήχος</string>
+    <string name="documents_directory">Έγγραφο</string>
+    <string name="images_other_directory"> Προσθήκη πολυμέσων</string>
+    <string name="directory_wallpaper">Φόντο</string>
+    <string name="directory_sent">Παραδόθηκε</string>
+    <string name="video_thumbnail">Thumbnail</string>
+    <string name="image_saved">Image Saved</string>
+    <string name="save_to_gallery">Αποθηκεύτηκε στην Έκθεση</string>
+    <string name="share_or_save">Share Or Save</string>
+    <string name="shareItem">share">Διαμοιρασμός</string>
+    <string name="this_message_empty">This message is empty</string>
+    <string name="share_message">share">Διαμοιρασμός</string>
+    <string name="you_can_share_more_then_one">You can\'t share more than one item</string>
+    <!--others -->
+    <string name="add_to_you_contact">ADD THIS PERSON TO YOUR CONTACTS </string>
+    <string name="status_and_phone">Κατάσταση και τηλέφωνο</string>
+    <string name="failed_to_the_current_status">Failed to get current status</string>
+    <string name="please_enter_your_mobile_number">Please enter your mobile number</string>
+    <string name="verify_mobile">Επαλήθευση</string>
+    <string name="firstly_select_your_country_here">Επιλογή χώρας</string>
+    <string name="activity_backup_drive_success">Αντίγραφο ολοκληρώθηκε</string>
+    <string name="activity_backup_drive_failed">Αδύνατη η ολοκλήρωση του αντιγράφου</string>
+    <string name="activity_backup_drive_message_restart">Restarting backup</string>
+    <string name="restore_data">Επαναφορά</string>
+    <string name="please_click_on_restore_button_to_restore_your_messages">Please click on start button to restore your Messages</string>
+    <string name="backup">Αντίγραφο</string>
+    <string name="chat_backup">Chat backup</string>
+    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Back up your messages .You can restore them when you reinstall the application.</string>
+    <string name="back_up">Αντίγραφο</string>
+    <string name="start_backing_up">Start backing up</string>
+    <string name="start_restore">Start restore Or skip</string>
+    <string name="start">Start</string>
+    <string name="skip">Παράβλεψη</string>
+    <string name="finish">Finish</string>
+
+    <!-- Rate Strings -->
+    <string name="rate_title">Rate %s</string>
+    <string name="rate_message">If you enjoy using %s, would you mind taking a moment to rate it? Thanks for your support!</string>
+    <string name="rate">Yes, Rate %s</string>
+    <string name="rate_later">Remind me later</string>
+    <string name="rate_cancel">No, Thanks</string>
+    <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="update">YES, Ενημέρωση %s</string>
+    <string name="update_title">Ενημέρωση %s</string>
+    <string name="update_app">Ενημέρωση ?</string>
+    <string name="update_app_message">Μια νέα έκδοση του HELLO είναι διαθέσιμη. Θέλετε να την εγκαταστήσετε τώρα; </string>
+    <string name="update_message_complete">"Αυτή η έκδοση του HELLO είναι πολύ παλιά και δεν λειτουργεί πλέον. Παρακαλώ μεταβείτε στο Google Play Store και κατεβάστε την τελευταία έκδοση."</string>
+    <string name="please_select_y_country">Επιλέξτε χώρα</string>
+    <string name="permission_alert">Για αποστολή επαφής, επιτρέψτε στο HELLO την πρόσβαση στις επαφές σας.</string>
+    <string name="permission_alert_msg">Για την αποστολή επαφής, επιτρέψτε στο HELLO την πρόσβαση στις επαφές σας. Πατήστε > Εξουσιοδοτήσεις, και ενεργοποιήστε τις επαφές.</string>
+    <!--calls strings-->
+    <string name="incoming_call">Εισερχόμενη κλήση</string>
+    <string name="incoming_call_from">Φωνητική κλήση</string>
+    <string name="call_ended">Τερματισμός Κλήσης</string>
+    <string name="calling">ΚΛΗΣΗ</string>
+    <string name="clear_log_call">Εκκαθάριση ιστορικού</string>
+    <string name="new_call">Νέα κλήση</string>
+    <string name="you_couldnt_call_this_user">Αδύνατη η κλήση. Παρακαλώ βεβαιωθείτε ότι το τηλέφωνό σας έχει πρόσβαση στο διαδίκτυο και προσπαθήστε ξανά.</string>
+    <string name="fake_name">- - -</string>
+    <string name="mobile">"Mobile: "</string>
+    <string name="click_to_make_an_action">σύρετε για απάντηση</string>
+    <string name="voice_call">Φωνητική κλήση</string>
+    <string name="video_call">Βιντεοκλήση</string>
+    <string name="call_history">History</string>
+    <string name="title_calls">Πληρ/ίες κλήσης</string>
+    <string name="remove_from_log">Κατάργηση από ιστορικό κλήσεων</string>
+    <string name="block_user">Αποκλεισμός</string>
+    <string name="delete_call_dialog">Διαγραφή …</string>
+    <string name="call_select_voice">Φωνητική κλήση</string>
+    <string name="call_select_video">Βιντεοκλήση</string>
+    <string name="you_couldnt_call_this_user_network">Ελέγξτε τη σύνδεση στο διαδίκτυο του κινητού σας και δοκιμάστε ξανά.</string>
+    <string name="you_couldnt_call">Couldn\'t place call</string>
+    <string name="duration">Duration</string>
+    <string name="close">Τέλος</string>
+    <string name="open">Άνοιγμα</string>
+    <string name="about_title">Σχετικά</string>
+    <string name="page_not_found">Page Not Found</string>
+    <string name="default_wallpaper">Προεπιλογή</string>
+    <string name="wallpaper_gallery">Συλλογή</string>
+    <string name="wallpaper_is_set">Αλλαγή φόντου επιτυχής</string>
+    <string name="you_can_copy_more_then_one">You can\'t copy more than one item</string>
+    <string name="documents">Έγγραφα</string>
+    <string name="links">Σύνδεσμοι</string>
+    <string name="this_a_pdf_file_document">PDF Έγγραφο</string>
+    <string name="fetching_urls_preview">Fetching …</string>
+    <string name="splash_message"> Enjoy your time while you are using this \"real-time\" chat application .</string>
+    <string name="title_activity_privacy"><![CDATA[Όροι χρήσης και Πολιτική απορρήτου]]></string>
+    <string name="terms_and_privacy_policy">Όροι χρήσης και Πολιτική απορρήτου</string>
+    <string name="english">English</string>
+    <string name="german">Deutsch</string>
+    <string name="srbski">Serbisch</string>
+    <string name="romaneste">Romänisch</string>
+    <string name="french">French</string>
+    <string name="turski">Turkisch</string>
+    <string name="title_language">Γλώσσα εφαρμογής</string>
+    <!--new strings-->
+
+    <string name="you_need_to_restart_the_application">You need to restart the application</string>
+    <string name="you_are_using_a_moderate_connection">You are using a moderate connection</string>
+    <string name="you_are_using_a_poor_connection">You are using a poor connection</string>
+    <string name="you_are_using_a_good_connection">You are using a good connection</string>
+    <string name="you_are_using_a_slower_connection">You are using a slow connection</string>
+
+    <string name="selected">Επιλέχθηκε</string>
+    <string name="failed_to_restore_the_backup">Failed to restore the backup</string>
+    <string name="restore_is_done">Δημιουργία αντιγράφου ασφαλείας μηνυμάτων.</string>
+    <string name="failed_to_restore_the_backup_try">Αδύνατη η δημιουργία αντιγράφου. Παρακαλώ δοκιμάστε ξανά αργότερα.</string>
+    <string name="please_wait_a_moment">Παρακαλώ περιμένετε μια στιγμή</string>
+    <string name="chats_title_tab">Συνομιλίες</string>
+    <string name="contacts_title_tab">Επαφές</string>
+    <string name="calls_title_tab">Κλήσεις</string>
+    <string name="current_language">current</string>
+
+    <string name="block_user_make_sure">Αποκλεισμός %s; Οι αποκλεισμένες επαφές δε θα μπορούν να σας καλούν ή να σας στέλνουν μηνύματα.</string>
+    <string name="unblock_user_make_sure">You will unblock this user ,so he will  be able to call you or send you messages .Are you sure ?</string>
+    <string name="unblock_user">Αποκλεισμός</string>
+    <string name="title_blocked_contacts">Αποκλεισμένοι</string>
+    <string name="missed_video_call">Αναπάντητη βιντεοκλήση</string>
+    <string name="missed_voice_call">Αναπάντητη κλήση</string>
+    <string name="outgoing_video_call">Εξερχόμενη βιντεοκλήση</string>
+    <string name="outgoing_voice_call">Εξερχόμενη φωνητική κλήση</string>
+
+    <string name="invitation_from">Invitation from</string>
+    <string name="your_session_expired">Your Session is Expired</string>
+
+</resources>
