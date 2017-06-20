@@ -2,8 +2,8 @@
 <resources>
 
     <string name="app_name" >HELLO</string>
-    <string name="Hello_get" >Hi Holl dir HELLO so können wir Gratis miteinander Telefonieren und chatten! </string>
-    <string name="Hi_there" >Hi! Ich benutze jetzt! HELLO </string>
+    <string name="Hello_get" >Hi Holl dir %s so können wir Gratis miteinander Telefonieren und chatten! </string>
+    <string name="Hi_there" >Hi! Ich benutze jetzt! %s </string>
 
     <!-- Date format -->
     <string name="date_format_today">HH:mm</string>
