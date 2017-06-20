@@ -331,18 +331,18 @@
     <string name="chat_backup">Copia de seguridad del chat</string>
     <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Haga una copia de seguridad de sus mensajes. Puede restaurarlos cuando vuelva a instalar la aplicación.</string>
     <string name="back_up">Guardar</string>
-    <string name="start_backing_up">Start backing up</string>
-    <string name="start_restore">Start restore Or skip</string>
-    <string name="start">Start</string>
+    <string name="start_backing_up">Iniciar copias de seguridad</string>
+    <string name="start_restore">Iniciar restauración O omitir</string>
+    <string name="start">Inicio</string>
     <string name="skip">Omitir</string>
-    <string name="finish">Finish</string>
+    <string name="finish">Terminar</string>
 
     <!-- Rate Strings -->
     <string name="rate_title">Rate %s</string>
-    <string name="rate_message">If you enjoy using %s, would you mind taking a moment to rate it? Thanks for your support!</string>
+    <string name="rate_message">Si te gusta usar %s, ¿te importaría tomar un momento para calificarlo? ¡Gracias por su apoyo!</string>
     <string name="rate">Sí, Rate %s</string>
-    <string name="rate_later">Remind me later</string>
-    <string name="rate_cancel">No, Thanks</string>
+    <string name="rate_later">Recuérdame más tarde</string>
+    <string name="rate_cancel">No, gracias</string>
     <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
     <string name="update">Sí, Actualizar %s</string>
     <string name="update_title">Actualizar %s</string>
@@ -373,8 +373,8 @@
     <string name="call_select_voice">Llamada</string>
     <string name="call_select_video">Videollamada</string>
     <string name="you_couldnt_call_this_user_network">Revisa la conexión a Internet de tu teléfono e inténtalo de nuevo.</string>
-    <string name="you_couldnt_call">Couldn\'t place call</string>
-    <string name="duration">Duration</string>
+    <string name="you_couldnt_call">No se pudo realizar una llamada</string>
+    <string name="duration">Duración</string>
     <string name="close">Colgar</string>
     <string name="open">Abrir</string>
     <string name="about_title">Información</string>
@@ -382,7 +382,7 @@
     <string name="default_wallpaper">Predeterminada</string>
     <string name="wallpaper_gallery">Galería</string>
     <string name="wallpaper_is_set">Imagen de fondo establecida</string>
-    <string name="you_can_copy_more_then_one">You can\'t copy more than one item</string>
+    <string name="you_can_copy_more_then_one">No puede copiar más de un elemento</string>
     <string name="documents">Documentos</string>
     <string name="links">Enlaces</string>
     <string name="this_a_pdf_file_document">PDF Documento</string>
@@ -428,4 +428,5 @@
     <string name="your_session_expired">Your Session is Expired</string>
 
 </resources>
+
 
