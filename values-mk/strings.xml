@@ -400,7 +400,7 @@
     <!--new strings-->
 
     <string name="you_need_to_restart_the_application">Вие треба да го рестартирате апликацијата</string>
-    <string name="you_are_using_a_moderate_connection">You are using a moderate connection</string>
+    <string name="you_are_using_a_moderate_connection">Вие користите умерена конекција</string>
     <string name="you_are_using_a_poor_connection">Ќе се користи умерено врска</string>
     <string name="you_are_using_a_good_connection">Го користите добра врска</string>
     <string name="you_are_using_a_slower_connection">Вие користите бавна врска</string>
