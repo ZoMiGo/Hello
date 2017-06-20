@@ -286,7 +286,7 @@
     <string name="delete_account_failed_please_try_later">Не можеше да се избрише твојата сметка. Молиме обиди се подоцна.</string>
     <string name="unexpected_reponse_from_server">Неочекуван одговор од серверот</string>
     <string name="you_send_messages"> Повеќе не си учесник.</string>
-    <string name="file">File</string>
+    <string name="file">Датотека</string>
     <string name="waiting_for_network">Мрежата не е достапна. Молиме обиди се подоцна.</string>
     <string name="failed_exit_group">Не успеа напуштањето. Притисни за пак.</string>
     <string name="this_video_is_not_exist">Ова видео не е достапно бидејќи нешто е погрешно во самиот видео фајл.</string>
