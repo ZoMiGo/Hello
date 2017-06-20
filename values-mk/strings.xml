@@ -214,7 +214,7 @@
     <string name="please_choose_an_avatar">Постави како икона на група за</string>
     <string name="slide_to_cancel_audio">лизгај за да одбиеш</string>
     <string name="message_is_copied">Копирано порака</string>
-    <string name="of">" of "</string>
+    <string name="of">" од "</string>
     <string name="failed_upload_image">"Не можеше да се вчита оваа слика. Молиме обиди се повторно."</string>
 
     <!--group adapters start -->
@@ -223,8 +223,8 @@
     <string name="exiting_group_dialog">" Напушти група… "</string>
     <string name="deleting_group_dialog">"Се брише..."</string>
     <string name="created_by_you_at">Ја создаде групата</string>
-    <string name="created_by">"Created by "</string>
-    <string name="group_at">at</string>
+    <string name="created_by">"Направено од "</string>
+    <string name="group_at">Кај</string>
     <string name="failed_to_delete_this_group_check_connection">Не може да се заврши оваа група. Молиме обиди се повторно.</string>
     <string name="failed_to_exit_this_group_check_connection">Не може да се напушти групата. Молиме обиди се повторно.</string>
     <string name="adding_new_status">Нов статус</string>
