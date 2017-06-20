@@ -390,33 +390,33 @@
     <string name="splash_message"> Disfrutar de su tiempo mientras está usando este \ "en tiempo real \" aplicación de chat.</string>
     <string name="title_activity_privacy"><![CDATA[Términos y Privacidad]]></string>
     <string name="terms_and_privacy_policy">Términos y Privacidad</string>
-    <string name="english">English</string>
-    <string name="german">Deutsch</string>
-    <string name="srbski">Serbisch</string>
-    <string name="romaneste">Romänisch</string>
-    <string name="french">French</string>
-    <string name="turski">Turkisch</string>
+    <string name="english">Inglés</string>
+    <string name="german">Alemán</string>
+    <string name="srbski">Serbio</string>
+    <string name="romaneste">Rumano</string>
+    <string name="french">Francés</string>
+    <string name="turski">Turca</string>
     <string name="title_language">Idioma de la aplicación</string>
     <!--new strings-->
 
-    <string name="you_need_to_restart_the_application">You need to restart the application</string>
-    <string name="you_are_using_a_moderate_connection">You are using a moderate connection</string>
-    <string name="you_are_using_a_poor_connection">You are using a poor connection</string>
-    <string name="you_are_using_a_good_connection">You are using a good connection</string>
-    <string name="you_are_using_a_slower_connection">You are using a slow connection</string>
+    <string name="you_need_to_restart_the_application">Necesitas reiniciar la aplicación</string>
+    <string name="you_are_using_a_moderate_connection">Está utilizando una conexión moderada</string>
+    <string name="you_are_using_a_poor_connection">Está utilizando una conexión deficiente</string>
+    <string name="you_are_using_a_good_connection">Estás usando una buena conexión</string>
+    <string name="you_are_using_a_slower_connection">Está utilizando una conexión lenta</string>
 
     <string name="selected">Seleccionados</string>
     <string name="failed_to_restore_the_backup">Failed to restore the backup</string>
     <string name="restore_is_done">Creando copia de seguridad de mensajes</string>
     <string name="failed_to_restore_the_backup_try">No se pudo realizar la copia de seguridad de los mensajes. Por favor, vuelve a intentarlo más tarde.</string>
     <string name="please_wait_a_moment">Por favor espera un momento</string>
-    <string name="chats_title_tab">Chats</string>
+    <string name="chats_title_tab">Charlas</string>
     <string name="contacts_title_tab">Contactos</string>
     <string name="calls_title_tab">Llamadas</string>
-    <string name="current_language">current</string>
+    <string name="current_language">Corriente</string>
 
     <string name="block_user_make_sure">Los contactos bloqueados no podrán llamarte o enviarte mensajes.</string>
-    <string name="unblock_user_make_sure">You will unblock this user ,so he will  be able to call you or send you messages .Are you sure ?</string>
+    <string name="unblock_user_make_sure">Desbloquearás a este usuario, para que pueda llamarte o enviarte mensajes. ¿Estás seguro?</string>
     <string name="unblock_user">Bloquear</string>
     <string name="title_blocked_contacts">Contactos bloqueados</string>
     <string name="missed_video_call">Videollamada perdida</string>
@@ -424,8 +424,8 @@
     <string name="outgoing_video_call">Videollamada saliente</string>
     <string name="outgoing_voice_call">Llamada de voz saliente</string>
 
-    <string name="invitation_from">Invitation from</string>
-    <string name="your_session_expired">Your Session is Expired</string>
+    <string name="invitation_from">Invitación de</string>
+    <string name="your_session_expired">Su sesión ha caducado</string>
 
 </resources>
 
