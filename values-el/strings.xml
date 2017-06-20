@@ -360,7 +360,7 @@
     <string name="new_call">Νέα κλήση</string>
     <string name="you_couldnt_call_this_user">Αδύνατη η κλήση. Παρακαλώ βεβαιωθείτε ότι το τηλέφωνό σας έχει πρόσβαση στο διαδίκτυο και προσπαθήστε ξανά.</string>
     <string name="fake_name">- - -</string>
-    <string name="mobile">"Mobile: "</string>
+    <string name="mobile">"Κινητό: "</string>
     <string name="click_to_make_an_action">σύρετε για απάντηση</string>
     <string name="voice_call">Φωνητική κλήση</string>
     <string name="video_call">Βιντεοκλήση</string>
