@@ -148,9 +148,9 @@
     <string name="get_accounts_permission">Get accounts Permission</string>
     <string name="write_sync_settings_permission">Get accounts Permission</string>
     <string name="read_sync_settings_permission">Get accounts Permission</string>
-    <string name="camera_permission_message">WhatsApp potřebuje přístup k fotoaparátu, aby bylo možné uskutečnit nebo přijímat videohovory.</string>
+    <string name="camera_permission_message">HELLO potřebuje přístup k fotoaparátu, aby bylo možné uskutečnit nebo přijímat videohovory.</string>
     <string name="record_audio_permission_message">Record audio permission allows you to  record audios. Please allow in App Settings for additional functionality.</string>
-    <string name="settings_audio_permission_message">WhatsApp potřebuje přístup k fotoaparátu a mikrofonu, aby bylo možné uskutečnit nebo přijímat videohovory.</string>
+    <string name="settings_audio_permission_message">HELLO potřebuje přístup k fotoaparátu a mikrofonu, aby bylo možné uskutečnit nebo přijímat videohovory.</string>
     <string name="write_storage_permission_message">Write External permission allows us  access to your media. Please allow in App Settings for additional functionality.</string>
     <string name="read_storage_permission_message">Read External permission allows us to read your media. Please allow in App Settings for additional functionality.</string>
     <string name="read_contacts_permission_message">Read Contacts permission allows us to read your contacts. Please allow in App Settings for additional functionality.</string>
@@ -205,7 +205,7 @@
     <string name="message_notifications_settings_tone_silent">Tiché</string>
     <string name="call_notifications_settings_tone_silent">Tiché</string>
     <string name="connection_is_available">Zálohování bylo pozastaveno. Čeká se na síť Wi-Fi, protože vaše nastavení neumožňují zálohování pomocí mobilní sítě.</string>
-    <string name="connection_is_not_available">Aplikace WhatsApp bohužel nemohla dokončit proces inicializace. Ověřte, zda jste připojeni k internetu a opakujte akci.</string>
+    <string name="connection_is_not_available">Aplikace HELLO bohužel nemohla dokončit proces inicializace. Ověřte, zda jste připojeni k internetu a opakujte akci.</string>
     <string name="select_one_at_least">"At least you must select one "</string>
     <string name="participants">Účastníci:</string>
     <string name="group_created_successfully">Vytváření skupiny...</string>
