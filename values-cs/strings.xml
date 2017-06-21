@@ -39,7 +39,7 @@
 
     <!--end icons -->
     <string name="number">Telefonní číslo</string>
-    <string name="NoMessages">There\'s no conversations yet, you may start one now</string>
+    <string name="NoMessages">Zatím žádné rozhovory, můžete začít</string>
     <string name="NoCalls">Žádné hovory</string>
     <string name="error_response">Unable to update.</string>
     <string name="NoContacts">There is no contacts .Please try again later or add new one</string>
@@ -252,7 +252,7 @@
     <string name="he_created_this_group">" created  this group"</string>
     <string name="you_left">You left</string>
     <string name="he_left">" left"</string>
-    <string name="document">documents</string>
+    <string name="document">Dokumenty</string>
     <string name="no_application_to_show_image">"No Application Available to  show image "</string>
     <string name="no_application_to_view_pdf">No Application Available to View PDF</string>
     <string name="no_application_to_send_sms">No Application Available to Send SMS</string>
@@ -298,5 +298,132 @@
     <!--Directories strings-->
 
     <string name="profile_photos">Profilová fotografie kontaktu</string>
-    
-    !!!!  NOT FINISH !!!!
+    <string name="images_directory">Obrázky</string>
+    <string name="data_cache_directory">Vyhledávání záloh</string>
+    <string name="videos_directory">Videa</string>
+    <string name="audios_directory">Zvuk</string>
+    <string name="documents_directory">Dokument</string>
+    <string name="images_other_directory"> Připojit média</string>
+    <string name="directory_wallpaper">Tapeta</string>
+    <string name="directory_sent">Doručeno</string>
+    <string name="video_thumbnail">Thumbnail</string>
+    <string name="image_saved">Image Saved</string>
+    <string name="save_to_gallery">Uloženo do galerie</string>
+    <string name="share_or_save">Share Or Save</string>
+    <string name="shareItem">Sdílet</string>
+    <string name="this_message_empty">This message is empty</string>
+    <string name="share_message">Sdílet</string>
+    <string name="you_can_share_more_then_one">You can\'t share more than one item</string>
+    <!--others -->
+    <string name="add_to_you_contact">ADD THIS PERSON TO YOUR CONTACTS </string>
+    <string name="status_and_phone">Stav a telefon</string>
+    <string name="failed_to_the_current_status">Failed to get current status</string>
+    <string name="please_enter_your_mobile_number">Please enter your mobile number</string>
+    <string name="verify_mobile">Ověřit</string>
+    <string name="firstly_select_your_country_here">Vyberte zemi</string>
+    <string name="activity_backup_drive_success">Zálohování dokončeno</string>
+    <string name="activity_backup_drive_failed">Nebylo možné dokončit zálohu</string>
+    <string name="activity_backup_drive_message_restart">Restarting backup</string>
+    <string name="restore_data">Obnovit</string>
+    <string name="please_click_on_restore_button_to_restore_your_messages">Please click on start button to restore your Messages</string>
+    <string name="backup">Zálohovat</string>
+    <string name="chat_backup">Chat backup</string>
+    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Back up your messages .You can restore them when you reinstall the application.</string>
+    <string name="back_up">Zálohovat</string>
+    <string name="start_backing_up">Start backing up</string>
+    <string name="start_restore">Start restore Or skip</string>
+    <string name="start">Start</string>
+    <string name="skip">Přeskočit</string>
+    <string name="finish">Finish</string>
+
+    <!-- Rate Strings -->
+    <string name="rate_title">Rate %s</string>
+    <string name="rate_message">If you enjoy using %s, would you mind taking a moment to rate it? Thanks for your support!</string>
+    <string name="rate">Ano, Rate %s</string>
+    <string name="rate_later">Remind me later</string>
+    <string name="rate_cancel">No, Thanks</string>
+    <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="update">Ano, Aktualizovat %s</string>
+    <string name="update_title">Aktualizovat %s</string>
+    <string name="update_app">Aktualizovat ?</string>
+    <string name="update_app_message">K dispozici je nová verze aplikace HELLO. Chcete ji nainstalovat nyní? </string>
+    <string name="update_message_complete">"Tato verze aplikace HELLO je už zastaralá a nefunkční. Stáhněte si aktuální verzi z obchodu Google Play."</string>
+    <string name="please_select_y_country">Vyberte zemi</string>
+    <string name="permission_alert">Chcete-li odeslat kontakt, povolte aplikaci HELLO přístup ke kontaktům.</string>
+    <string name="permission_alert_msg">Chcete-li odeslat kontakt, povolte aplikaci HELLO přístup ke kontaktům. Klepněte na Nastavení > Oprávnění a povolte možnost Kontakty.</string>
+    <!--calls strings-->
+    <string name="incoming_call">Příchozí hlasový hovor</string>
+    <string name="incoming_call_from">Hlasový hovor</string>
+    <string name="call_ended">Ukončit hlasový hovor</string>
+    <string name="calling">VOLÁNÍ</string>
+    <string name="clear_log_call">Vymazat seznam hovorů</string>
+    <string name="new_call">Nový hovor</string>
+    <string name="you_couldnt_call_this_user">Nelze zahájit volání. Ověřte dostupnost připojení k internetu a zkuste to znova.</string>
+    <string name="fake_name">- - -</string>
+    <string name="mobile">"Mobile: "</string>
+    <string name="click_to_make_an_action">přejetím přijměte</string>
+    <string name="voice_call">Hlasový hovor</string>
+    <string name="video_call">Videohovor</string>
+    <string name="call_history">History</string>
+    <string name="title_calls">Info o volání</string>
+    <string name="remove_from_log">Vymazat ze seznamu hovorů</string>
+    <string name="block_user">Blokovat</string>
+    <string name="delete_call_dialog">Odstranit…</string>
+    <string name="call_select_voice">Hlasový hovor</string>
+    <string name="call_select_video">Videohovor</string>
+    <string name="you_couldnt_call_this_user_network">Zkontrolujte připojení telefonu k internetu a zkuste to znovu.</string>
+    <string name="you_couldnt_call">Couldn\'t place call</string>
+    <string name="duration">Duration</string>
+    <string name="close">Ukončit</string>
+    <string name="open">Otevřít</string>
+    <string name="about_title">O aplikaci</string>
+    <string name="page_not_found">Page Not Found</string>
+    <string name="default_wallpaper">Výchozí</string>
+    <string name="wallpaper_gallery">Galerie</string>
+    <string name="wallpaper_is_set">Tapeta nastavena</string>
+    <string name="you_can_copy_more_then_one">You can\'t copy more than one item</string>
+    <string name="documents">Dokumenty</string>
+    <string name="links">Odkazy</string>
+    <string name="this_a_pdf_file_document">PDF Dokument</string>
+    <string name="fetching_urls_preview">Fetching …</string>
+    <string name="splash_message"> Enjoy your time while you are using this \"real-time\" chat application .</string>
+    <string name="title_activity_privacy"><![CDATA[Ochrana údajů a podmínky]]></string>
+    <string name="terms_and_privacy_policy">Ochrana údajů a podmínky</string>
+    <string name="english">English</string>
+    <string name="german">Deutsch</string>
+    <string name="srbski">Serbisch</string>
+    <string name="romaneste">Romänisch</string>
+    <string name="french">French</string>
+    <string name="turski">Turkisch</string>
+    <string name="title_language">Jazyk aplikace</string>
+    <!--new strings-->
+
+    <string name="you_need_to_restart_the_application">You need to restart the application</string>
+    <string name="you_are_using_a_moderate_connection">You are using a moderate connection</string>
+    <string name="you_are_using_a_poor_connection">You are using a poor connection</string>
+    <string name="you_are_using_a_good_connection">You are using a good connection</string>
+    <string name="you_are_using_a_slower_connection">You are using a slow connection</string>
+
+    <string name="selected">Vybraní</string>
+    <string name="failed_to_restore_the_backup">Failed to restore the backup</string>
+    <string name="restore_is_done">Zálohování zpráv</string>
+    <string name="failed_to_restore_the_backup_try">Nelze zálohovat zprávy. Zkuste to znova později.</string>
+    <string name="please_wait_a_moment">Počkejte prosím</string>
+    <string name="chats_title_tab">Chaty</string>
+    <string name="contacts_title_tab">Kontakty</string>
+    <string name="calls_title_tab">Hovory</string>
+    <string name="current_language">current</string>
+
+    <string name="block_user_make_sure">Blokované kontakty vám již nebudou moci volat ani zasílat zprávy.</string>
+    <string name="unblock_user_make_sure">You will unblock this user ,so he will  be able to call you or send you messages .Are you sure ?</string>
+    <string name="unblock_user">Blokovat</string>
+    <string name="title_blocked_contacts">Blokované kontakty</string>
+    <string name="missed_video_call">Zmeškaný videohovor</string>
+    <string name="missed_voice_call">Zmeškaný hlasový hovor</string>
+    <string name="outgoing_video_call">Odchozí videohovor</string>
+    <string name="outgoing_voice_call">Odchozí hlasový hovor</string>
+
+    <string name="invitation_from">Invitation from</string>
+    <string name="your_session_expired">Your Session is Expired</string>
+
+</resources>
