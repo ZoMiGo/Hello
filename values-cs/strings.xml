@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HELLO</string>
+    <string name="Hello_get" >Download HELLO APP So we can chat and chat for free!</string>
+    <string name="Hi_there" >Hi! I\'m using now! HELLO </string>
+
+    <!-- Date format -->
+    <string name="date_format_today">HH:mm</string>
+    <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
+    <string name="date_format_yesterday">Včera</string>
+    <string name="date_format">dd/MM/yy</string>
+
+    <string name="action_settings">Nastavení</string>
+    <string name="title_home">Home</string>
+    <string name="title_Friends">Friends</string>
+    <string name="title_conversations">Chaty</string>
+    <string name="title_settings">Nastavení</string>
+    <string name="title_feed_back"><![CDATA[Informace a nápověda]]></string>
+    <string name="more">Další informace</string>
+    <string name="title_sign_out">Odhlásit se</string>
+    <string name="selected_count">%1$s Vybraní</string>
+    <!-- icons -->
+    <string name="icon_no_calls">\ue830</string>
+    <string name="icon_crash">\ue840</string>
+    <string name="icon_update">\ue865</string>
+    <string name="icon_no_contacts">\ue82b</string>
+    <string name="icon_no_conversations">\ue818</string>
+    <string name="icon_menu_home">\ue800</string>
+    <string name="icon_menu_chat_on">\ue83f</string>
+    <string name="icon_menu_entertainment">\ue824</string>
+    <string name="icon_menu_news">\ue853</string>
+    <string name="icon_menu_shopping">\ue82e</string>
+    <string name="icon_menu_my_profile">\ue82a</string>
+    <string name="icon_menu_settings">\ue810</string>
+    <string name="icon_menu_help_feedback">\ue87d</string>
+    <string name="icon_menu_about_us">\ue87c</string>
+    <string name="icon_menu_share">\ue84b</string>
+    <string name="icon_menu_edit">\ue802</string>
+
+    <!--end icons -->
+    <string name="number">Telefonní číslo</string>
+    <string name="NoMessages">There\'s no conversations yet, you may start one now</string>
+    <string name="NoCalls">Žádné hovory</string>
+    <string name="error_response">Unable to update.</string>
+    <string name="NoContacts">There is no contacts .Please try again later or add new one</string>
+    <string name="type_msg">Napište zprávu.</string>
+    <string name="NoResult">Nothing</string>
+    <string name="error_response_contacts">Unable to update your contacts.</string>
+    <string name="error_response_conversations">Unable to update conversations.</string>
+    <string name="error_response_groups">Unable to update groups.</string>
+    <string name="error_response_messages">Unable to update messages.</string>
+    <string name="name_is_too_short">the name is too short</string>
+    <string name="select_picture">select an image</string>
+    <string name="new_group">Nová skupina</string>
+    <string name="starred_messages">Zprávy s hvězdičkou</string>
+    <string name="status">Váš aktuální stav</string>
+    <string name="settings">Nastavení</string>
+    <string name="refresh_contacts">Obnovit</string>
+    <string name="search">Hledat</string>
+    <string name="add_contact">Přidat kontakt</string>
+    <string name="new_message">New Message</string>
+    <string name="use_whats_clone">hey i\'m using …</string>
+    <string name="title_activity_add_members_to_group">Nová skupina</string>
+    <string name="title_activity_settings">Nastavení</string>
+    <string name="title_activity_edit_profile">Informace o profilu</string>
+    <string name="share">Sdílet</string>
+    <string name="edit">Upravit</string>
+    <string name="view_in_ad_book">Zobrazit v adresáři</string>
+    <string name="hello_welcome_to_whats_clone">Welcome</string>
+    <string name="next">Další</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">Set back and keep calm you will receive an sms of verification</string>
+    <string name="resend">You didn\'t receive any code? Resend</string>
+    <string name="enter_the_code_below_to_verify">Enter the code below to verify</string>
+    <string name="enter_your_code">-- -- -- -- -- --</string>
+    <string name="ok">OK</string>
+    <string name="please_enter_your_ver_code">Potvrďte svůj přístupový kód:</string>
+    <string name="enter_a_val_number">Zadejte své telefonní číslo.</string>
+    <string name="change_number">Change number</string>
+    <string name="invite">Pozvat</string>
+    <string name="your_current_status">Můj stav</string>
+    <string name="select_your_new_status">Nová aktualizace stavu</string>
+    <string name="title_activity_status">Můj stav</string>
+    <string name="Make_sure_delete_status">Opravdu chcete odstranit všechny vaše stavy?</string>
+    <string name="Yes">Ano</string>
+    <string name="No">No</string>
+    <string name="delete">Odstranit</string>
+    <string name="delete_status">Odstranit stav</string>
+    <string name="cancel">Zrušit</string>
+    <string name="Ok">OK</string>
+    <string name="write_something">Napište zprávu.</string>
+    <string name="error_response_status">Unable to get status</string>
+    <string name="title_activity_edit_status">Edit status</string>
+    <string name="deleteALL">Odstranit vše</string>
+    <string name="oops_something">Oops something went wrong </string>
+    <string name="oops_something_crashed">Oops !! something went wrong . Please send a report to the developer</string>
+    <string name="no_status">*** stav nebyl zadán ***</string>
+    <string name="no_username"> No username </string>
+    <string name="edit_status_activity_title">Přidat nový stav</string>
+    <string name="title_activity_edit_name">Enter your name</string>
+    <string name="title_select_contacts">Moje kontakty</string>
+    <string name="success_response_contacts">Kontakty byly aktualizovány.</string>
+
+    <string name="edit_group_name">Zadejte nové téma</string>
+    <string name="exit">Opustit</string>
+    <string name="shareContact">Share contact</string>
+
+    <!--socket io -->
+    <string name="isTyping">píše zprávu...</string>
+    <string name="isOffline">Offline</string>
+    <string name="isOnline">online</string>
+    <string name="lastSeen">naposledy:</string>
+
+
+    <!--end date format-->
+    <string name="call">Hovor</string>
+    <string name="attach">Přidat</string>
+    <string name="search_">Hledat…</string>
+    <string name="add_new_member">Přidat</string>
+    <string name="type_group_subject_here">Zadejte nové téma</string>
+    <string name="provide_group_subject_and_optional_group_icon">Zadejte téma skupiny a volitelnou ikonu.</string>
+    <string name="title_activity_edit_group_name">Zadejte nové téma</string>
+    <string name="attach_contact">Kontakt</string>
+    <string name="attach_video">Video</string>
+    <string name="attach_video_record">Record video</string>
+    <string name="attach_location">Poloha</string>
+    <string name="attach_audio">Zvuk</string>
+    <string name="attach_camera">Fotoaparát</string>
+    <string name="attach_gallery">Galerie</string>
+    <string name="attach_document">Dokument</string>
+    <string name="media">Média</string>
+    <string name="clear_chat">Vymazat chat</string>
+    <string name="view_contact">View Contact</string>
+    <string name="group_info">Informace o skupině</string>
+    <string name="search_hint">Hledat</string>
+    <string name="alert_message_delete_conversation">Opravdu chcete vymazat zprávy v tomto chatu?</string>
+    <string name="join_title">Registrovat znova</string>
+    <string name="hold_to_record">Nahrát hlasovou zprávu</string>
+
+    <!-- Permissions strings start -->
+    <string name="camera_permission">Camera Permission</string>
+    <string name="audio_permission">Audio Permission</string>
+    <string name="storage_permission">Storage Permission</string>
+    <string name="contacts_permission">Contacts Permission</string>
+    <string name="vibrate_permission">Vibrate Permission</string>
+    <string name="receive_sms_permission">Receive sms Permission</string>
+    <string name="read_sms_permission">Read sms Permission</string>
+    <string name="call_phone_permission">Call Phone Permission</string>
+    <string name="get_accounts_permission">Get accounts Permission</string>
+    <string name="write_sync_settings_permission">Get accounts Permission</string>
+    <string name="read_sync_settings_permission">Get accounts Permission</string>
+    <string name="camera_permission_message">WhatsApp potřebuje přístup k fotoaparátu, aby bylo možné uskutečnit nebo přijímat videohovory.</string>
+    <string name="record_audio_permission_message">Record audio permission allows you to  record audios. Please allow in App Settings for additional functionality.</string>
+    <string name="settings_audio_permission_message">WhatsApp potřebuje přístup k fotoaparátu a mikrofonu, aby bylo možné uskutečnit nebo přijímat videohovory.</string>
+    <string name="write_storage_permission_message">Write External permission allows us  access to your media. Please allow in App Settings for additional functionality.</string>
+    <string name="read_storage_permission_message">Read External permission allows us to read your media. Please allow in App Settings for additional functionality.</string>
+    <string name="read_contacts_permission_message">Read Contacts permission allows us to read your contacts. Please allow in App Settings for additional functionality.</string>
+    <string name="write_contacts_permission_message">Write Contacts permission allows you access to your contacts. Please allow in App Settings for additional functionality.</string>
+    <string name="vibrate_permission_message">Vibrate permission . Please allow in App Settings for additional functionality.</string>
+    <string name="receive_sms_permission_message">Receive sms permission allows you  to receive SMS messages. Please allow in App Settings for additional functionality.</string>
+    <string name="read_sms_permission_message">Read sms permission allows us access to your SMS messages. Please allow in App Settings for additional functionality.</string>
+    <string name="call_phone_permission_message">Call phone permission allows you make calls. Please allow in App Settings for additional functionality.</string>
+    <string name="get_accounts_permission_message">Get accounts permission . Please allow in App Settings for additional functionality.</string>
+    <string name="write_sync_settings_permission_message">Write Sync settings permission . Please allow in App Settings for additional functionality.</string>
+    <string name="read_sync_settings_permission_message">Read Sync settings permission . Please allow in App Settings for additional functionality.</string>
+    <string name="no_thanks">No Thanks</string>
+    <string name="yes">Ano</string>
+
+    <!--Permissions strings end -->
+
+    <string name="deleting_chat">"Odstranit chat"</string>
+    <string name="copy_message">Kopie</string>
+    <string name="transfer_message">Přeposlat...</string>
+    <string name="message_delete">Odstranit zprávu?</string>
+    <string name="message_copy">Text message</string>
+
+    <!--settings strings-->
+    <string name="about_and_help">Informace a nápověda</string>
+    <string name="contacts">Kontakty</string>
+    <string name="notifications">Oznámení zpráv</string>
+    <string name="chats">Chaty</string>
+    <string name="account">Účet</string>
+    <string name="delete_my_account">Odstranit můj účet</string>
+    <string name="chat_settings">Nastavení chatů</string>
+    <string name="enter_key_off">Tlačítkem Enter vložíte nový řádek.</string>
+    <string name="enter_key_on">Tlačítkem Enter odešlete zprávu.</string>
+    <string name="enter_key">Odesílat pomocí Enter</string>
+    <string name="message_font_size">Velikost písma</string>
+    <string name="message_font_size_summary">Velikost písma pro obrazovku chatu.</string>
+    <string name="wallpaper">Tapeta</string>
+    <string name="conversation_tones_off">Přehrávat zvuky příchozích a odchozích zpráv.</string>
+    <string name="message_notifications_settings">Message bildirimleri</string>
+    <string name="notifications_settings_tone">Tón oznámení</string>
+    <string name="default_settings">Výchozí</string>
+    <string name="message_notifications_settings_vibrate">Vibrování</string>
+    <string name="message_notifications_settings_light">Kontrolka</string>
+    <string name="call_notifications_settings_vibrate">Vibrování</string>
+    <string name="call_notifications_settings_light">Kontrolka</string>
+    <string name="conversation_tones">Tón oznámení</string>
+    <string name="message_group_notifications_settings">Oznámení skupiny</string>
+    <string name="title_activity_delete_account">Odstranit účet</string>
+    <string name="title_activity_change_number">Změnit číslo</string>
+    <string name="title_activity_account_settings">Účet</string>
+    <string name="call_notifications_settings">Oznámení hovoru</string>
+    <string name="call_ringtone">Vyzváněcí tón</string>
+    <string name="message_notifications_settings_tone_silent">Tiché</string>
+    <string name="call_notifications_settings_tone_silent">Tiché</string>
+    <string name="connection_is_available">Zálohování bylo pozastaveno. Čeká se na síť Wi-Fi, protože vaše nastavení neumožňují zálohování pomocí mobilní sítě.</string>
+    <string name="connection_is_not_available">Aplikace WhatsApp bohužel nemohla dokončit proces inicializace. Ověřte, zda jste připojeni k internetu a opakujte akci.</string>
+    <string name="select_one_at_least">"At least you must select one "</string>
+    <string name="participants">Účastníci:</string>
+    <string name="group_created_successfully">Vytváření skupiny...</string>
+    <string name="create_group_failed">Vytvoření selhalo. Klepněte a zkuste to znova.</string>
+    <string name="please_choose_an_avatar">Nastavit ikonu skupiny pro</string>
+    <string name="slide_to_cancel_audio">přejetím zrušte</string>
+    <string name="message_is_copied">Zpráva zkopírována</string>
+    <string name="of">" of "</string>
+    <string name="failed_upload_image">"Nelze načíst tuto fotografii. Zkuste to znovu."</string>
+
+    <!--group adapters start -->
+    <string name="Opustit_group">Opustit \"</string>
+    <string name="group_ex">\" skupina?</string>
+    <string name="exiting_group_dialog">" Opustit skupinu … "</string>
+    <string name="deleting_group_dialog">"Odstraňování..."</string>
+    <string name="created_by_you_at">Vytvořili jste skupinu</string>
+    
+    !!!!  NOT FINISH !!!!
