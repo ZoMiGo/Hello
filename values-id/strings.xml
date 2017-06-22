@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HELLO</string>
+    <string name="Hello_get" >Hi HELLO APP dengan mudah mendapatkan sehingga Anda dapat chatting dengan satu sama lain!</string>
+    <string name="Hi_there" >Hello there! Saya menggunakan HELLO </string>
+
+
+    <!-- Date format -->
+    <string name="date_format_today">HH:mm</string>
+    <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
+    <string name="date_format_yesterday">Kemarin</string>
+    <string name="date_format">dd/MM/yy</string>
+
+    <string name="action_settings">Setelan</string>
+    <string name="title_home">Home</string>
+    <string name="title_Friends">Teman</string>
+    <string name="title_conversations">Chatting</string>
+    <string name="title_settings">Setelan</string>
+    <string name="title_feed_back"><![CDATA[Tentang dan bantuan]]></string>
+    <string name="more">Selengkapnya</string>
+    <string name="title_sign_out">Keluar</string>
+    <string name="selected_count">%1$s Terpilih</string>
