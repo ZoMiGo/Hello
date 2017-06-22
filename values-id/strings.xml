@@ -40,7 +40,7 @@
 
     <!--end icons -->
     <string name="number">Nomor telepon</string>
-    <string name="NoMessages">Belum ada pembicaraan, Anda bisa memulainya sekarang</string>
+    <string name="NoMessages">There\'s no conversations yet, you may start one now</string>
     <string name="NoCalls">Tidak ada panggilan</string>
     <string name="error_response">Unable to update.</string>
     <string name="NoContacts">There is no contacts .Please try again later or add new one</string>
@@ -70,13 +70,13 @@
     <string name="hello_welcome_to_whats_clone">Welcome</string>
     <string name="next">Lanjut</string>
     <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">Set back and keep calm you will receive an sms of verification</string>
-    <string name="resend">Kamu tidak menerima kode apapun Kirim ulang</string>
+    <string name="resend">You didn\'t receive any code? Resend</string>
     <string name="enter_the_code_below_to_verify">Enter the code below to verify</string>
     <string name="enter_your_code">-- -- -- -- -- --</string>
     <string name="ok">OK</string>
     <string name="please_enter_your_ver_code">Konfirmasikan kode sandi Anda:</string>
     <string name="enter_a_val_number">Masukkan nomor telepon Anda.</string>
-    <string name="change_number">Ubah nomor telepon</string>
+    <string name="change_number">Change number</string>
     <string name="invite">Undang</string>
     <string name="your_current_status">Status saya</string>
     <string name="select_your_new_status">Perubahan status baru</string>
@@ -97,5 +97,46 @@
     <string name="no_status">*** tidak ada status ***</string>
     <string name="no_username"> No username </string>
     <string name="edit_status_activity_title">Tambah status baru</string>
+    <string name="title_activity_edit_name">Enter your name</string>
+    <string name="title_select_contacts">Kontak saya</string>
+    <string name="success_response_contacts">contactsKontak telah diperbarui._help_contacts_updated</string>
+
+    <string name="edit_group_name">Masukkan subjek baru</string>
+    <string name="exit">Keluar</string>
+    <string name="shareContact">Share contact</string>
+
+    <!--socket io -->
+    <string name="isTyping">mengetik...</string>
+    <string name="isOffline">Offline</string>
+    <string name="isOnline">online</string>
+    <string name="lastSeen">terakhir dilihat</string>
+
+
+    <!--end date format-->
+    <string name="call">Panggilan</string>
+    <string name="attach">Tambah</string>
+    <string name="search_">Cari …</string>
+    <string name="add_new_member">Tambah</string>
+    <string name="type_group_subject_here">Masukkan subjek baru</string>
+    <string name="provide_group_subject_and_optional_group_icon">Berikan subjek grup dan ikon grup (opsional)</string>
+    <string name="title_activity_edit_group_name">Masukkan subjek baru</string>
+    <string name="attach_contact">Kontak</string>
+    <string name="attach_video">Video</string>
+    <string name="attach_video_record">Record video</string>
+    <string name="attach_location">Lokasi</string>
+    <string name="attach_audio">Audio</string>
+    <string name="attach_camera">Kamera</string>
+    <string name="attach_gallery">Galeri</string>
+    <string name="attach_document">Dokumen</string>
+    <string name="media">Media</string>
+    <string name="clear_chat">Bersihkan chat</string>
+    <string name="view_contact">View Contact</string>
+    <string name="group_info">Info grup</string>
+    <string name="search_hint">Cari</string>
+    <string name="alert_message_delete_conversation">Anda yakin ingin membersihkan pesan-pesan di chat ini?</string>
+    <string name="join_title">Verifikasi ulang</string>
+    <string name="hold_to_record">Rekam pesan suara</string>
+
+    <!-- Permissions strings start -->
 
     !!!!!!   WORKING ON TRANSLATION  !!!!!!
