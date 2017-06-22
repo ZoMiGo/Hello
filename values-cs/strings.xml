@@ -137,17 +137,17 @@
     <string name="hold_to_record">Nahrát hlasovou zprávu</string>
 
     <!-- Permissions strings start -->
-    <string name="camera_permission">Camera Permission</string>
-    <string name="audio_permission">Audio Permission</string>
-    <string name="storage_permission">Storage Permission</string>
-    <string name="contacts_permission">Contacts Permission</string>
-    <string name="vibrate_permission">Vibrate Permission</string>
-    <string name="receive_sms_permission">Receive sms Permission</string>
-    <string name="read_sms_permission">Read sms Permission</string>
-    <string name="call_phone_permission">Call Phone Permission</string>
-    <string name="get_accounts_permission">Get accounts Permission</string>
-    <string name="write_sync_settings_permission">Get accounts Permission</string>
-    <string name="read_sync_settings_permission">Get accounts Permission</string>
+    <string name="camera_permission">Povolení kamery</string>
+    <string name="audio_permission">Zvukové oprávnění</string>
+    <string name="storage_permission">Povolení k ukládání dat</string>
+    <string name="contacts_permission">Kontakty Povolení</string>
+    <string name="vibrate_permission">Povolení vibrací</string>
+    <string name="receive_sms_permission">Příjem SMS Povolení</string>
+    <string name="read_sms_permission">Přečtěte si sms Povolení</string>
+    <string name="call_phone_permission">Zavolejte na telefonní povolení</string>
+    <string name="get_accounts_permission">Získejte oprávnění k účtům</string>
+    <string name="write_sync_settings_permission">Získejte oprávnění k účtům</string>
+    <string name="read_sync_settings_permission">Získejte oprávnění k účtům</string>
     <string name="camera_permission_message">HELLO potřebuje přístup k fotoaparátu, aby bylo možné uskutečnit nebo přijímat videohovory.</string>
     <string name="record_audio_permission_message">Record audio permission allows you to  record audios. Please allow in App Settings for additional functionality.</string>
     <string name="settings_audio_permission_message">HELLO potřebuje přístup k fotoaparátu a mikrofonu, aby bylo možné uskutečnit nebo přijímat videohovory.</string>
@@ -377,7 +377,7 @@
     <string name="close">Ukončit</string>
     <string name="open">Otevřít</string>
     <string name="about_title">O aplikaci</string>
-    <string name="page_not_found">Page Not Found</string>
+    <string name="page_not_found">Stránka nenalezena</string>
     <string name="default_wallpaper">Výchozí</string>
     <string name="wallpaper_gallery">Galerie</string>
     <string name="wallpaper_is_set">Tapeta nastavena</string>
@@ -398,14 +398,14 @@
     <string name="title_language">Jazyk aplikace</string>
     <!--new strings-->
 
-    <string name="you_need_to_restart_the_application">You need to restart the application</string>
-    <string name="you_are_using_a_moderate_connection">You are using a moderate connection</string>
-    <string name="you_are_using_a_poor_connection">You are using a poor connection</string>
-    <string name="you_are_using_a_good_connection">You are using a good connection</string>
-    <string name="you_are_using_a_slower_connection">You are using a slow connection</string>
+    <string name="you_need_to_restart_the_application">Potřebujete restartovat aplikaci</string>
+    <string name="you_are_using_a_moderate_connection">Používáte průměrné připojení</string>
+    <string name="you_are_using_a_poor_connection">Používáte špatné připojení</string>
+    <string name="you_are_using_a_good_connection">Používáte dobré spojení</string>
+    <string name="you_are_using_a_slower_connection">Používáte pomalé připojení</string>
 
     <string name="selected">Vybraní</string>
-    <string name="failed_to_restore_the_backup">Failed to restore the backup</string>
+    <string name="failed_to_restore_the_backup">Zálohování se nezdařilo</string>
     <string name="restore_is_done">Zálohování zpráv</string>
     <string name="failed_to_restore_the_backup_try">Nelze zálohovat zprávy. Zkuste to znova později.</string>
     <string name="please_wait_a_moment">Počkejte prosím</string>
@@ -415,7 +415,7 @@
     <string name="current_language">current</string>
 
     <string name="block_user_make_sure">Blokované kontakty vám již nebudou moci volat ani zasílat zprávy.</string>
-    <string name="unblock_user_make_sure">You will unblock this user ,so he will  be able to call you or send you messages .Are you sure ?</string>
+    <string name="unblock_user_make_sure">Tento uživatel odblokujete, aby vám mohl zavolat nebo poslat zprávy. Opravdu?</string>
     <string name="unblock_user">Blokovat</string>
     <string name="title_blocked_contacts">Blokované kontakty</string>
     <string name="missed_video_call">Zmeškaný videohovor</string>
@@ -423,7 +423,7 @@
     <string name="outgoing_video_call">Odchozí videohovor</string>
     <string name="outgoing_voice_call">Odchozí hlasový hovor</string>
 
-    <string name="invitation_from">Invitation from</string>
-    <string name="your_session_expired">Your Session is Expired</string>
+    <string name="invitation_from">Pozvánka z</string>
+    <string name="your_session_expired">Vaše relace skončila</string>
 
 </resources>
