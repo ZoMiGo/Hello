@@ -99,7 +99,7 @@
     <string name="edit_status_activity_title">Tambah status baru</string>
     <string name="title_activity_edit_name">Enter your name</string>
     <string name="title_select_contacts">Kontak saya</string>
-    <string name="success_response_contacts">contactsKontak telah diperbarui._help_contacts_updated</string>
+    <string name="success_response_contacts">Kontak telah diperbarui.</string>
 
     <string name="edit_group_name">Masukkan subjek baru</string>
     <string name="exit">Keluar</string>
