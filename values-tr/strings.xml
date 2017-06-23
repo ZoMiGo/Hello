@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Translation by Trajilovic Goran gorance@live.de -->
     <string name="app_name">HELLO</string>
     <string name="Hello_get" >Merhaba HELLO APP yüzden kolayca birbirinden ile sohbet edebilirsiniz olsun!</string>
     <string name="Hi_there" >Merhaba! Ben kullanarak HELLO </string>
