@@ -269,4 +269,162 @@
 
     <string name="reply_message">Jawab</string>
 
-    !!!!!!   WORKING ON TRANSLATION  !!!!!!
+
+    <string name="message_notifications_settings_vibrate_off">Getar Off</string>
+    <string name="message_notifications_settings_vibrate_on">Getar On</string>
+    <string name="call_notifications_settings_vibrate_off">Getar Off</string>
+    <string name="call_notifications_settings_vibrate_on">Getar On</string>
+    <string name="enjoy_it">Enjoy it</string>
+    <string name="app_version">"Version "</string>
+    <string name="to_delete_your_account_from_confirm_your_phone_number">to delete your account, you need to confirm your phone number</string>
+    <string name="delete_user_account">DELETE MY ACCOUNT</string>
+    <string name="delete_you_from_groups"><![CDATA[> Delete you from all groups]]></string>
+    <string name="delete_all_your_messages"><![CDATA[> Delete all your messages (you can restore it if you have a backup)]]></string>
+    <string name="delete_your_account"><![CDATA[> Deactivate your account]]></string>
+    <string name="deleting_your_account_will">Akun HALLE Anda telah dihapus.</string>
+    <string name="alert_message_delete_account">Lanjutkan penghapusan akun? Akun yang terhapus tidak dapat dikembalikan! Jika suatu saat Anda mendaftar ulang dengan HELLO, data Anda tidak dapat dikembalikan.</string>
+    <string name="delete_account_failed_please_try_later">Tidak dapat menghapus akun Anda. Silakan coba lagi nanti.</string>
+    <string name="unexpected_reponse_from_server">Unexpected response from the server</string>
+    <string name="you_send_messages"> Anda bukan lagi peserta.</string>
+    <string name="file">File</string>
+    <string name="waiting_for_network">Jaringan tidak tersedia. Silakan coba lagi nanti.</string>
+    <string name="failed_exit_group">Gagal untuk keluar. Ketuk untuk mencoba lagi.</string>
+    <string name="this_video_is_not_exist">Video ini tidak tersedia karena terdapat masalah dengan file video.</string>
+    <string name="this_image_is_not_exist">Tidak dapat memuat foto ini. Silakan coba lagi.</string>
+    <string name="this_audio_is_not_exist">Audio ini tidak tersedia karena terdapat masalah dengan file audio.</string>
+    <string name="this_document_is_not_exist">Dokumen tidak ditemukan</string>
+    <string name="account_added_already">" Account is added already "</string>
+    <string name="you_cannot_delete_your_account_please_contac">Tidak dapat menghapus akun Anda. Silakan coba lagi nanti.</string>
+
+    <!--Directories strings-->
+
+    <string name="profile_photos">Foto Profil Kontak</string>
+    <string name="images_directory">Gambar</string>
+    <string name="data_cache_directory">Mencari cadangan</string>
+    <string name="videos_directory">Video</string>
+    <string name="audios_directory">Audio</string>
+    <string name="documents_directory">Dokumen</string>
+    <string name="images_other_directory"> Lampirkan media</string>
+    <string name="directory_wallpaper">Wallpaper</string>
+    <string name="directory_sent">Diterima</string>
+    <string name="video_thumbnail">Thumbnail</string>
+    <string name="image_saved">Image Saved</string>
+    <string name="save_to_gallery">Tersimpan ke Galeri</string>
+    <string name="share_or_save">Share Or Save</string>
+    <string name="shareItem">Bagikan</string>
+    <string name="this_message_empty">This message is empty</string>
+    <string name="share_message">share</string>
+    <string name="you_can_share_more_then_one">You can\'t share more than one item</string>
+    <!--others -->
+    <string name="add_to_you_contact">ADD THIS PERSON TO YOUR CONTACTS </string>
+    <string name="status_and_phone">Status dan telepon</string>
+    <string name="failed_to_the_current_status">Failed to get current status</string>
+    <string name="please_enter_your_mobile_number">Please enter your mobile number</string>
+    <string name="verify_mobile">Verifikasi</string>
+    <string name="firstly_select_your_country_here">Pilih negara</string>
+    <string name="activity_backup_drive_success">Selesai mencadangkan</string>
+    <string name="activity_backup_drive_failed">Tidak dapat menyelesaikan pencadangan</string>
+    <string name="activity_backup_drive_message_restart">Restarting backup</string>
+    <string name="restore_data">Pulihkan</string>
+    <string name="please_click_on_restore_button_to_restore_your_messages">Please click on start button to restore your Messages</string>
+    <string name="backup">Cadangkan</string>
+    <string name="chat_backup">Chat backup</string>
+    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Back up your messages .You can restore them when you reinstall the application.</string>
+    <string name="back_up">Cadangkan</string>
+    <string name="start_backing_up">Start backing up</string>
+    <string name="start_restore">Start restore Or skip</string>
+    <string name="start">Start</string>
+    <string name="skip">Skip</string>
+    <string name="finish">Finish</string>
+
+    <!-- Rate Strings -->
+    <string name="rate_title">Rate %s</string>
+    <string name="rate_message">If you enjoy using %s, would you mind taking a moment to rate it? Thanks for your support!</string>
+    <string name="rate">Ya, Rate %s</string>
+    <string name="rate_later">Remind me later</string>
+    <string name="rate_cancel">No, Thanks</string>
+    <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="update">Ya, Perbarui %s</string>
+    <string name="update_title">Perbarui %s</string>
+    <string name="update_app">Perbarui ?</string>
+    <string name="update_app_message">Versi baru HELLO telah tersedia. Apakah Anda ingin memasangnya sekarang? </string>
+    <string name="update_message_complete">"Versi HELLO ini sudah terlalu lama dan tidak lagi berfungsi. Silakan kunjungi Google Play Store untuk mengunduh versi terbaru."</string>
+    <string name="please_select_y_country">Pilih negara</string>
+    <string name="permission_alert">Untuk mengirimkan kontak, izinkan HELLO untuk mengakses kontak Anda.</string>
+    <string name="permission_alert_msg">Untuk mengirimkan kontak, izinkan HELLO untuk mengakses kontak Anda. Ketuk Setelan > Izin, dan nyalakan Kontak.</string>
+    <!--calls strings-->
+    <string name="incoming_call">Panggilan suara masuk</string>
+    <string name="incoming_call_from">Panggilan Suara</string>
+    <string name="call_ended">Akhiri Panggilan Suara</string>
+    <string name="calling">MEMANGGIL</string>
+    <string name="clear_log_call">Hapus log panggilan</string>
+    <string name="new_call">Panggilan baru</string>
+    <string name="you_couldnt_call_this_user">Tidak dapat memanggil. Pastikan telepon Anda memiliki koneksi Internet dan coba lagi.</string>
+    <string name="fake_name">- - -</string>
+    <string name="mobile">"Mobile: "</string>
+    <string name="click_to_make_an_action">geser untuk jawab</string>
+    <string name="voice_call">Panggilan Suara</string>
+    <string name="video_call">Panggilan Video</string>
+    <string name="call_history">History</string>
+    <string name="title_calls">Info panggilan</string>
+    <string name="remove_from_log">Hapus dari riwayat panggilan</string>
+    <string name="block_user">Blokir</string>
+    <string name="delete_call_dialog">Hapus…</string>
+    <string name="call_select_voice">Panggilan Suara</string>
+    <string name="call_select_video">Panggilan Video</string>
+    <string name="you_couldnt_call_this_user_network">Periksa koneksi Internet telepon Anda dan coba lagi.</string>
+    <string name="you_couldnt_call">Couldn\'t place call</string>
+    <string name="duration">Duration</string>
+    <string name="close">Tutup</string>
+    <string name="open">Buka</string>
+    <string name="about_title">Tentang</string>
+    <string name="page_not_found">Page Not Found</string>
+    <string name="default_wallpaper">Default</string>
+    <string name="wallpaper_gallery">Galeri</string>
+    <string name="wallpaper_is_set">Wallpaper terpasang</string>
+    <string name="you_can_copy_more_then_one">You can\'t copy more than one item</string>
+    <string name="documents">Dokumen</string>
+    <string name="links">Tautan</string>
+    <string name="this_a_pdf_file_document">PDF Dokumen</string>
+    <string name="fetching_urls_preview">Fetching …</string>
+    <string name="splash_message"> Enjoy your time while you are using this \"real-time\" chat application .</string>
+    <string name="title_activity_privacy"><![CDATA[Ketentuan dan Kebijakan Privasi]]></string>
+    <string name="terms_and_privacy_policy">Ketentuan dan Kebijakan Privasi</string>
+    <string name="english">English</string>
+    <string name="german">Deutsch</string>
+    <string name="srbski">Serbisch</string>
+    <string name="romaneste">Romänisch</string>
+    <string name="french">French</string>
+    <string name="turski">Turkisch</string>
+    <string name="title_language">Bahasa Aplikasi</string>
+    <!--new strings-->
+
+    <string name="you_need_to_restart_the_application">You need to restart the application</string>
+    <string name="you_are_using_a_moderate_connection">You are using a moderate connection</string>
+    <string name="you_are_using_a_poor_connection">You are using a poor connection</string>
+    <string name="you_are_using_a_good_connection">You are using a good connection</string>
+    <string name="you_are_using_a_slower_connection">You are using a slow connection</string>
+
+    <string name="selected">Terpilih</string>
+    <string name="failed_to_restore_the_backup">Failed to restore the backup</string>
+    <string name="restore_is_done">Mencadangkan pesan</string>
+    <string name="failed_to_restore_the_backup_try">Tidak dapat mencadangkan pesan. Silakan coba lagi nanti.</string>
+    <string name="please_wait_a_moment">Mohon tunggu sebentar</string>
+    <string name="chats_title_tab">Chatting</string>
+    <string name="contacts_title_tab">Kontak</string>
+    <string name="calls_title_tab">Panggilan</string>
+    <string name="current_language">current</string>
+
+    <string name="block_user_make_sure">Kontak terblokir tidak dapat lagi memanggil Anda atau mengirimi Anda pesan.</string>
+    <string name="unblock_user_make_sure">You will unblock this user ,so he will  be able to call you or send you messages .Are you sure ?</string>
+    <string name="unblock_user">Blokir</string>
+    <string name="title_blocked_contacts">Kontak terblokir</string>
+    <string name="missed_video_call">Panggilan video tak terjawab</string>
+    <string name="missed_voice_call">Panggilan suara tak terjawab</string>
+    <string name="outgoing_video_call">Panggilan video keluar</string>
+    <string name="outgoing_voice_call">Panggilan suara keluar</string>
+
+    <string name="invitation_from">Invitation from</string>
+    <string name="your_session_expired">Your Session is Expired</string>
+
+</resources>
