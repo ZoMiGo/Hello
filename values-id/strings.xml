@@ -274,17 +274,17 @@
     <string name="message_notifications_settings_vibrate_on">Getar On</string>
     <string name="call_notifications_settings_vibrate_off">Getar Off</string>
     <string name="call_notifications_settings_vibrate_on">Getar On</string>
-    <string name="enjoy_it">Enjoy it</string>
-    <string name="app_version">"Version "</string>
+    <string name="enjoy_it">Bersenang senang lah</string>
+    <string name="app_version">"Versi "</string>
     <string name="to_delete_your_account_from_confirm_your_phone_number">to delete your account, you need to confirm your phone number</string>
-    <string name="delete_user_account">DELETE MY ACCOUNT</string>
-    <string name="delete_you_from_groups"><![CDATA[> Delete you from all groups]]></string>
-    <string name="delete_all_your_messages"><![CDATA[> Delete all your messages (you can restore it if you have a backup)]]></string>
-    <string name="delete_your_account"><![CDATA[> Deactivate your account]]></string>
+    <string name="delete_user_account">HAPUS AKUN SAYA</string>
+    <string name="delete_you_from_groups"><![CDATA[> Hapus Anda dari semua kelompok]]></string>
+    <string name="delete_all_your_messages"><![CDATA[> Hapus semua pesan Anda (Anda dapat mengembalikannya jika Anda memiliki cadangan)]]></string>
+    <string name="delete_your_account"><![CDATA[> non aktifkan akunmu]]></string>
     <string name="deleting_your_account_will">Akun HALLE Anda telah dihapus.</string>
     <string name="alert_message_delete_account">Lanjutkan penghapusan akun? Akun yang terhapus tidak dapat dikembalikan! Jika suatu saat Anda mendaftar ulang dengan HELLO, data Anda tidak dapat dikembalikan.</string>
     <string name="delete_account_failed_please_try_later">Tidak dapat menghapus akun Anda. Silakan coba lagi nanti.</string>
-    <string name="unexpected_reponse_from_server">Unexpected response from the server</string>
+    <string name="unexpected_reponse_from_server">Respons tak terduga dari server</string>
     <string name="you_send_messages"> Anda bukan lagi peserta.</string>
     <string name="file">File</string>
     <string name="waiting_for_network">Jaringan tidak tersedia. Silakan coba lagi nanti.</string>
@@ -293,7 +293,7 @@
     <string name="this_image_is_not_exist">Tidak dapat memuat foto ini. Silakan coba lagi.</string>
     <string name="this_audio_is_not_exist">Audio ini tidak tersedia karena terdapat masalah dengan file audio.</string>
     <string name="this_document_is_not_exist">Dokumen tidak ditemukan</string>
-    <string name="account_added_already">" Account is added already "</string>
+    <string name="account_added_already">" Akun sudah ditambahkan "</string>
     <string name="you_cannot_delete_your_account_please_contac">Tidak dapat menghapus akun Anda. Silakan coba lagi nanti.</string>
 
     <!--Directories strings-->
@@ -308,41 +308,41 @@
     <string name="directory_wallpaper">Wallpaper</string>
     <string name="directory_sent">Diterima</string>
     <string name="video_thumbnail">Thumbnail</string>
-    <string name="image_saved">Image Saved</string>
+    <string name="image_saved">Gambar tersimpan</string>
     <string name="save_to_gallery">Tersimpan ke Galeri</string>
-    <string name="share_or_save">Share Or Save</string>
+    <string name="share_or_save">Berbagi atau Simpan</string>
     <string name="shareItem">Bagikan</string>
-    <string name="this_message_empty">This message is empty</string>
-    <string name="share_message">share</string>
-    <string name="you_can_share_more_then_one">You can\'t share more than one item</string>
+    <string name="this_message_empty">Pesan ini kosong</string>
+    <string name="share_message">Bagikan</string>
+    <string name="you_can_share_more_then_one">Anda tidak dapat berbagi lebih dari satu item</string>
     <!--others -->
-    <string name="add_to_you_contact">ADD THIS PERSON TO YOUR CONTACTS </string>
+    <string name="add_to_you_contact">TAMBAHKAN ORANG INI KEPADA KONTAK ANDA </string>
     <string name="status_and_phone">Status dan telepon</string>
-    <string name="failed_to_the_current_status">Failed to get current status</string>
-    <string name="please_enter_your_mobile_number">Please enter your mobile number</string>
+    <string name="failed_to_the_current_status">Gagal mendapatkan status saat ini</string>
+    <string name="please_enter_your_mobile_number">Masukkan nomor ponsel Anda</string>
     <string name="verify_mobile">Verifikasi</string>
     <string name="firstly_select_your_country_here">Pilih negara</string>
     <string name="activity_backup_drive_success">Selesai mencadangkan</string>
     <string name="activity_backup_drive_failed">Tidak dapat menyelesaikan pencadangan</string>
-    <string name="activity_backup_drive_message_restart">Restarting backup</string>
+    <string name="activity_backup_drive_message_restart">Mulai ulang cadangan</string>
     <string name="restore_data">Pulihkan</string>
     <string name="please_click_on_restore_button_to_restore_your_messages">Please click on start button to restore your Messages</string>
     <string name="backup">Cadangkan</string>
     <string name="chat_backup">Chat backup</string>
     <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Back up your messages .You can restore them when you reinstall the application.</string>
     <string name="back_up">Cadangkan</string>
-    <string name="start_backing_up">Start backing up</string>
-    <string name="start_restore">Start restore Or skip</string>
-    <string name="start">Start</string>
-    <string name="skip">Skip</string>
-    <string name="finish">Finish</string>
+    <string name="start_backing_up">Mulai memback up</string>
+    <string name="start_restore">Mulai pulihkan atau lewati</string>
+    <string name="start">Mulai</string>
+    <string name="skip">Melewatkan</string>
+    <string name="finish">Selesai</string>
 
     <!-- Rate Strings -->
     <string name="rate_title">Rate %s</string>
     <string name="rate_message">If you enjoy using %s, would you mind taking a moment to rate it? Thanks for your support!</string>
     <string name="rate">Ya, Rate %s</string>
-    <string name="rate_later">Remind me later</string>
-    <string name="rate_cancel">No, Thanks</string>
+    <string name="rate_later">Ingatkan aku nanti</string>
+    <string name="rate_cancel">Tidak, terima kasih</string>
     <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
     <string name="update">Ya, Perbarui %s</string>
     <string name="update_title">Perbarui %s</string>
