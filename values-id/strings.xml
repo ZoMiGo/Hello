@@ -40,18 +40,18 @@
 
     <!--end icons -->
     <string name="number">Nomor telepon</string>
-    <string name="NoMessages">There\'s no conversations yet, you may start one now</string>
+    <string name="NoMessages">Belum ada pembicaraan, Anda bisa memulainya sekarang</string>
     <string name="NoCalls">Tidak ada panggilan</string>
-    <string name="error_response">Unable to update.</string>
-    <string name="NoContacts">There is no contacts .Please try again later or add new one</string>
+    <string name="error_response">Tidak dapat memperbarui</string>
+    <string name="NoContacts">Tidak ada kontak. Silahkan coba lagi nanti atau tambahkan yang baru</string>
     <string name="type_msg">Ketik pesan</string>
-    <string name="NoResult">Nothing</string>
-    <string name="error_response_contacts">Unable to update your contacts.</string>
-    <string name="error_response_conversations">Unable to update conversations.</string>
-    <string name="error_response_groups">Unable to update groups.</string>
-    <string name="error_response_messages">Unable to update messages.</string>
-    <string name="name_is_too_short">the name is too short</string>
-    <string name="select_picture">select an image</string>
+    <string name="NoResult">Tidak ada</string>
+    <string name="error_response_contacts">Tidak dapat memperbarui kontak Anda.</string>
+    <string name="error_response_conversations">Tidak dapat memperbarui percakapan.</string>
+    <string name="error_response_groups">Tidak dapat memperbarui grup.</string>
+    <string name="error_response_messages">Tidak dapat memperbarui pesan.</string>
+    <string name="name_is_too_short">Namanya terlalu pendek</string>
+    <string name="select_picture">Pilih gambar</string>
     <string name="new_group">Grup baru</string>
     <string name="starred_messages">Pesan berbintang</string>
     <string name="status">Status Anda saat ini</string>
@@ -59,15 +59,15 @@
     <string name="refresh_contacts">Perbarui</string>
     <string name="search">Cari</string>
     <string name="add_contact">Tambahkan kontak</string>
-    <string name="new_message">New Message</string>
-    <string name="use_whats_clone">hey i\'m using …</string>
+    <string name="new_message">Pesan baru</string>
+    <string name="use_whats_clone">Hey saya gunakan…</string>
     <string name="title_activity_add_members_to_group">Grup baru</string>
     <string name="title_activity_settings">Setelan</string>
     <string name="title_activity_edit_profile">Info profil</string>
     <string name="share">Bagikan</string>
     <string name="edit">Edit</string>
     <string name="view_in_ad_book">Lihat di buku alamat</string>
-    <string name="hello_welcome_to_whats_clone">Welcome</string>
+    <string name="hello_welcome_to_whats_clone">SELAMAT DATANG</string>
     <string name="next">Lanjut</string>
     <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">Set back and keep calm you will receive an sms of verification</string>
     <string name="resend">You didn\'t receive any code? Resend</string>
@@ -428,3 +428,4 @@
     <string name="your_session_expired">Your Session is Expired</string>
 
 </resources>
+
