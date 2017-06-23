@@ -339,7 +339,7 @@
 
     <!-- Rate Strings -->
     <string name="rate_title">Rate %s</string>
-    <string name="rate_message">If you enjoy using %s, would you mind taking a moment to rate it? Thanks for your support!</string>
+    <string name="rate_message">Jika Anda senang menggunakan %s, apakah Anda keberatan meluangkan waktu untuk menilainya? Terima kasih atas dukunganmu!</string>
     <string name="rate">Ya, Rate %s</string>
     <string name="rate_later">Ingatkan aku nanti</string>
     <string name="rate_cancel">Tidak, terima kasih</string>
@@ -373,50 +373,50 @@
     <string name="call_select_voice">Panggilan Suara</string>
     <string name="call_select_video">Panggilan Video</string>
     <string name="you_couldnt_call_this_user_network">Periksa koneksi Internet telepon Anda dan coba lagi.</string>
-    <string name="you_couldnt_call">Couldn\'t place call</string>
-    <string name="duration">Duration</string>
+    <string name="you_couldnt_call">Tidak dapat melakukan panggilan</string>
+    <string name="duration">Lamanya</string>
     <string name="close">Tutup</string>
     <string name="open">Buka</string>
     <string name="about_title">Tentang</string>
-    <string name="page_not_found">Page Not Found</string>
+    <string name="page_not_found">Halaman tidak ditemukan</string>
     <string name="default_wallpaper">Default</string>
     <string name="wallpaper_gallery">Galeri</string>
     <string name="wallpaper_is_set">Wallpaper terpasang</string>
-    <string name="you_can_copy_more_then_one">You can\'t copy more than one item</string>
+    <string name="you_can_copy_more_then_one">Anda tidak dapat menyalin lebih dari satu item</string>
     <string name="documents">Dokumen</string>
     <string name="links">Tautan</string>
     <string name="this_a_pdf_file_document">PDF Dokumen</string>
-    <string name="fetching_urls_preview">Fetching …</string>
-    <string name="splash_message"> Enjoy your time while you are using this \"real-time\" chat application .</string>
+    <string name="fetching_urls_preview">Mengambil …</string>
+    <string name="splash_message"> Nikmati waktu Anda saat Anda menggunakan aplikasi chat \"real-time \" ini.</string>
     <string name="title_activity_privacy"><![CDATA[Ketentuan dan Kebijakan Privasi]]></string>
     <string name="terms_and_privacy_policy">Ketentuan dan Kebijakan Privasi</string>
-    <string name="english">English</string>
-    <string name="german">Deutsch</string>
-    <string name="srbski">Serbisch</string>
-    <string name="romaneste">Romänisch</string>
-    <string name="french">French</string>
-    <string name="turski">Turkisch</string>
+    <string name="english">Inggris</string>
+    <string name="german">Jerman</string>
+    <string name="srbski">Serbia</string>
+    <string name="romaneste">Rumania</string>
+    <string name="french">Perancis</string>
+    <string name="turski">Turki</string>
     <string name="title_language">Bahasa Aplikasi</string>
     <!--new strings-->
 
-    <string name="you_need_to_restart_the_application">You need to restart the application</string>
-    <string name="you_are_using_a_moderate_connection">You are using a moderate connection</string>
-    <string name="you_are_using_a_poor_connection">You are using a poor connection</string>
-    <string name="you_are_using_a_good_connection">You are using a good connection</string>
-    <string name="you_are_using_a_slower_connection">You are using a slow connection</string>
+    <string name="you_need_to_restart_the_application">Anda perlu me-restart aplikasi</string>
+    <string name="you_are_using_a_moderate_connection">Anda menggunakan koneksi moderat</string>
+    <string name="you_are_using_a_poor_connection">Anda menggunakan koneksi yang buruk</string>
+    <string name="you_are_using_a_good_connection">Anda menggunakan koneksi yang baik</string>
+    <string name="you_are_using_a_slower_connection">Anda menggunakan koneksi yang lambat</string>
 
     <string name="selected">Terpilih</string>
-    <string name="failed_to_restore_the_backup">Failed to restore the backup</string>
+    <string name="failed_to_restore_the_backup">Gagal mengembalikan cadangan</string>
     <string name="restore_is_done">Mencadangkan pesan</string>
     <string name="failed_to_restore_the_backup_try">Tidak dapat mencadangkan pesan. Silakan coba lagi nanti.</string>
     <string name="please_wait_a_moment">Mohon tunggu sebentar</string>
     <string name="chats_title_tab">Chatting</string>
     <string name="contacts_title_tab">Kontak</string>
     <string name="calls_title_tab">Panggilan</string>
-    <string name="current_language">current</string>
+    <string name="current_language">saat ini</string>
 
     <string name="block_user_make_sure">Kontak terblokir tidak dapat lagi memanggil Anda atau mengirimi Anda pesan.</string>
-    <string name="unblock_user_make_sure">You will unblock this user ,so he will  be able to call you or send you messages .Are you sure ?</string>
+    <string name="unblock_user_make_sure">Anda akan membuka blokir pengguna ini, sehingga ia akan dapat menghubungi Anda atau mengirim pesan .are Anda yakin?</string>
     <string name="unblock_user">Blokir</string>
     <string name="title_blocked_contacts">Kontak terblokir</string>
     <string name="missed_video_call">Panggilan video tak terjawab</string>
@@ -424,8 +424,9 @@
     <string name="outgoing_video_call">Panggilan video keluar</string>
     <string name="outgoing_voice_call">Panggilan suara keluar</string>
 
-    <string name="invitation_from">Invitation from</string>
-    <string name="your_session_expired">Your Session is Expired</string>
+    <string name="invitation_from">undangan dari</string>
+    <string name="your_session_expired">Sesi Anda adalah Expired</string>
 
 </resources>
+
 
