@@ -394,9 +394,18 @@
     <string name="english">Английский</string>
     <string name="german">Немецкий</string>
     <string name="srbski">Сербский</string>
+    <string name="bosnisch">боснийский</string>
     <string name="romaneste">Румынский</string>
     <string name="french">Французский</string>
     <string name="turski">Турецкий</string>
+    <string name="tschechisch">чешский</string>
+    <string name="grichisch">греческий</string>
+    <string name="spanisch">испанский</string>
+    <string name="kroatisch">хорватский</string>
+    <string name="indonesisch">индонезийский</string>
+    <string name="mazedonisch">македонец</string>
+    <string name="rusisch">русский</string>
+    <string name="slovenisch">словенский</string>
     <string name="title_language">Язык приложения</string>
     <!--new strings-->
 
