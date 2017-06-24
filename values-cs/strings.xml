@@ -391,12 +391,21 @@
     <string name="splash_message"> Užijte si svůj čas, když používáte tuto chatovou aplikaci v reálném čase.</string>
     <string name="title_activity_privacy"><![CDATA[Ochrana údajů a podmínky]]></string>
     <string name="terms_and_privacy_policy">Ochrana údajů a podmínky</string>
-    <string name="english">English</string>
-    <string name="german">Deutsch</string>
-    <string name="srbski">Serbisch</string>
-    <string name="romaneste">Romänisch</string>
-    <string name="french">French</string>
-    <string name="turski">Turkisch</string>
+    <string name="english">Anglicky</string>
+    <string name="german">Německý</string>
+    <string name="srbski">Srbský</string>
+    <string name="bosnisch">Bosenština</string>
+    <string name="romaneste">Rumunský</string>
+    <string name="french">Francouzský</string>
+    <string name="turski">Turecký</string>
+    <string name="tschechisch">Česká</string>
+    <string name="grichisch">řecký</string>
+    <string name="spanisch">španělský</string>
+    <string name="kroatisch">Chorvatský</string>
+    <string name="indonesisch">Indonéský</string>
+    <string name="mazedonisch">Makedonština</string>
+    <string name="rusisch">Rusisch</string>
+    <string name="slovenisch">Slovinština</string>
     <string name="title_language">Jazyk aplikace</string>
     <!--new strings-->
 
