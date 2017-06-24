@@ -394,9 +394,18 @@
     <string name="english">İngilizce</string>
     <string name="german">Alman</string>
     <string name="srbski">Sırp</string>
+    <string name="bosnisch">Boşnakça</string>
     <string name="romaneste">Romen</string>
     <string name="french">Fransız</string>
     <string name="turski">Türkisch</string>
+    <string name="tschechisch">Çek</string>
+    <string name="grichisch">Yunan</string>
+    <string name="spanisch">İspanyolca</string>
+    <string name="kroatisch">Hırvat</string>
+    <string name="indonesisch">Endonezya</string>
+    <string name="mazedonisch">Makedonyalı</string>
+    <string name="rusisch">Rus</string>
+    <string name="slovenisch">Sloven</string>
     <string name="title_language">Uygulama Dili</string>
     <!--new strings-->
 
