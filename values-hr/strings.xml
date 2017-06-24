@@ -392,11 +392,20 @@
     <string name="title_activity_privacy"><![CDATA[Privatnost i Uvjeti]]></string>
     <string name="terms_and_privacy_policy">Uvjeti i pravila o privatnosti</string>
     <string name="english">Engleski</string>
-    <string name="german">Nemacki</string>
+    <string name="german">Njemački</string>
     <string name="srbski">Srbski</string>
+    <string name="bosnisch">Bosanski</string>
     <string name="romaneste">Rumunski</string>
-    <string name="french">Francuski</string>
+    <string name="french">Francuski </string>
     <string name="turski">Turski</string>
+    <string name="tschechisch">Češki</string>
+    <string name="grichisch">Grčki</string>
+    <string name="spanisch">Španski</string>
+    <string name="kroatisch">Hrvatski</string>
+    <string name="indonesisch">Indonezijski</string>
+    <string name="mazedonisch">Makedonski</string>
+    <string name="rusisch">Ruski</string>
+    <string name="slovenisch">Slovenski </string>
     <string name="title_language">Jezik</string>
     <!--new strings-->
 
