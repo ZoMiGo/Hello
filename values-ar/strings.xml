@@ -206,7 +206,7 @@
     <string name="message_notifications_settings_tone_silent">صامت</string>
     <string name="call_notifications_settings_tone_silent">صامت</string>
     <string name="connection_is_available">تم إيقاف النسخ الاحتياطي مؤقتاً. في انتظار الاتصال بالـ Wi-Fi للمتابعة لأن الإعدادات لديك لا تتيح إجراء نسخ احتياطي أثناء الاتصال بالإنترنت من خلال الشبكة الخلوية.</string>
-    <string name="connection_is_not_available">"عذراً، لم يتمكن واتساب من استكمال التهيئة. تأكد من أنك متصل بالإنترنت ثم حاول من جديد.</string>
+    <string name="connection_is_not_available">وكان مرحبا غير قادر على إكمال التكوين. تأكد من أن محاولة الإنترنت وتوصيلها لك.</string>
     <string name="select_one_at_least">"At least you must select one "</string>
     <string name="participants">المشاركون: %1$d من أصل %2$d</string>
     <string name="group_created_successfully">جاري إنشاء المجموعة...</string>
@@ -281,8 +281,8 @@
     <string name="delete_you_from_groups"><![CDATA[> Delete you from all groups]]></string>
     <string name="delete_all_your_messages"><![CDATA[> Delete all your messages (you can restore it if you have a backup)]]></string>
     <string name="delete_your_account"><![CDATA[> Deactivate your account]]></string>
-    <string name="deleting_your_account_will">تم حذف حساب واتساب الخاص بك.</string>
-    <string name="alert_message_delete_account">هل تريد استكمال حذف حسابك؟ لن تتمكن من التراجع عن هذا الإجراء فور القيام به! كما لن تتمكن من استعادة بياناتك إذا قمت بتفعيل حساب واتساب من جديد في المستقبل.</string>
+    <string name="deleting_your_account_will">حذف مرحبا بك - حساب.</string>
+    <string name="alert_message_delete_account">هل تريد إكمال حذف حسابك؟ لن تكون قادرا على التراجع عن هذا الإجراء مرة واحدة القيام به! لن تكون قادرة على استرداد البيانات الخاصة بك إذا قمت بتمكين مرحبا الحساب مرة أخرى في المستقبل.</string>
     <string name="delete_account_failed_please_try_later">تعذر حذف حسابك. الرجاء المحاولة لاحقاً.</string>
     <string name="unexpected_reponse_from_server">Unexpected response from the server</string>
     <string name="you_send_messages">أنت لم تعد مشاركاً.</string>
@@ -297,3 +297,134 @@
     <string name="you_cannot_delete_your_account_please_contac">تعذر حذف حسابك. الرجاء المحاولة لاحقاً.</string>
 
     <!--Directories strings-->
+
+    <string name="profile_photos">الصورة الشخصية لجهة الاتصال</string>
+    <string name="images_directory">صور</string>
+    <string name="data_cache_directory">جاري البحث عن نسخ احتياطي</string>
+    <string name="videos_directory">مقاطع فيديو</string>
+    <string name="audios_directory">مقطع صوتي</string>
+    <string name="documents_directory">مستند</string>
+    <string name="images_other_directory">إرفاق الوسائط</string>
+    <string name="directory_wallpaper">خلفية الشاشة</string>
+    <string name="directory_sent">تم التسليم</string>
+    <string name="video_thumbnail">Thumbnail</string>
+    <string name="image_saved">Image Saved</string>
+    <string name="save_to_gallery">تم حفظ الصورة في المعرض</string>
+    <string name="share_or_save">Share Or Save</string>
+    <string name="shareItem">share</string>
+    <string name="this_message_empty">This message is empty</string>
+    <string name="share_message">مشاركة</string>
+    <string name="you_can_share_more_then_one">You can\'t share more than one item</string>
+    <!--others -->
+    <string name="add_to_you_contact">ADD THIS PERSON TO YOUR CONTACTS </string>
+    <string name="status_and_phone">الحالة والهاتف</string>
+    <string name="failed_to_the_current_status">Failed to get current status</string>
+    <string name="please_enter_your_mobile_number">Please enter your mobile number</string>
+    <string name="verify_mobile">تأكد</string>
+    <string name="firstly_select_your_country_here">اختر دولة</string>
+    <string name="activity_backup_drive_success">انتهى النسخ الاحتياطي</string>
+    <string name="activity_backup_drive_failed">تعذر إتمام النسخ الاحتياطي</string>
+    <string name="activity_backup_drive_message_restart">Restarting backup</string>
+    <string name="restore_data">استعادة</string>
+    <string name="please_click_on_restore_button_to_restore_your_messages">Please click on start button to restore your Messages</string>
+    <string name="backup">نسخ احتياطي</string>
+    <string name="chat_backup">Chat backup</string>
+    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Back up your messages .You can restore them when you reinstall the application.</string>
+    <string name="back_up">نسخ احتياطي</string>
+    <string name="start_backing_up">Start backing up</string>
+    <string name="start_restore">Start restore Or skip</string>
+    <string name="start">Start</string>
+    <string name="skip">Skip</string>
+    <string name="finish">Finish</string>
+
+    <!-- Rate Strings -->
+    <string name="rate_title">Rate %s</string>
+    <string name="rate_message">If you enjoy using %s, would you mind taking a moment to rate it? Thanks for your support!</string>
+    <string name="rate">Yes, Rate %s</string>
+    <string name="rate_later">Remind me later</string>
+    <string name="rate_cancel">No, Thanks</string>
+    <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="update">YES, تحديث %s</string>
+    <string name="update_title">تحديث %s</string>
+    <string name="update_app">تحديث ?</string>
+    <string name="update_app_message">هناك إصدار جديد من مرحبا، وتريد الآن لتثبيت؟</string>
+    <string name="update_message_complete">وقد أصبح هذا الإصدار من مرحبا قديمة جدا وسوف لم تعد تعمل. يرجى الدخول إلى متجر Play، أحدث نسخة من التطبيق لتحميل.</string>
+    <string name="please_select_y_country">اختر دولة</string>
+    <string name="permission_alert">لإرسال جهة اتصال يجب السماح لواتساب بالوصول إلى جهات الاتصال لديك.</string>
+    <string name="permission_alert_msg">لإرسال جهة اتصال يجب السماح لواتساب بالوصول إلى جهات الاتصال لديك. انقر على الإعدادات > الأذونات وقم بتشغيل جهات الاتصال.</string>
+    <!--calls strings-->
+    <string name="incoming_call">مكالمة صوتية واردة </string>
+    <string name="incoming_call_from">مكالمة صوتية</string>
+    <string name="call_ended">إنهاء المكالمة الصوتية</string>
+    <string name="calling">جاري الاتصال</string>
+    <string name="clear_log_call">مسح سجل المكالمات</string>
+    <string name="new_call">مكالمة جديدة</string>
+    <string name="you_couldnt_call_this_user">تعذر إجراء المكالمة. تأكد أن هاتفك متصل بالإنترنت وحاول مجدداً.</string>
+    <string name="fake_name">- - -</string>
+    <string name="mobile">"Mobile: "</string>
+    <string name="click_to_make_an_action">اسحب للرد</string>
+    <string name="voice_call">مكالمة صوتية</string>
+    <string name="video_call">مكالمة فيديو</string>
+    <string name="call_history">History</string>
+    <string name="title_calls">معلومات المكالمة</string>
+    <string name="remove_from_log">حذف من سجل المكالمات</string>
+    <string name="block_user">حظر</string>
+    <string name="delete_call_dialog">حذف …</string>
+    <string name="call_select_voice">مكالمة صوتية</string>
+    <string name="call_select_video">مكالمة فيديو</string>
+    <string name="you_couldnt_call_this_user_network">تأكد من اتصال هاتفك بالإنترنت ثم حاول مجدداً.</string>
+    <string name="you_couldnt_call">Couldn\'t place call</string>
+    <string name="duration">Duration</string>
+    <string name="close">إنهاء‏ ‏المكالمة</string>
+    <string name="open">فتح</string>
+    <string name="about_title">حول</string>
+    <string name="page_not_found">Page Not Found</string>
+    <string name="default_wallpaper">الافتراضي</string>
+    <string name="wallpaper_gallery">المعرض</string>
+    <string name="wallpaper_is_set">تم تعيين الخلفية</string>
+    <string name="you_can_copy_more_then_one">You can\'t copy more than one item</string>
+    <string name="documents">المستندات</string>
+    <string name="links">روابط</string>
+    <string name="this_a_pdf_file_document">PDF مستند</string>
+    <string name="fetching_urls_preview">Fetching …</string>
+    <string name="splash_message"> Enjoy your time while you are using this \"real-time\" chat application .</string>
+    <string name="title_activity_privacy"><![CDATA[الشروط وسياسة الخصوصية]]></string>
+    <string name="terms_and_privacy_policy">الشروط وسياسة الخصوصية</string>
+    <string name="english">English</string>
+    <string name="german">Deutsch</string>
+    <string name="srbski">Serbisch</string>
+    <string name="romaneste">Romänisch</string>
+    <string name="french">French</string>
+    <string name="turski">Turkisch</string>
+    <string name="title_language">لغة التطبيق</string>
+    <!--new strings-->
+
+    <string name="you_need_to_restart_the_application">You need to restart the application</string>
+    <string name="you_are_using_a_moderate_connection">You are using a moderate connection</string>
+    <string name="you_are_using_a_poor_connection">You are using a poor connection</string>
+    <string name="you_are_using_a_good_connection">You are using a good connection</string>
+    <string name="you_are_using_a_slower_connection">You are using a slow connection</string>
+
+    <string name="selected">محددة</string>
+    <string name="failed_to_restore_the_backup">Failed to restore the backup</string>
+    <string name="restore_is_done">جاري حفظ نسخة احتياطية للرسائل</string>
+    <string name="failed_to_restore_the_backup_try">تعذر إجراء نسخ احتياطي للرسائل. الرجاء المحاولة لاحقاً.</string>
+    <string name="please_wait_a_moment">الرجاء الانتظار لحظة</string>
+    <string name="chats_title_tab">الدردشات</string>
+    <string name="contacts_title_tab">جهات الاتصال</string>
+    <string name="calls_title_tab">المكالمات</string>
+    <string name="current_language">current</string>
+
+    <string name="block_user_make_sure">هل تريد حظر %s؟ لن تتمكن جهات الاتصال المحظورة من مكالمتك أو حتى مراسلتك.</string>
+    <string name="unblock_user_make_sure">You will unblock this user ,so he will  be able to call you or send you messages .Are you sure ?</string>
+    <string name="unblock_user">حظر</string>
+    <string name="title_blocked_contacts">جهات الاتصال المحظورة</string>
+    <string name="missed_video_call">مكالمة فيديو فائتة</string>
+    <string name="missed_voice_call">مكالمة صوتية فائتة</string>
+    <string name="outgoing_video_call">مكالمة فيديو صادرة</string>
+    <string name="outgoing_voice_call">مكالمة صوتية صادرة</string>
+
+    <string name="invitation_from">Invitation from</string>
+    <string name="your_session_expired">Your Session is Expired</string>
+
+</resources>
