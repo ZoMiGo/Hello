@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HELLO</string>
+    <string name="Hello_get" >Merhaba HELLO APP yüzden kolayca birbirinden ile sohbet edebilirsiniz olsun!</string>
+    <string name="Hi_there" >Merhaba! Ben kullanarak HELLO </string>
+
+
+    <!-- Date format -->
+    <string name="date_format_today">HH:mm</string>
+    <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
+    <string name="date_format_yesterday">>أمس</string>
+    <string name="date_format">dd/MM/yy</string>
+
+    <string name="action_settings">الإعدادات</string>
+    <string name="title_home">Home</string>
+    <string name="title_Friends">Friends</string>
+    <string name="title_conversations">الدردشات</string>
+    <string name="title_settings">الإعدادات</string>
+    <string name="title_feed_back"><![CDATA[المساعدة وحول واتساب]]></string>
+    <string name="more">معرفة المزيد</string>
+    <string name="title_sign_out">تسجيل الخروج</string>
+    <string name="selected_count">%1$s محددة</string>
+    <!-- icons -->
+    <string name="icon_no_calls">\ue830</string>
+    <string name="icon_crash">\ue840</string>
+    <string name="icon_update">\ue865</string>
+    <string name="icon_no_contacts">\ue82b</string>
+    <string name="icon_no_conversations">\ue818</string>
+    <string name="icon_menu_home">\ue800</string>
+    <string name="icon_menu_chat_on">\ue83f</string>
+    <string name="icon_menu_entertainment">\ue824</string>
+    <string name="icon_menu_news">\ue853</string>
+    <string name="icon_menu_shopping">\ue82e</string>
+    <string name="icon_menu_my_profile">\ue82a</string>
+    <string name="icon_menu_settings">\ue810</string>
+    <string name="icon_menu_help_feedback">\ue87d</string>
+    <string name="icon_menu_about_us">\ue87c</string>
+    <string name="icon_menu_share">\ue84b</string>
+    <string name="icon_menu_edit">\ue802</string>
+
+    <!--end icons -->
+    <string name="number">رقم الهاتف الجديد</string>
+    <string name="NoMessages">There\'s no conversations yet, you may start one now</string>
+    <string name="NoCalls">لا توجد مكالمات</string>
+    <string name="error_response">Unable to update.</string>
+    <string name="NoContacts">There is no contacts .Please try again later or add new one</string>
+    <string name="type_msg">اكتب رسالة</string>
+    <string name="NoResult">Nothing</string>
+    <string name="error_response_contacts">Unable to update your contacts.</string>
+    <string name="error_response_conversations">Unable to update conversations.</string>
+    <string name="error_response_groups">Unable to update groups.</string>
+    <string name="error_response_messages">Unable to update messages.</string>
+    <string name="name_is_too_short">the name is too short</string>
+    <string name="select_picture">select an image</string>
+    <string name="new_group">مجموعة جديدة</string>
+    <string name="starred_messages">الرسائل المميزة بنجمة</string>
+    <string name="status">حالتك الحالية</string>
+    <string name="settings">الإعدادات</string>
