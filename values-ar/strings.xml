@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">HELLO</string>
-    <string name="Hello_get" >Merhaba HELLO APP yüzden kolayca birbirinden ile sohbet edebilirsiniz olsun!</string>
-    <string name="Hi_there" >Merhaba! Ben kullanarak HELLO </string>
+    <string name="Hello_get" >مرحبا HELLO APP الحصول بسهولة حتى تتمكن من الدردشة مع بعضها البعض!</string>
+    <string name="Hi_there" >HELLO مرحبا هناك! يمكنني استخدام</string>
 
 
     <!-- Date format -->
