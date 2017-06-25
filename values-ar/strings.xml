@@ -40,10 +40,10 @@
 
     <!--end icons -->
     <string name="number">رقم الهاتف الجديد</string>
-    <string name="NoMessages">There\'s no conversations yet, you may start one now</string>
+    <string name="NoMessages">لا توجد محادثات حتى الآن، يمكنك البدء الآن</string>
     <string name="NoCalls">لا توجد مكالمات</string>
-    <string name="error_response">Unable to update.</string>
-    <string name="NoContacts">There is no contacts .Please try again later or add new one</string>
+    <string name="error_response">تعذر التحديث.</string>
+    <string name="NoContacts">لا توجد جهات اتصال. الرجاء إعادة المحاولة لاحقا أو إضافة جهة اتصال جديدة</string>
     <string name="type_msg">اكتب رسالة</string>
     <string name="NoResult">Nothing</string>
     <string name="error_response_contacts">Unable to update your contacts.</string>
@@ -276,15 +276,15 @@
     <string name="call_notifications_settings_vibrate_on">اهتزاز On</string>
     <string name="enjoy_it">Enjoy it</string>
     <string name="app_version">"Version "</string>
-    <string name="to_delete_your_account_from_confirm_your_phone_number">to delete your account, you need to confirm your phone number</string>
-    <string name="delete_user_account">DELETE MY ACCOUNT</string>
-    <string name="delete_you_from_groups"><![CDATA[> Delete you from all groups]]></string>
-    <string name="delete_all_your_messages"><![CDATA[> Delete all your messages (you can restore it if you have a backup)]]></string>
-    <string name="delete_your_account"><![CDATA[> Deactivate your account]]></string>
+    <string name="to_delete_your_account_from_confirm_your_phone_number">لحذف حسابك، تحتاج إلى تأكيد رقم هاتفك</string>
+    <string name="delete_user_account">احذف حسابي</string>
+    <string name="delete_you_from_groups"><![CDATA[> حذفك من جميع المجموعات]]></string>
+    <string name="delete_all_your_messages"><![CDATA[> حذف جميع الرسائل (يمكنك استعادتها إذا كان لديك نسخة احتياطية)]]></string>
+    <string name="delete_your_account"><![CDATA[> الغاء تفعيل حسابك]]></string>
     <string name="deleting_your_account_will">حذف مرحبا بك - حساب.</string>
     <string name="alert_message_delete_account">هل تريد إكمال حذف حسابك؟ لن تكون قادرا على التراجع عن هذا الإجراء مرة واحدة القيام به! لن تكون قادرة على استرداد البيانات الخاصة بك إذا قمت بتمكين مرحبا الحساب مرة أخرى في المستقبل.</string>
     <string name="delete_account_failed_please_try_later">تعذر حذف حسابك. الرجاء المحاولة لاحقاً.</string>
-    <string name="unexpected_reponse_from_server">Unexpected response from the server</string>
+    <string name="unexpected_reponse_from_server">استجابة غير متوقعة من الخادم</string>
     <string name="you_send_messages">أنت لم تعد مشاركاً.</string>
     <string name="file">File</string>
     <string name="waiting_for_network">الشبكة غير متاحة. الرجاء المحاولة لاحقاً.</string>
@@ -308,11 +308,11 @@
     <string name="directory_wallpaper">خلفية الشاشة</string>
     <string name="directory_sent">تم التسليم</string>
     <string name="video_thumbnail">Thumbnail</string>
-    <string name="image_saved">Image Saved</string>
+    <string name="image_saved">تم حفظ الصورة</string>
     <string name="save_to_gallery">تم حفظ الصورة في المعرض</string>
-    <string name="share_or_save">Share Or Save</string>
-    <string name="shareItem">share</string>
-    <string name="this_message_empty">This message is empty</string>
+    <string name="share_or_save">مشاركة أو حفظ</string>
+    <string name="shareItem">شارك</string>
+    <string name="this_message_empty">هذه الرسالة فارغة</string>
     <string name="share_message">مشاركة</string>
     <string name="you_can_share_more_then_one">You can\'t share more than one item</string>
     <!--others -->
@@ -339,7 +339,7 @@
 
     <!-- Rate Strings -->
     <string name="rate_title">Rate %s</string>
-    <string name="rate_message">If you enjoy using %s, would you mind taking a moment to rate it? Thanks for your support!</string>
+    <string name="rate_message">إذا كنت تتمتع باستخدام %s,، هل تمانع في اتخاذ لحظة لتقييم ذلك؟ شكرا لدعمك!</string>
     <string name="rate">Yes, Rate %s</string>
     <string name="rate_later">Remind me later</string>
     <string name="rate_cancel">No, Thanks</string>
@@ -361,11 +361,11 @@
     <string name="new_call">مكالمة جديدة</string>
     <string name="you_couldnt_call_this_user">تعذر إجراء المكالمة. تأكد أن هاتفك متصل بالإنترنت وحاول مجدداً.</string>
     <string name="fake_name">- - -</string>
-    <string name="mobile">"Mobile: "</string>
+    <string name="mobile">"التليفون المحمول: "</string>
     <string name="click_to_make_an_action">اسحب للرد</string>
     <string name="voice_call">مكالمة صوتية</string>
     <string name="video_call">مكالمة فيديو</string>
-    <string name="call_history">History</string>
+    <string name="call_history">التاريخ</string>
     <string name="title_calls">معلومات المكالمة</string>
     <string name="remove_from_log">حذف من سجل المكالمات</string>
     <string name="block_user">حظر</string>
@@ -373,8 +373,8 @@
     <string name="call_select_voice">مكالمة صوتية</string>
     <string name="call_select_video">مكالمة فيديو</string>
     <string name="you_couldnt_call_this_user_network">تأكد من اتصال هاتفك بالإنترنت ثم حاول مجدداً.</string>
-    <string name="you_couldnt_call">Couldn\'t place call</string>
-    <string name="duration">Duration</string>
+    <string name="you_couldnt_call">تعذر إجراء المكالمة</string>
+    <string name="duration">المدة الزمنية</string>
     <string name="close">إنهاء‏ ‏المكالمة</string>
     <string name="open">فتح</string>
     <string name="about_title">حول</string>
@@ -382,12 +382,12 @@
     <string name="default_wallpaper">الافتراضي</string>
     <string name="wallpaper_gallery">المعرض</string>
     <string name="wallpaper_is_set">تم تعيين الخلفية</string>
-    <string name="you_can_copy_more_then_one">You can\'t copy more than one item</string>
+    <string name="you_can_copy_more_then_one">لا يمكنك نسخ أكثر من عنصر واحد</string>
     <string name="documents">المستندات</string>
     <string name="links">روابط</string>
     <string name="this_a_pdf_file_document">PDF مستند</string>
-    <string name="fetching_urls_preview">Fetching …</string>
-    <string name="splash_message"> Enjoy your time while you are using this \"real-time\" chat application .</string>
+    <string name="fetching_urls_preview">جلب …</string>
+    <string name="splash_message"> استمتع وقتك أثناء استخدام هذا \ "الوقت الحقيقي \" تطبيق الدردشة.</string>
     <string name="title_activity_privacy"><![CDATA[الشروط وسياسة الخصوصية]]></string>
     <string name="terms_and_privacy_policy">الشروط وسياسة الخصوصية</string>
     <string name="english">English</string>
