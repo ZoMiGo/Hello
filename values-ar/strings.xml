@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">HELLO</string>
-    <string name="Hello_get" >مرحبا مرحبا الحصول بسهولة حتى تتمكن من الدردشة مع بعضها البعض!</string>
-    <string name="Hi_there" >مرحبا مرحبا هناك! يمكنني استخدام</string>
+    <string name="Hello_get" >مرحبا HELLO APP الحصول بسهولة حتى تتمكن من الدردشة مع بعضها البعض!</string>
+    <string name="Hi_there" >HELLO مرحبا هناك! يمكنني استخدام</string>
 
 
     <!-- Date format -->
@@ -188,3 +188,112 @@
     <string name="message_font_size">حجم الخط</string>
     <string name="message_font_size_summary">حجم الخط في شاشة الدردشة</string>
     <string name="wallpaper">خلفية الشاشة</string>
+    <string name="conversation_tones_off">تشغيل الأصوات للرسائل الواردة والصادرة.</string>
+    <string name="message_notifications_settings">Message bildirimleri</string>
+    <string name="notifications_settings_tone">نغمة الإشعارات</string>
+    <string name="default_settings">الافتراضي</string>
+    <string name="message_notifications_settings_vibrate">اهتزاز</string>
+    <string name="message_notifications_settings_light">وميض</string>
+    <string name="call_notifications_settings_vibrate">اهتزاز</string>
+    <string name="call_notifications_settings_light">وميض</string>
+    <string name="conversation_tones">نغمة الإشعارات</string>
+    <string name="message_group_notifications_settings">إشعارات المجموعات</string>
+    <string name="title_activity_delete_account">حذف الحساب</string>
+    <string name="title_activity_change_number">تغيير الرقم</string>
+    <string name="title_activity_account_settings">الحساب</string>
+    <string name="call_notifications_settings">إشعارات المكالمات</string>
+    <string name="call_ringtone">نغمة الرنين</string>
+    <string name="message_notifications_settings_tone_silent">صامت</string>
+    <string name="call_notifications_settings_tone_silent">صامت</string>
+    <string name="connection_is_available">تم إيقاف النسخ الاحتياطي مؤقتاً. في انتظار الاتصال بالـ Wi-Fi للمتابعة لأن الإعدادات لديك لا تتيح إجراء نسخ احتياطي أثناء الاتصال بالإنترنت من خلال الشبكة الخلوية.</string>
+    <string name="connection_is_not_available">"عذراً، لم يتمكن واتساب من استكمال التهيئة. تأكد من أنك متصل بالإنترنت ثم حاول من جديد.</string>
+    <string name="select_one_at_least">"At least you must select one "</string>
+    <string name="participants">المشاركون: %1$d من أصل %2$d</string>
+    <string name="group_created_successfully">جاري إنشاء المجموعة...</string>
+    <string name="create_group_failed">تعذر الإنشاء. انقر للمحاولة مجدداً.</string>
+    <string name="please_choose_an_avatar">تعيين الصورة كأيقونة للمجموعة</string>
+    <string name="slide_to_cancel_audio">اسحب للرفض</string>
+    <string name="message_is_copied">تم نسخ الرسالة</string>
+    <string name="of">" of "</string>
+    <string name="failed_upload_image">تعذر تحميل هذه الصورة، الرجاء المحاولة لاحقاً.</string>
+
+    <!--group adapters start -->
+    <string name="exit_group">خروج \"</string>
+    <string name="group_ex">\" grup?</string>
+    <string name="exiting_group_dialog">الخروج من المجموعة … </string>
+    <string name="deleting_group_dialog">جاري الحذف...</string>
+    <string name="created_by_you_at">group_created_by_you</string>
+    <string name="created_by">"Created by "</string>
+    <string name="group_at">at</string>
+    <string name="failed_to_delete_this_group_check_connection">تعذر إنهاء هذه المجموعة. الرجاء المحاولة مجدداً.</string>
+    <string name="failed_to_exit_this_group_check_connection">تعذرت مغادرة المجموعة. الرجاء المحاولة مجدداً.</string>
+    <string name="adding_new_status">حالة جديدة</string>
+    <string name="add_to_group">إضافة</string>
+    <string name="member_to_group">" member to group"</string>
+    <string name="adding_member">" Adding member … "</string>
+    <string name="failed_to_add_member_to_group">تعذرت إضافة المشارك. الرجاء المحاولة مجدداً.</string>
+    <string name="you">أنت</string>
+    <!--group member options start -->
+    <string name="message_group_option">"رسالة"</string>
+    <string name="view_group_option">"view "</string>
+    <string name="make_admin_group_option"> an admin</string>
+    <string name="make_member_group_option"> member</string>
+    <string name="make_group_option"> Make </string>
+    <string name="remove_group_option">"إزالة "</string>
+    <!--group member options end -->
+    <string name="remove_from_group">"إزالة"</string>
+    <string name="from_group">" from group"</string>
+    <string name="deleting_group">"تمت إزالتك"</string>
+    <string name="failed_to_make_member_as_admin">لا يمكنك تغيير المشرفين لأنك لست مشرفاً.</string>
+    <string name="failed_to_remove_member">تعذرت إزالة المشارك. الرجاء المحاولة مجدداً.</string>
+    <!--group adapters end -->
+    <!--conversations and messages  adapters start-->
+    <string name="tap_to_create_group">Tap to create this group</string>
+    <string name="you_created_this_group">You created  this group</string>
+    <string name="he_created_this_group">" created  this group"</string>
+    <string name="you_left">You left</string>
+    <string name="he_left">" left"</string>
+    <string name="document">documents</string>
+    <string name="no_application_to_show_image">"No Application Available to  show image "</string>
+    <string name="no_application_to_view_pdf">No Application Available to View PDF</string>
+    <string name="no_application_to_send_sms">No Application Available to Send SMS</string>
+    <!--conversations and messages adapters start-->
+    <string name="transfer_message_to">"Transfer  message or Share content to "</string>
+    <string name="no_app_to_play_video">"No Application Available to play video "</string>
+    <string name="no_app_to_play_audio">"No Application Available to play audio "</string>
+    <string name="delete_all_status_dialog">حذف جميع الدردشات</string>
+    <string name="deleting">Deleting...</string>
+    <string name="updating_status">جاري نشر الحالة...</string>
+    <string name="your_status_updated_successfully">تم حذف الحالة</string>
+
+
+    <string name="reply_message">رد</string>
+
+
+    <string name="message_notifications_settings_vibrate_off">اهتزاز Off</string>
+    <string name="message_notifications_settings_vibrate_on">اهتزاز On</string>
+    <string name="call_notifications_settings_vibrate_off">اهتزاز Off</string>
+    <string name="call_notifications_settings_vibrate_on">اهتزاز On</string>
+    <string name="enjoy_it">Enjoy it</string>
+    <string name="app_version">"Version "</string>
+    <string name="to_delete_your_account_from_confirm_your_phone_number">to delete your account, you need to confirm your phone number</string>
+    <string name="delete_user_account">DELETE MY ACCOUNT</string>
+    <string name="delete_you_from_groups"><![CDATA[> Delete you from all groups]]></string>
+    <string name="delete_all_your_messages"><![CDATA[> Delete all your messages (you can restore it if you have a backup)]]></string>
+    <string name="delete_your_account"><![CDATA[> Deactivate your account]]></string>
+    <string name="deleting_your_account_will">تم حذف حساب واتساب الخاص بك.</string>
+    <string name="alert_message_delete_account">هل تريد استكمال حذف حسابك؟ لن تتمكن من التراجع عن هذا الإجراء فور القيام به! كما لن تتمكن من استعادة بياناتك إذا قمت بتفعيل حساب واتساب من جديد في المستقبل.</string>
+    <string name="delete_account_failed_please_try_later">تعذر حذف حسابك. الرجاء المحاولة لاحقاً.</string>
+    <string name="unexpected_reponse_from_server">Unexpected response from the server</string>
+    <string name="you_send_messages">أنت لم تعد مشاركاً.</string>
+    <string name="file">File</string>
+    <string name="waiting_for_network">الشبكة غير متاحة. الرجاء المحاولة لاحقاً.</string>
+    <string name="failed_exit_group">تعذر الخروج من المجموعة. انقر للمحاولة مجدداً.</string>
+    <string name="this_video_is_not_exist">هذا الفيديو غير متوفر لوجود خلل ما في الملف المرئي.</string>
+    <string name="this_image_is_not_exist">تعذر تحميل هذه الصورة، الرجاء المحاولة لاحقاً.</string>
+    <string name="this_audio_is_not_exist">المقطع الصوتي هذا غير متوفر لوجود خلل ما فيه.</string>
+    <string name="this_document_is_not_exist">لم يتم العثور على مستندات</string>
+    <string name="account_added_already">" Account is added already "</string>
+    <string name="you_cannot_delete_your_account_please_contac">تعذر حذف حسابك. الرجاء المحاولة لاحقاً.</string>
+
+    <!--Directories strings-->
