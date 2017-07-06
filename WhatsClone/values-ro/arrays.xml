@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="message_font_size_names">
+        <item>Mic</item>
+        <item>Mijloace</item>
+        <item>Mare</item>
+    </string-array>
+
+
+    <string-array name="message_font_size_values">
+        <item>14</item>
+        <item>18</item>
+        <item>22</item>
+    </string-array>
+
+
+
+    <string-array name="light_names">
+        <item>Albastru</item>
+        <item>Alb</item>
+        <item>Roșu</item>
+        <item>galben</item>
+        <item>Verde</item>
+        <item>Cyan</item>
+        <item>Metalic</item>
+    </string-array>
+
+
+    <string-array name="light_values">
+
+        <item>#03A9F4</item>
+        <item>#ffffff</item>
+        <item>#f11409</item>
+        <item>#EEFF41</item>
+        <item>#0EC654</item>
+        <item>#00FFFF</item>
+        <item>#0A7E8C</item>
+    </string-array>
+
+
+    <string-array name="shopTitle">
+        <item>Amazon India</item>
+        <item>Flipkart</item>
+        <item>Snapdeal</item>
+        <item>abof</item>
+        <item>Myntra</item>
+        <item>Jabong</item>
+        <item>First Cry</item>
+        <item>Hopscotch</item>
+        <item>Zivame</item>
+        <item>Paytm</item>
+        <item>ShopClues</item>
+        <item>TATA CLiQ</item>
+    </string-array>
+
+    <string-array name="shopHolder">
+        <item>amazon</item>
+        <item>flipkart</item>
+        <item>snapdeal</item>
+        <item>abof</item>
+        <item>myntra</item>
+        <item>jabong</item>
+        <item>firstcry</item>
+        <item>hopscotch</item>
+        <item>zivame</item>
+        <item>paytm</item>
+        <item>shopclues</item>
+        <item>tatacliq</item>
+    </string-array>
+
+
+    <string-array name="shopImage">
+        <item>http://i.imgur.com/XqQypN1.png</item>
+        <item>http://i.imgur.com/y4uMKDw.png</item>
+        <item>http://i.imgur.com/UJKIuBV.png</item>
+        <item>http://i.imgur.com/dZCpxs6.png</item>
+        <item>http://i.imgur.com/odFySNu.png</item>
+        <item>http://i.imgur.com/x6LOTf9.png</item>
+        <item>http://i.imgur.com/W1qplOC.png</item>
+        <item>http://i.imgur.com/jslO5ly.png</item>
+        <item>http://i.imgur.com/zXQ8WR0.png</item>
+        <item>http://i.imgur.com/TaZL03r.png</item>
+        <item>http://i.imgur.com/GeH72Ik.png</item>
+        <item>http://i.imgur.com/2XYB1Vw.png</item>
+    </string-array>
+
+    <string-array name="shopUrl">
+        <item>https://www.amazon.in/ref=as_li_ss_tl?ie=UTF8&amp;tag=&amp;linkCode=sl2&amp;tag=frndsfunmaza-21</item>
+        <item>https://www.flipkart.com/?affid=frndsfunm</item>
+        <item>https://m.snapdeal.com/</item>
+        <item>https://www.abof.com/</item>
+        <item>http://www.myntra.com/</item>
+        <item>http://m.jabong.com/</item>
+        <item>http://www.firstcry.com/m/</item>
+        <item>https://www.hopscotch.in/</item>
+        <item>http://www.zivame.com</item>
+        <item>https://paytm.com/</item>
+        <item>http://m.shopclues.com/</item>
+        <item>https://www.tatacliq.com/</item>
+    </string-array>
+
+</resources>
