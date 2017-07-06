@@ -41,37 +41,6 @@
     </string-array>
 
 
-    <string-array name="shopTitle">
-        <item>Amazon India</item>
-        <item>Flipkart</item>
-        <item>Snapdeal</item>
-        <item>abof</item>
-        <item>Myntra</item>
-        <item>Jabong</item>
-        <item>First Cry</item>
-        <item>Hopscotch</item>
-        <item>Zivame</item>
-        <item>Paytm</item>
-        <item>ShopClues</item>
-        <item>TATA CLiQ</item>
-    </string-array>
-
-    <string-array name="shopHolder">
-        <item>amazon</item>
-        <item>flipkart</item>
-        <item>snapdeal</item>
-        <item>abof</item>
-        <item>myntra</item>
-        <item>jabong</item>
-        <item>firstcry</item>
-        <item>hopscotch</item>
-        <item>zivame</item>
-        <item>paytm</item>
-        <item>shopclues</item>
-        <item>tatacliq</item>
-    </string-array>
-
-
     <string-array name="shopImage">
         <item>http://i.imgur.com/XqQypN1.png</item>
         <item>http://i.imgur.com/y4uMKDw.png</item>
