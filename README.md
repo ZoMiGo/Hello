@@ -7,12 +7,13 @@ Send photos ,audio notes and videos on HELLO instantly. You can even capture the
 
 Language Translation for HELLO
 This Language Files are Compatible with WhatsClone
-
------------------------------------------------------------------------------------------------------
 Go to  AppConstants.java
-find line 26 and replace it with:      
+find line 26 and replace it with: 
+
+-----------------------------------------------------------------------------------------------------     
 public static final String INVITE_MESSAGE_SMS = ""+ WhatscloneApplication.getInstance().getString(R.string.Hello_get);// this is the sms to invite  friends
 ----------------------------------------------------------------------------------------------------------
+
 
 WhatsClone
 https://codecanyon.net/item/whatsclone-with-socket/17553421
