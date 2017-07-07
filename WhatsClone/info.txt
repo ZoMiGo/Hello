@@ -2,5 +2,5 @@ This are the Language Files for Whatsclone Last Upgrade 06.07.2016
 #
 Go to  AppConstants.java
 find line 26 and replace it with:      
-public static final String INVITE_MESSAGE_SMS = ""+ helloApplication.getInstance().getString(R.string.Hello_get);// this is the sms to invite  friends
+public static final String INVITE_MESSAGE_SMS = ""+ WhatsCloneApplication.getInstance().getString(R.string.Hello_get);// this is the sms to invite  friends
 
