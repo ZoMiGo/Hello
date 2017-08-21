@@ -15,12 +15,9 @@ public static final String INVITE_MESSAGE_SMS = ""+ WhatscloneApplication.getIns
 ----------------------------------------------------------------------------------------------------------
 
 
-WhatsClone
-https://codecanyon.net/item/whatsclone-with-socket/17553421
-
 
 Facebook Group
-https://www.facebook.com/groups/232275507273584/
+https://www.facebook.com/globcast.eu/
 
 Download HELLO APP from Google Play Store
 https://play.google.com/store/apps/details?id=com.globcast.hello
