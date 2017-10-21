@@ -178,7 +178,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
         });
         FilipinoBtn.setOnClickListener(view -> {
             if (indicatorFilipino.getVisibility() == View.GONE) {
-                ChangeLanguage("b+phi", null);
+                ChangeLanguage("phi", null);
             }
         });
         loadLocale();
@@ -614,7 +614,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorTschechisch.setVisibility(View.GONE);
                 indicatorFilipino.setVisibility(View.GONE);
                 break;
-            case "b+phi":
+            case "phi":
                 indicatorFilipino.setVisibility(View.VISIBLE);
                 indicatorChinese.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
