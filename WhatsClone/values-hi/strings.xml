@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" >हैलो मेसेंजर</string>
+    <string name="splash_message">यह एप्लिकेशन आपको अपने दोस्तों के साथ वास्तविक समय चैट करने की अनुमति देता है, आप अपने फ़ोन नंबर के साथ पंजीकरण कर सकते हैं।</string>
+
     <!-- Date format -->
     <string name="date_format_today">HH:mm</string>
     <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
@@ -447,5 +449,3 @@
     <string name="messages_from_notify">से संदेश</string>
     <string name="chats_notify">चैट</string>
 </resources>
-
-
