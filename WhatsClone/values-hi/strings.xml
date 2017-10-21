@@ -128,20 +128,20 @@
     <string name="get_accounts_permission">खाता अनुमति प्राप्त करें</string>
     <string name="write_sync_settings_permission">खाता अनुमति प्राप्त करें</string>
     <string name="read_sync_settings_permission">खाता अनुमति प्राप्त करें</string>
-    <string name="camera_permission_message">Camera permission allows you to take pictures and capture videos. Please allow in App Settings for additional functionality.</string>
-    <string name="record_audio_permission_message">Record audio permission allows you to  record audios. Please allow in App Settings for additional functionality.</string>
-    <string name="settings_audio_permission_message">Modify audio permission allows us access to your audios. Please allow in App Settings for additional functionality.</string>
-    <string name="write_storage_permission_message">Write External permission allows us  access to your media. Please allow in App Settings for additional functionality.</string>
-    <string name="read_storage_permission_message">Read External permission allows us to read your media. Please allow in App Settings for additional functionality.</string>
-    <string name="read_contacts_permission_message">Read Contacts permission allows us to read your contacts. Please allow in App Settings for additional functionality.</string>
-    <string name="write_contacts_permission_message">Write Contacts permission allows you access to your contacts. Please allow in App Settings for additional functionality.</string>
-    <string name="vibrate_permission_message">Vibrate permission . Please allow in App Settings for additional functionality.</string>
-    <string name="receive_sms_permission_message">Receive sms permission allows you  to receive SMS messages. Please allow in App Settings for additional functionality.</string>
-    <string name="read_sms_permission_message">Read sms permission allows us access to your SMS messages. Please allow in App Settings for additional functionality.</string>
-    <string name="call_phone_permission_message">Call phone permission allows you make calls. Please allow in App Settings for additional functionality.</string>
-    <string name="get_accounts_permission_message">Get accounts permission . Please allow in App Settings for additional functionality.</string>
-    <string name="write_sync_settings_permission_message">Write Sync settings permission . Please allow in App Settings for additional functionality.</string>
-    <string name="read_sync_settings_permission_message">Read Sync settings permission . Please allow in App Settings for additional functionality.</string>
+    <string name="camera_permission_message">कैमरा अनुमति आपको चित्र लेने और वीडियो कैप्चर करने की अनुमति देती है। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="record_audio_permission_message">रिकार्ड ऑडियो अनुमति आपको ऑडियो रिकॉर्ड करने की अनुमति देता है अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="settings_audio_permission_message">ऑडियो अनुमति संशोधित करने से हमें आपके ऑडिओ तक पहुंच की अनुमति मिलती है। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="write_storage_permission_message">बाहरी अनुमति लिखें हमें आपके मीडिया तक पहुंच की अनुमति देता है। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="read_storage_permission_message">बाहरी अनुमति पढ़ें हमें आपके मीडिया को पढ़ने की अनुमति देता है। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="read_contacts_permission_message">पढ़ें संपर्क अनुमति हमें आपके संपर्कों को पढ़ने के लिए अनुमति देता है। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="write_contacts_permission_message">संपर्क अनुमति लिखें आपको अपने संपर्कों तक पहुंच की अनुमति देता है अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="vibrate_permission_message">कंपन अनुमति अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="receive_sms_permission_message">एसएमएस की अनुमति प्राप्त करें आपको एसएमएस संदेश प्राप्त करने की अनुमति मिलती है अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="read_sms_permission_message">SMS अनुमति पढ़ें हमें आपके एसएमएस संदेशों तक पहुंच की अनुमति देता है। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="call_phone_permission_message">कॉल करने की अनुमति से आपको कॉल करने की अनुमति मिलती है अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="get_accounts_permission_message">खाता अनुमति प्राप्त करें अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="write_sync_settings_permission_message">सिंक सेटिंग्स अनुमति लिखें। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="read_sync_settings_permission_message">समन्वयन सेटिंग अनुमति पढ़ें अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
     <string name="no_thanks">जी नहीं, धन्यवाद</string>
     <string name="yes">हाँ</string>
 
@@ -227,23 +227,23 @@
     <string name="failed_to_remove_member">सदस्य (सदस्यों) को हटाने में विफल कृपया कृपया बाद में फिर से प्रयास करें</string>
     <!--group adapters end -->
     <!--conversations and messages  adapters start-->
-    <string name="tap_to_create_group">Tap to create this group</string>
-    <string name="you_created_this_group">You created  this group</string>
-    <string name="he_created_this_group">" created  this group"</string>
-    <string name="you_left">You left</string>
-    <string name="he_left">" left"</string>
-    <string name="document">Document</string>
-    <string name="no_application_to_show_image">"No Application Available to  show image "</string>
-    <string name="no_application_to_view_pdf">No Application Available to View PDF</string>
-    <string name="no_application_to_send_sms">No Application Available to Send SMS</string>
+    <string name="tap_to_create_group">इस समूह को बनाने के लिए टैप करें</string>
+    <string name="you_created_this_group">आपने इस समूह को बनाया है</string>
+    <string name="he_created_this_group">" इस समूह को बनाया"</string>
+    <string name="you_left">आप चले गए</string>
+    <string name="he_left">" बाएं"</string>
+    <string name="document">दस्तावेज़</string>
+    <string name="no_application_to_show_image">"छवि दिखाने के लिए कोई भी एप्लिकेशन उपलब्ध नहीं है "</string>
+    <string name="no_application_to_view_pdf">पीडीएफ देखने के लिए कोई भी एप्लीकेशन उपलब्ध नहीं है</string>
+    <string name="no_application_to_send_sms">एसएमएस भेजने के लिए कोई एप्लिकेशन उपलब्ध नहीं है</string>
     <!--conversations and messages adapters start-->
-    <string name="transfer_message_to">"Transfer  message or Share content to "</string>
-    <string name="no_app_to_play_video">"No Application Available to play video "</string>
-    <string name="no_app_to_play_audio">"No Application Available to play audio "</string>
-    <string name="delete_all_status_dialog">Deleting All status …</string>
-    <string name="deleting">Deleting …</string>
-    <string name="updating_status">Updating status …</string>
-    <string name="your_status_updated_successfully">Your status has been deleted successfully</string>
+    <string name="transfer_message_to">"संदेश स्थानांतरित करें या इसमें सामग्री साझा करें "</string>
+    <string name="no_app_to_play_video">"वीडियो चलाने के लिए कोई भी एप्लीकेशन उपलब्ध नहीं है "</string>
+    <string name="no_app_to_play_audio">"ऑडियो चलाने के लिए कोई एप्लिकेशन उपलब्ध नहीं है "</string>
+    <string name="delete_all_status_dialog">सभी स्थिति हटाना…</string>
+    <string name="deleting">हटाया जा रहा है…</string>
+    <string name="updating_status">स्थिति अपडेट कर रहा है…</string>
+    <string name="your_status_updated_successfully">आपकी स्थिति को सफलतापूर्वक हटा दिया गया है</string>
 
 
     <string name="reply_message">जवाब दें</string>
@@ -447,4 +447,5 @@
     <string name="messages_from_notify">से संदेश</string>
     <string name="chats_notify">चैट</string>
 </resources>
+
 
