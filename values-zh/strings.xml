@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" >你好信使</string>
+    <string name="splash_message">本应用程序允许您与朋友进行实时聊天，您可以使用您的电话号码进行注册。</string>
     <!-- Date format -->
     <string name="date_format_today">HH:mm</string>
     <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
@@ -445,4 +446,3 @@
     <string name="messages_from_notify">来自的消息</string>
     <string name="chats_notify">聊天记录</string>
 </resources>
-
