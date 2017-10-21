@@ -796,53 +796,453 @@
     <string name="failed_to_restore_the_backup">Failed to restore the backup</string>
     <string name="restore_is_done">Restore Backup is done successfully at :</string>
     <string name="failed_to_restore_the_backup_try">Failed to restore the backup,please try again</string>
-    <string name="please_wait_a_moment">Please Wait a moment …</string>
-    <string name="current_language">current</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" >हैलो मेसेंजर</string>
+    <!-- Date format -->
+    <string name="date_format_today">HH:mm</string>
+    <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
+    <string name="date_format_yesterday">बिता कल</string>
+    <string name="date_format">dd/MM/yy</string>
 
-    <string name="block_user_make_sure">You will block this user ,so he will no longer be able to call you or send you messages .Are you sure ?</string>
-    <string name="unblock_user_make_sure">You will unblock this user ,so he will  be able to call you or send you messages .Are you sure ?</string>
-    <string name="unblock_user">UnBlock</string>
-    <string name="title_blocked_contacts">Blocked Contacts</string>
-    <string name="missed_video_call">Missed Video call</string>
-    <string name="missed_voice_call">Missed voice call</string>
-    <string name="outgoing_video_call">Outgoing Video call</string>
-    <string name="outgoing_voice_call">Outgoing Voice call</string>
-    <string name="signup_terms">By Proceeding you also agree to application’s Terms of Service and
-		Privacy Policy.
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="title_conversations">बिल्लियों</string>
+    <string name="title_settings">सेटिंग्स</string>
+    <string name="title_feed_back"><![CDATA[मदद & के बारे में]]></string>
+    <string name="more">अधिक</string>
+    <string name="title_sign_out">लोग आउट</string>
+    <string name="selected_count">%1$s चयनित</string>
+
+
+    <!--end icons -->
+    <string name="number">मोबाइल नंबर</string>
+    <string name="NoMessages">अभी तक कोई वार्तालाप नहीं है, आप अब एक प्रारंभ कर सकते हैं</string>
+    <string name="NoCalls">अभी तक कोई कॉल नहीं है, अब आप एक शुरुआत कर सकते हैं</string>
+    <string name="error_response">अपडेट करने में असमर्थ</string>
+    <string name="NoContacts">कोई संपर्क नहीं है। कृपया बाद में पुन: प्रयास करें या एक नया जोड़ें</string>
+    <string name="type_msg">कोई संदेश लिखें</string>
+    <string name="NoResult">कुछ भी तो नहीं</string>
+    <string name="error_response_contacts">अपने संपर्कों को अपडेट करने में असमर्थ</string>
+    <string name="error_response_conversations">बातचीत को अपडेट करने में असमर्थ</string>
+    <string name="error_response_groups">समूहों को अपडेट करने में असमर्थ</string>
+    <string name="error_response_messages">संदेश अपडेट करने में असमर्थ</string>
+    <string name="name_is_too_short">नाम बहुत छोटा है</string>
+    <string name="select_picture">एक छवि का चयन करें</string>
+    <string name="new_group">नया समूह</string>
+    <string name="starred_messages">तारांकित संदेश</string>
+    <string name="status">स्थिति</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="refresh_contacts">ताज़ा करना</string>
+    <string name="search">खोज</string>
+    <string name="add_contact">संपर्क जोड़ें</string>
+    <string name="new_message">नया संदेश</string>
+    <string name="use_whats_clone">हे मैं उपयोग कर रहा हूँ ...</string>
+    <string name="title_activity_add_members_to_group">नया समूह</string>
+    <string name="title_activity_settings">सेटिंग्स</string>
+    <string name="title_activity_edit_profile">प्रोफाइल</string>
+    <string name="share">शेयर</string>
+    <string name="edit">संपादित करें</string>
+    <string name="view_in_ad_book">पता पुस्तिका में देखें</string>
+    <string name="hello_welcome_to_whats_clone">स्वागत हे</string>
+    <string name="next">आगामी</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">वापस सेट करें और शांत रहें, आपको सत्यापन के एक एसएमएस मिलेगा</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit">वापस सेट करें और शांत रहें</string>
+    <string name="resend">आपको कोई कोड प्राप्त नहीं हुआ? पुन: भेजें</string>
+    <string name="enter_the_code_below_to_verify">सत्यापित करने के लिए नीचे दिए गए कोड को दर्ज करें</string>
+    <string name="enter_your_code">-- -- -- -- -- --</string>
+    <string name="ok">ठीक</string>
+    <string name="please_enter_your_ver_code">अपना सत्यापन कोड दर्ज करें</string>
+    <string name="enter_a_val_number">मान्य मोबाइल फोन दर्ज करें</string>
+    <string name="change_number">अंक बदलो</string>
+    <string name="invite">आमंत्रित</string>
+    <string name="your_current_status">आपकी वर्तमान स्थिति</string>
+    <string name="select_your_new_status">अपनी नई स्थिति का चयन करें</string>
+    <string name="title_activity_status">स्थिति</string>
+    <string name="Make_sure_delete_status">क्या आप इस स्थिति को हटाना चाहते हैं?</string>
+    <string name="Yes">हाँ</string>
+    <string name="No">नहीं</string>
+    <string name="delete">हटाना</string>
+    <string name="delete_status">स्थिति हटाएं</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="Ok">ठीक</string>
+    <string name="write_something">कुछ लिखो</string>
+    <string name="error_response_status">स्थिति प्राप्त करने में असमर्थ</string>
+    <string name="title_activity_edit_status">स्थिति संपादित करें</string>
+    <string name="deleteALL">सभी हटा दो</string>
+    <string name="oops_something">ओह! कुछ गलत हो गया है </string>
+    <string name="oops_something_crashed">ओह !! कुछ गलत हो गया । कृपया डेवलपर को एक रिपोर्ट भेजें</string>
+    <string name="no_status"> कोई स्थिति नहीं </string>
+    <string name="no_username"> कोई उपयोगकर्ता नाम नहीं </string>
+    <string name="edit_status_activity_title">अपनी स्थिति संपादित करें</string>
+    <string name="title_activity_edit_name">अपना नाम दर्ज करें</string>
+    <string name="title_select_contacts">संपर्क का चयन करें</string>
+    <string name="success_response_contacts">आपके संपर्क सफलतापूर्वक अद्यतन किए गए हैं</string>
+
+    <string name="edit_group_name">समूह का नाम संपादित करें</string>
+    <string name="exit">बाहर जाएं</string>
+    <string name="shareContact">संपर्क साझा करें</string>
+
+    <!--socket io -->
+    <string name="isTyping">टाइपिंग…</string>
+    <string name="isOffline">ऑफ़लाइन</string>
+    <string name="isOnline">ऑन लाइन</string>
+    <string name="lastSeen">अंतिम बार देखा गया</string>
+
+
+    <!--end date format-->
+    <string name="call">पु का र ना</string>
+    <string name="attach">संलग्न करें</string>
+    <string name="search_">खोज…</string>
+    <string name="add_new_member">जोड़ना</string>
+    <string name="type_group_subject_here">प्रकार समूह विषय यहाँ…</string>
+    <string name="provide_group_subject_and_optional_group_icon">समूह विषय और वैकल्पिक समूह आइकन प्रदान करें</string>
+    <string name="title_activity_edit_group_name">नया विषय दर्ज करें</string>
+    <string name="attach_contact">संपर्क करें</string>
+    <string name="attach_video">वीडियो</string>
+    <string name="attach_video_record">वीडियो रिकॉर्ड करो</string>
+    <string name="attach_location">स्थान</string>
+    <string name="attach_audio">ऑडियो</string>
+    <string name="attach_camera">कैमरा</string>
+    <string name="attach_gallery">छवि</string>
+    <string name="attach_document">दस्तावेज़</string>
+    <string name="media">मीडिया</string>
+    <string name="clear_chat">यह स्पष्ट है कि</string>
+    <string name="view_contact">संपर्क देखें</string>
+    <string name="group_info">समूह जानकारी</string>
+    <string name="search_hint">खोज…</string>
+    <string name="alert_message_delete_conversation">चैट हटाएं क्या आपको यकीन है?</string>
+    <string name="join_title">साइन अप करें</string>
+    <string name="hold_to_record">रिकॉर्ड करने के लिए पकड़ो</string>
+
+    <!-- Permissions strings start -->
+    <string name="camera_permission">कैमरा अनुमति</string>
+    <string name="audio_permission">ऑडियो अनुमति</string>
+    <string name="storage_permission">भंडारण अनुमति</string>
+    <string name="contacts_permission">संपर्क अनुमति</string>
+    <string name="vibrate_permission">कंपन अनुमति</string>
+    <string name="receive_sms_permission">एसएमएस अनुमति प्राप्त करें</string>
+    <string name="read_sms_permission">एसएमएस की अनुमति पढ़ें</string>
+    <string name="call_phone_permission">फ़ोन अनुमति कॉल करें</string>
+    <string name="get_accounts_permission">खाता अनुमति प्राप्त करें</string>
+    <string name="write_sync_settings_permission">खाता अनुमति प्राप्त करें</string>
+    <string name="read_sync_settings_permission">खाता अनुमति प्राप्त करें</string>
+    <string name="camera_permission_message">कैमरा अनुमति आपको चित्र लेने और वीडियो कैप्चर करने की अनुमति देती है। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="record_audio_permission_message">रिकार्ड ऑडियो अनुमति आपको ऑडियो रिकॉर्ड करने की अनुमति देता है अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="settings_audio_permission_message">ऑडियो अनुमति संशोधित करने से हमें आपके ऑडिओ तक पहुंच की अनुमति मिलती है। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="write_storage_permission_message">बाहरी अनुमति लिखें हमें आपके मीडिया तक पहुंच की अनुमति देता है। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="read_storage_permission_message">बाहरी अनुमति पढ़ें हमें आपके मीडिया को पढ़ने की अनुमति देता है। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="read_contacts_permission_message">पढ़ें संपर्क अनुमति हमें आपके संपर्कों को पढ़ने के लिए अनुमति देता है। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="write_contacts_permission_message">संपर्क अनुमति लिखें आपको अपने संपर्कों तक पहुंच की अनुमति देता है अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="vibrate_permission_message">कंपन अनुमति अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="receive_sms_permission_message">एसएमएस की अनुमति प्राप्त करें आपको एसएमएस संदेश प्राप्त करने की अनुमति मिलती है अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="read_sms_permission_message">SMS अनुमति पढ़ें हमें आपके एसएमएस संदेशों तक पहुंच की अनुमति देता है। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="call_phone_permission_message">कॉल करने की अनुमति से आपको कॉल करने की अनुमति मिलती है अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="get_accounts_permission_message">खाता अनुमति प्राप्त करें अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="write_sync_settings_permission_message">सिंक सेटिंग्स अनुमति लिखें। अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="read_sync_settings_permission_message">समन्वयन सेटिंग अनुमति पढ़ें अतिरिक्त कार्यक्षमता के लिए ऐप सेटिंग्स में अनुमति दें</string>
+    <string name="no_thanks">जी नहीं, धन्यवाद</string>
+    <string name="yes">हाँ</string>
+
+    <!--Permissions strings end -->
+
+    <string name="deleting_chat">" चैट हटाना… "</string>
+    <string name="copy_message">प्रतिलिपि</string>
+    <string name="transfer_message">आगे</string>
+    <string name="message_delete">संदेश को हटाएं?</string>
+    <string name="message_copy">पाठ संदेश</string>
+
+    <!--settings strings-->
+    <string name="about_and_help">के बारे में और सहायता</string>
+    <string name="contacts">संपर्क</string>
+    <string name="notifications">सूचनाएं</string>
+    <string name="chats">बिल्लियों</string>
+    <string name="account">लेखा</string>
+    <string name="delete_my_account">मेरा एकाउंट हटा दो</string>
+    <string name="chat_settings">चैट सेटिंग्स</string>
+    <string name="enter_key_off">दर्ज। कुंजी नई लाइन जोड़ देगा</string>
+    <string name="enter_key_on">कुंजी दर्ज करें आपका संदेश भेज देगा</string>
+    <string name="enter_key">दर्ज करें कुंजी भेजती है</string>
+    <string name="message_font_size">फ़ॉन्ट आकार</string>
+    <string name="message_font_size_summary">संदेशों के लिए फ़ॉन्ट आकार</string>
+    <string name="wallpaper">वॉलपेपर</string>
+    <string name="conversation_tones_off">इनकमिंग और आउटगोइंग संदेशों के लिए ध्वनि चलाएं</string>
+    <string name="message_notifications_settings">संदेश सूचनाएं</string>
+    <string name="notifications_settings_tone">अधिसूचना स्वर</string>
+    <string name="default_settings">चूक</string>
+    <string name="message_notifications_settings_vibrate">कांपना</string>
+    <string name="message_notifications_settings_light">रोशनी</string>
+    <string name="call_notifications_settings_vibrate">कांपना</string>
+    <string name="call_notifications_settings_light">रोशनी</string>
+    <string name="conversation_tones">वार्तालाप टन</string>
+    <string name="message_group_notifications_settings">समूह सूचनाएं</string>
+    <string name="title_activity_delete_account">खाता हटा दो</string>
+    <string name="title_activity_change_number">अंक बदलो</string>
+    <string name="title_activity_account_settings">लेखा</string>
+    <string name="call_notifications_settings">कॉल सूचनाएं</string>
+    <string name="call_ringtone">रिंगटोन</string>
+    <string name="message_notifications_settings_tone_silent">मूक</string>
+    <string name="call_notifications_settings_tone_silent">मूक</string>
+    <string name="connection_is_available">जुड़े हुए</string>
+    <string name="connection_is_not_available">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="select_one_at_least">"कम से कम आपको एक का चयन करना होगा "</string>
+    <string name="participants">प्रतिभागियों :</string>
+    <string name="group_created_successfully">समूह सफलतापूर्वक बनाया गया</string>
+    <string name="create_group_failed">समूह बनाएं विफल हुआ</string>
+    <string name="please_choose_an_avatar">कृपया एक अवतार चुनें</string>
+    <string name="slide_to_cancel_audio">रद्द करने के लिए स्लाइड करें</string>
+    <string name="message_is_copied">संदेश कॉपी किया गया</string>
+    <string name="of">" का "</string>
+    <string name="failed_upload_image">"आपकी छवि अपलोड करने में विफल "</string>
+
+    <!--group adapters start -->
+    <string name="exit_group">बाहर जाएं \"</string>
+    <string name="group_ex">\" समूह?</string>
+    <string name="exiting_group_dialog">" समूह निकल रहा है ..."</string>
+    <string name="deleting_group_dialog">" समूह हटाया जा रहा है ... "</string>
+    <string name="created_by_you_at">आपके द्वारा बनाया गया</string>
+    <string name="created_by">"के द्वारा बनाई गई"</string>
+    <string name="group_at">at</string>
+    <string name="failed_to_delete_this_group_check_connection">इस समूह को हटाने में विफल आपके कनेक्शन की जांच करें</string>
+    <string name="failed_to_exit_this_group_check_connection">इस समूह से बाहर आने में विफल आपके कनेक्शन की जांच करें</string>
+    <string name="adding_new_status">नई स्थिति जोड़ना…</string>
+    <string name="add_to_group">"जोड़ना "</string>
+    <string name="member_to_group">" समूह के सदस्य"</string>
+    <string name="adding_member">" सदस्य जोड़ना… "</string>
+    <string name="failed_to_add_member_to_group">सदस्य (सदस्यों) को जोड़ने में विफल कृपया कृपया बाद में फिर से प्रयास करें</string>
+    <string name="you">आप</string>
+    <!--group member options start -->
+    <string name="message_group_option">"संदेश "</string>
+    <string name="view_group_option">"राय "</string>
+    <string name="make_admin_group_option"> एक व्यवस्थापक</string>
+    <string name="make_member_group_option"> सदस्य</string>
+    <string name="make_group_option"> बनाना </string>
+    <string name="remove_group_option">"हटाना"</string>
+    <!--group member options end -->
+    <string name="remove_from_group">"हटाना "</string>
+    <string name="from_group">" समूह से"</string>
+    <string name="deleting_group">" सदस्य हटाना… "</string>
+    <string name="failed_to_make_member_as_admin">इस सदस्य को व्यवस्थापक के रूप में बनाने में असफल कृपया बाद में फिर से प्रयास करें</string>
+    <string name="failed_to_remove_member">सदस्य (सदस्यों) को हटाने में विफल कृपया कृपया बाद में फिर से प्रयास करें</string>
+    <!--group adapters end -->
+    <!--conversations and messages  adapters start-->
+    <string name="tap_to_create_group">इस समूह को बनाने के लिए टैप करें</string>
+    <string name="you_created_this_group">आपने इस समूह को बनाया है</string>
+    <string name="he_created_this_group">" इस समूह को बनाया"</string>
+    <string name="you_left">आप चले गए</string>
+    <string name="he_left">" बाएं"</string>
+    <string name="document">दस्तावेज़</string>
+    <string name="no_application_to_show_image">"छवि दिखाने के लिए कोई भी एप्लिकेशन उपलब्ध नहीं है "</string>
+    <string name="no_application_to_view_pdf">पीडीएफ देखने के लिए कोई भी एप्लीकेशन उपलब्ध नहीं है</string>
+    <string name="no_application_to_send_sms">एसएमएस भेजने के लिए कोई एप्लिकेशन उपलब्ध नहीं है</string>
+    <!--conversations and messages adapters start-->
+    <string name="transfer_message_to">"संदेश स्थानांतरित करें या इसमें सामग्री साझा करें "</string>
+    <string name="no_app_to_play_video">"वीडियो चलाने के लिए कोई भी एप्लीकेशन उपलब्ध नहीं है "</string>
+    <string name="no_app_to_play_audio">"ऑडियो चलाने के लिए कोई एप्लिकेशन उपलब्ध नहीं है "</string>
+    <string name="delete_all_status_dialog">सभी स्थिति हटाना…</string>
+    <string name="deleting">हटाया जा रहा है…</string>
+    <string name="updating_status">स्थिति अपडेट कर रहा है…</string>
+    <string name="your_status_updated_successfully">आपकी स्थिति को सफलतापूर्वक हटा दिया गया है</string>
+
+
+    <string name="reply_message">जवाब दें</string>
+
+
+    <string name="message_notifications_settings_vibrate_off">कंपन बंद</string>
+    <string name="message_notifications_settings_vibrate_on">पर कंपन करें</string>
+    <string name="call_notifications_settings_vibrate_off">कंपन बंद</string>
+    <string name="call_notifications_settings_vibrate_on">पर कंपन करें</string>
+    <string name="enjoy_it">का आनंद लें</string>
+    <string name="app_version">"संस्करण "</string>
+    <string name="to_delete_your_account_from_confirm_your_phone_number">अपना खाता हटाने के लिए, आपको अपने फ़ोन नंबर की पुष्टि करने की ज़रूरत है</string>
+    <string name="delete_user_account">मेरा एकाउंट हटा दो</string>
+    <string name="delete_you_from_groups"><![CDATA[> आप सभी समूहों से हटाएं]]></string>
+    <string name="delete_all_your_messages"><![CDATA[> अपने सभी संदेशों को हटाएं (यदि आपके पास कोई बैकअप है तो इसे पुनर्स्थापित कर सकते हैं)]]></string>
+    <string name="delete_your_account"><![CDATA[> अपने खाते को निष्क्रिय करें]]></string>
+    <string name="deleting_your_account_will">आपके खाते को हटा देना होगा:</string>
+    <string name="alert_message_delete_account">क्या आप वाकई अपना खाता हटाना चाहते हैं?</string>
+    <string name="delete_account_failed_please_try_later">अपना खाता हटाने में विफल कृपया कृपया बाद में फिर से प्रयास करें</string>
+    <string name="unexpected_reponse_from_server">सर्वर से अप्रत्याशित प्रतिक्रिया</string>
+    <string name="you_send_messages"> आप इस समूह में संदेश नहीं भेज सकते क्योंकि आप अब प्रतिभागी नहीं हैं</string>
+    <string name="file">फ़ाइल</string>
+    <string name="waiting_for_network">नेटवर्क के लिए प्रतीक्षा कर रहा है </string>
+    <string name="failed_exit_group">समूह से बाहर निकलने में विफल</string>
+    <string name="this_video_is_not_exist">यह वीडियो अब और उपलब्ध नहीं है</string>
+    <string name="this_image_is_not_exist">यह छवि किसी भी अधिक मौजूद नहीं है</string>
+    <string name="this_audio_is_not_exist">यह ऑडियो अब और मौजूद नहीं है</string>
+    <string name="this_document_is_not_exist">यह दस्तावेज़ अब मौजूद नहीं है</string>
+    <string name="account_added_already">" खाता पहले से जोड़ दिया गया है "</string>
+    <string name="you_cannot_delete_your_account_please_contac">इस उद्देश्य के लिए आप अपना खाता नहीं हटा सकते, डेवलपर से संपर्क करें</string>
+
+    <!--Directories strings-->
+
+    <string name="profile_photos">प्रोफ़ाइल तस्वीरें</string>
+    <string name="images_directory">इमेजिस</string>
+    <string name="data_cache_directory">बैकअप</string>
+    <string name="videos_directory">वीडियो</string>
+    <string name="audios_directory">ऑडियो</string>
+    <string name="documents_directory">दस्तावेज़</string>
+    <string name="images_other_directory"> छवि अन्य</string>
+    <string name="directory_wallpaper">वॉलपेपर</string>
+    <string name="directory_sent">भेज दिया</string>
+    <string name="video_thumbnail">थंबनेल</string>
+    <string name="image_saved">चित्र सहेजा गया</string>
+    <string name="save_to_gallery">गैलरी में सहेजें</string>
+    <string name="share_or_save">साझा करें या सहेजें</string>
+    <string name="shareItem">शेयर</string>
+    <string name="this_message_empty">यह संदेश खाली है</string>
+    <string name="share_message">शेयर</string>
+    <string name="you_can_share_more_then_one">आप एक से अधिक आइटम साझा नहीं कर सकते</string>
+    <!--others -->
+    <string name="add_to_you_contact">इस व्यक्ति को अपने संपर्कों में जोड़ें </string>
+    <string name="status_and_phone">स्थिति और फोन</string>
+    <string name="failed_to_the_current_status">वर्तमान स्थिति प्राप्त करने में विफल</string>
+    <string name="please_enter_your_mobile_number">अपना मोबाइल नंबर दर्ज करें</string>
+    <string name="verify_mobile">मोबाइल सत्यापित करें</string>
+    <string name="firstly_select_your_country_here">सबसे पहले अपने देश को यहां चुनें</string>
+    <string name="activity_backup_drive_success">बैकअप सफलतापूर्वक किया जाता है</string>
+    <string name="activity_backup_drive_failed">बैकअप विफल हो गया है</string>
+    <string name="activity_backup_drive_message_restart">बैकअप को पुनरारंभ करना</string>
+    <string name="restore_data">डेटा पुनः स्थापित करें</string>
+    <string name="please_click_on_restore_button_to_restore_your_messages">अपने संदेशों को पुनर्स्थापित करने के लिए कृपया प्रारंभ बटन पर क्लिक करें</string>
+    <string name="backup">बैकअप</string>
+    <string name="chat_backup">चैट बैकअप</string>
+    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">अपने संदेशों का बैकअप लें। जब आप एप्लिकेशन को पुनर्स्थापित करते हैं तो आप उन्हें पुनर्स्थापित कर सकते हैं।</string>
+    <string name="back_up">वापस ऊपर</string>
+    <string name="start_backing_up">बैक अप शुरू करें</string>
+    <string name="start_restore">बहाल करना शुरू करें या छोड़ दें</string>
+    <string name="start">प्रारंभ</string>
+    <string name="skip">छोड़ें</string>
+    <string name="finish">समाप्त</string>
+
+    <!-- Rate Strings -->
+    <string name="rate_title">मूल्यांकन करें %s</string>
+    <string name="rate_message">यदि आप% s का आनंद लेते हैं, तो क्या आप इसे रेट करने के लिए एक क्षण लेना चाहते हैं? आपके समर्थन के लिए धन्यवाद!</string>
+    <string name="rate">हां, दर %s</string>
+    <string name="rate_later">मुझे बाद में याद दिलाना</string>
+    <string name="rate_cancel">जी नहीं, धन्यवाद</string>
+    <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="update">हां, अपडेट करें %s</string>
+    <string name="update_title">अद्यतन %s</string>
+    <string name="update_app">अपना आवेदन अपडेट करें</string>
+    <string name="update_app_message">नमस्ते, इस संस्करण का </string>
+    <string name="update_message_complete">" अप्रचलित हो गया नवीनतम संस्करण डाउनलोड करने के लिए कृपया Google Play Store पर जाएं।"</string>
+    <string name="please_select_y_country">कृपया अपना देश पहले चुनें</string>
+    <string name="permission_alert">अनुमतियाँ चेतावनी</string>
+    <string name="permission_alert_msg">यदि आपने संपर्क की अनुमति पढ़ने की अनुमति नहीं दी है तो आप आवेदन का उपयोग नहीं कर सकते। धन्यवाद</string>
+    <!--calls strings-->
+    <string name="incoming_call">आने वाली कॉल</string>
+    <string name="incoming_call_from">से कॉल</string>
+    <string name="call_ended">कॉल समाप्त</string>
+    <string name="calling">कॉल कर रहा है</string>
+    <string name="clear_log_call">लॉग कॉल साफ़ करें</string>
+    <string name="new_call">नई कॉल</string>
+    <string name="you_couldnt_call_this_user">कॉल नहीं लगाया जा सका यह उपयोगकर्ता अब उपलब्ध नहीं है कृपया बाद में प्रयास करें</string>
+    <string name="fake_name">- - -</string>
+    <string name="mobile">"मोबाइल: "</string>
+    <string name="click_to_make_an_action">उत्तर / अस्वीकार करने के लिए क्लिक करें</string>
+    <string name="voice_call">आवाज कॉल</string>
+    <string name="video_call">वीडियो कॉल</string>
+    <string name="call_history">इतिहास</string>
+    <string name="title_calls">कॉल जानकारी</string>
+    <string name="remove_from_log">कॉल लॉग से निकालें</string>
+    <string name="block_user">खंड</string>
+    <string name="delete_call_dialog">हटाया जा रहा है …</string>
+    <string name="call_select_voice">एक वॉयस कॉल करें    </string>
+    <string name="call_select_video">एक वीडियो कॉल करें   </string>
+    <string name="you_couldnt_call_this_user_network">कॉल नहीं लगाया जा सका सुनिश्चित करें कि आपके फ़ोन में एक इंटरनेट कनेक्शन है और फिर से प्रयास करें</string>
+    <string name="you_couldnt_call">कॉल नहीं लगाया जा सका</string>
+    <string name="duration">अवधि</string>
+    <string name="close">बंद करे</string>
+    <string name="open">खुला</string>
+    <string name="about_title">हमारे बारे में</string>
+    <string name="page_not_found">पृष्ठ नहीं मिला</string>
+    <string name="default_wallpaper">चूक</string>
+    <string name="wallpaper_gallery">गेलरी</string>
+    <string name="wallpaper_is_set">वॉलपेपर सेट करें</string>
+    <string name="you_can_copy_more_then_one">आप एक से अधिक आइटम कॉपी नहीं कर सकते</string>
+    <string name="documents">दस्तावेज़</string>
+    <string name="links">लिंक</string>
+    <string name="this_a_pdf_file_document">यह एक पीडीएफ फाइल दस्तावेज है</string>
+    <string name="fetching_urls_preview">ला रहा है …</string>
+
+    <string name="title_activity_privacy"><![CDATA[गोपनीयता व शर्तें]]></string>
+    <string name="terms_and_privacy_policy">शर्तें और गोपनीयता नीति</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="french">फ्रेंच</string>
+    <string name="german">जर्मन</string>
+    <string name="srbski">सर्बियाई</string>
+    <string name="bosnisch">बोस्नियाई</string>
+    <string name="romaneste">रोमानियाई</string>
+    <string name="turski">तुर्की</string>
+    <string name="tschechisch">चेक</string>
+    <string name="grichisch">यूनानी</string>
+    <string name="spanisch">स्पेनिश</string>
+    <string name="kroatisch">क्रोएशियाई</string>
+    <string name="indonesisch">इन्डोनेशियाई</string>
+    <string name="mazedonisch">Mazedonisch</string>
+    <string name="rusisch">रूसी</string>
+    <string name="slovenisch">स्लोवेनियाई</string>
+    <string name="title_language">बोली</string>
+    <!--new strings-->
+
+    <string name="you_need_to_restart_the_application">आपको एप्लिकेशन को पुनरारंभ करना होगा</string>
+    <string name="you_are_using_a_moderate_connection">आप एक मध्यम कनेक्शन का उपयोग कर रहे हैं</string>
+    <string name="you_are_using_a_poor_connection">आप एक खराब कनेक्शन का उपयोग कर रहे हैं</string>
+    <string name="you_are_using_a_good_connection">आप एक अच्छा कनेक्शन का उपयोग कर रहे हैं</string>
+    <string name="you_are_using_a_slower_connection">आप एक धीमी कनेक्शन का उपयोग कर रहे हैं</string>
+
+    <string name="selected">चयनित</string>
+    <string name="failed_to_restore_the_backup">बैकअप को पुनर्स्थापित करने में विफल</string>
+    <string name="restore_is_done">पुनर्स्थापना बैकअप सफलतापूर्वक किया जाता है:</string>
+    <string name="failed_to_restore_the_backup_try">बैकअप को पुनर्स्थापित करने में विफल, कृपया पुनः प्रयास करें</string>
+    <string name="please_wait_a_moment">एक क्षण प्रतीक्षा करें…</string>
+    <string name="current_language">वर्तमान</string>
+
+    <string name="block_user_make_sure">आप इस उपयोगकर्ता को अवरुद्ध करेंगे, इसलिए वह अब आपको कॉल करने या आपको संदेश भेजने में सक्षम नहीं होगा। क्या आप वाकई सुनिश्चित हैं?</string>
+    <string name="unblock_user_make_sure">आप इस उपयोगकर्ता को अनब्लॉक करेंगे, इसलिए वह आपको कॉल करने या आपको संदेश भेजने में सक्षम होगा। क्या आप वाकई सुनिश्चित हैं?</string>
+    <string name="unblock_user">अप्रतिबंधित करें</string>
+    <string name="title_blocked_contacts">ब्लॉक किये हुए कॉन्टेक्ट्स</string>
+    <string name="missed_video_call">मिस्ड विडियो कॉल</string>
+    <string name="missed_voice_call">मिस्ड वॉइस कॉल</string>
+    <string name="outgoing_video_call">जावक वीडियो कॉल</string>
+    <string name="outgoing_voice_call">आउटगोइंग वॉयस कॉल</string>
+    <string name="signup_terms">कार्यवाही के द्वारा आप भी आवेदन की शर्तों की शर्तों से सहमत हैं और
+गोपनीयता नीति।
 	</string>
     <!--new strigns-->
 
-    <string name="invitation_from">Invitation from</string>
-    <string name="your_session_expired">Your Session is Expired</string>
+    <string name="invitation_from">से निमंत्रण</string>
+    <string name="your_session_expired">आपका सत्र समाप्त हो गया है</string>
     <!--new strings-->
-    <string name="click_on">Click on </string>
-    <string name="to_choose_your_country_n_and_enter_your_phone_number"> to choose your country   and enter your phone number</string>
-    <string name="username">Username</string>
-    <string name="complete_registration_optional">This is an optional step you can skip it without edit anything</string>
-    <string name="complete_registration">Complete Registration</string>
-    <string name="dialog_loading">Loading…</string>
-    <string name="last_back_time">You last back up is done at :</string>
-    <string name="you_didnot_make_a_backup">You didn\'t make a backup yet</string>
-    <string name="creating_backup">Creating a local backup (</string>
-    <string name="backup_occur">%). Backups occur</string>
-    <string name="failed_to_backup_your_data">Failed to backup your messages</string>
-    <string name="backup_is_done">Back up is done successfully at :</string>
-    <string name="backup_drive_folder">Backup folder</string>
+    <string name="click_on">पर क्लिक करें </string>
+    <string name="to_choose_your_country_n_and_enter_your_phone_number"> अपना देश चुनने के लिए और अपना फ़ोन नंबर दर्ज करें</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="complete_registration_optional">यह एक वैकल्पिक कदम है जिसे आप बिना कुछ भी संपादित किए छोड़ सकते हैं</string>
+    <string name="complete_registration">पंजीकरण पूर्ण करें</string>
+    <string name="dialog_loading">लोड हो रहा है…</string>
+    <string name="last_back_time">आपने पिछले बैक अप को किया है :</string>
+    <string name="you_didnot_make_a_backup">आपने अभी तक बैकअप नहीं बनाया है</string>
+    <string name="creating_backup">स्थानीय बैकअप बनाना (</string>
+    <string name="backup_occur">%). बैकअप होते हैं</string>
+    <string name="failed_to_backup_your_data">आपके संदेश बैकअप में विफल</string>
+    <string name="backup_is_done">बैक अप सफलतापूर्वक पर किया जाता है :</string>
+    <string name="backup_drive_folder">बैकअप फ़ोल्डर</string>
     <string name="backup_drive_folder_not_set">N/A</string>
-    <string name="backup_drive_button_open_drive">Open drive</string>
-    <string name="backup_drive_recent">Recent Backups</string>
-    <string name="backup_drive_dialog_restore_title">Revet to previous version</string>
-    <string name="backup_drive_dialog_restore_desc">Restoring this backup will overwrite all existing data with the backup</string>
-    <string name="backup_drive_dialog_restore_details">Backup Details</string>
-    <string name="get_started">Get started</string>
-    <string name="number_not_match">This number not match the first one you insert to verify .please try again</string>
+    <string name="backup_drive_button_open_drive">ओपन ड्राइव</string>
+    <string name="backup_drive_recent">हालिया बैकअप</string>
+    <string name="backup_drive_dialog_restore_title">पिछले संस्करण पर वापस लौटें</string>
+    <string name="backup_drive_dialog_restore_desc">इस बैकअप को पुनर्स्थापित करना बैकअप के साथ सभी मौजूदा डेटा को अधिलेखित कर देगा</string>
+    <string name="backup_drive_dialog_restore_details">बैकअप विवरण</string>
+    <string name="get_started">शुरू हो जाओ</string>
+    <string name="number_not_match">यह संख्या, सत्यापित करने के लिए आपके द्वारा डाली गई पहली बार से मेल नहीं खाती है। कृपया पुन: प्रयास करें</string>
 
-    <string name="you_can_select_your_favorite_language_from_here">You can select your favorite language from here</string>
-    <string name="title_home">Home</string>
-    <string name="title_Friends">Friends</string>
-    <string name="voice_call_dialog_title">Voice</string>
-    <string name="video_call_dialog_title">Video</string>
-    <string name="new_messages_notify">new messages</string>
-    <string name="messages_from_notify">messages from</string>
-    <string name="chats_notify">chats</string>
+    <string name="you_can_select_your_favorite_language_from_here">आप यहां से अपनी पसंदीदा भाषा चुन सकते हैं</string>
+    <string name="title_home">घर</string>
+    <string name="title_Friends">दोस्तों</string>
+    <string name="voice_call_dialog_title">आवाज़</string>
+    <string name="video_call_dialog_title">वीडियो</string>
+    <string name="new_messages_notify">नए संदेश</string>
+    <string name="messages_from_notify">से संदेश</string>
+    <string name="chats_notify">चैट</string>
 </resources>
+
