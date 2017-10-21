@@ -423,20 +423,23 @@
     <string name="title_activity_privacy"><![CDATA[Privacy & Terms]]></string>
     <string name="terms_and_privacy_policy">Terms and Privacy Policy</string>
     <string name="english">English</string>
-    <string name="german">Deutsch</string>
-    <string name="srbski">Serbisch</string>
-    <string name="bosnisch">Bosnisch</string>
-    <string name="romaneste">Romänisch</string>
-    <string name="french">Französisch</string>
-    <string name="turski">Türkisch</string>
-    <string name="tschechisch">Tschechisch</string>
-    <string name="grichisch">Grichisch</string>
-    <string name="spanisch">Spanisch</string>
-    <string name="kroatisch">Kroatisch</string>
-    <string name="indonesisch">Indonesisch</string>
-    <string name="mazedonisch">Mazedonisch</string>
-    <string name="rusisch">Rusisch</string>
-    <string name="slovenisch">Slovenisch</string>
+    <string name="french">French</string>
+    <string name="german">German</string>
+    <string name="srbski">Serbian</string>
+    <string name="bosnisch">Bosnian</string>
+    <string name="romaneste">Romanian</string>
+    <string name="turski">Turkish</string>
+    <string name="tschechisch">Czech</string>
+    <string name="grichisch">Greek</string>
+    <string name="spanisch">Spanish</string>
+    <string name="kroatisch">Croatian</string>
+    <string name="indonesisch">Indonesian</string>
+    <string name="mazedonisch">Macedonian</string>
+    <string name="rusisch">Russian</string>
+    <string name="slovenisch">Slovenian</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="chinese" translatable="false">中文</string>
+    <string name="filipino" translatable="false">Filipino</string>
     <string name="title_language">Languages</string>
     <!--new strings-->
 
