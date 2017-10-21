@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hello</string>
-    <string name="Hello_get" >Hi Holl dir HELLO so können wir Gratis miteinander Telefonieren und chatten! </string>
-    <string name="Hi_there" >Hi! Ich benutze jetzt! HELLO </string>
-    <string name="scrollingFABBehavior" translatable="false">com.globcast.hello.ui.ScrollingFABBehavior</string><!--you have to change package name here-->
-    <string name="auth_type" translatable="false">com.globcast.hello</string><!--you have to change package name here-->
+    <string name="app_name">WhatsClone</string>
+    <string name="scrollingFABBehavior" translatable="false">com.codecanyon.WhatsClone.ui.ScrollingFABBehavior</string><!--you have to change package name here-->
+    <string name="FACEBOOK_APP_ID" translatable="false">xxxxxxxxxxxxxxx</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">xxxxxxxxxxxxxxxxxxx</string>
 
-    <string name="FACEBOOK_APP_ID" translatable="false">2311212321212231</string>
-    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">23323037bcb06b54542bd300f503b9f4</string>
-
-    <string name="splash_message">This Application allow you to have a real-time chat with your friends ,you can register with your phone number.</string>
+    <string name="splash_message">This Application allows you to have a real-time chat with your friends ,you can register with your phone number.</string>
     <!--don't translate those strings -->
     <string name="key_message_notifications_settings_light" translatable="false">message_notifications_settings_light</string>
     <string name="key_message_group_notifications_settings_tone" translatable="false">message_group_notifications_settings_tone</string>
@@ -33,23 +29,24 @@
     <string name="app_service_name" translatable="false">MessageService</string>
     <!--key -->
 
+    <!-- icons -->
+    <string name="icon_no_calls" translatable="false">\ue892</string>
+    <string name="icon_crash" translatable="false">\ue7e8</string>
+    <string name="icon_no_contacts" translatable="false">\ue892</string>
+    <string name="icon_no_conversations" translatable="false">\ue892</string>
 
+    <string name="chats_title_tab" translatable="false">\ue7db</string>
+    <string name="contacts_title_tab" translatable="false">\ue722</string>
+    <string name="calls_title_tab" translatable="false">\ue76a</string>
+
+
+    <string name="icon_settings" translatable="false">\ue672</string>
+    <string name="icon_chat" translatable="false">\ue7db</string>
+    <string name="icon_notification" translatable="false">\ue8aa</string>
+    <string name="icon_about" translatable="false">\ue956</string>
+    <string name="icon_edit" translatable="false">\ue613</string>
     <!-- Date format -->
     <string name="date_format_today">HH:mm</string>
-    <string name="title_home">HOME</string>
-    <string name="title_Friends">اصحاب</string>
-    <string name="icon_menu_home">\ue800</string>
-    <string name="icon_menu_chat_on">\ue83f</string>
-    <string name="icon_menu_entertainment">\ue824</string>
-    <string name="icon_menu_news">\ue853</string>
-    <string name="icon_menu_shopping">\ue82e</string>
-    <string name="icon_menu_my_profile">\ue82a</string>
-    <string name="icon_menu_settings">\ue810</string>
-    <string name="icon_menu_help_feedback">\ue87d</string>
-    <string name="icon_menu_about_us">\ue87c</string>
-    <string name="icon_menu_share">\ue84b</string>
-    <string name="icon_menu_edit">\ue802</string>
-
     <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
     <string name="date_format_yesterday">YESTERDAY</string>
     <string name="date_format">dd/MM/yy</string>
@@ -61,12 +58,6 @@
     <string name="more">More</string>
     <string name="title_sign_out">Log out</string>
     <string name="selected_count">%1$s selected</string>
-    <!-- icons -->
-    <string name="icon_no_calls">\ue830</string>
-    <string name="icon_crash">\ue840</string>
-    <string name="icon_update">\ue865</string>
-    <string name="icon_no_contacts">\ue82b</string>
-    <string name="icon_no_conversations">\ue818</string>
 
 
     <!--end icons -->
@@ -101,7 +92,7 @@
     <string name="hello_welcome_to_whats_clone">Welcome</string>
     <string name="next">NEXT</string>
     <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">Set back and keep calm you will receive an sms of verification</string>
-    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit" translatable="false">Set back and keep calm </string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit">Set back and keep calm </string>
     <string name="resend">You didn\'t receive any code? Resend</string>
     <string name="enter_the_code_below_to_verify">Enter the code below to verify</string>
     <string name="enter_your_code">-- -- -- -- -- --</string>
@@ -454,9 +445,6 @@
     <string name="restore_is_done">Restore Backup is done successfully at :</string>
     <string name="failed_to_restore_the_backup_try">Failed to restore the backup,please try again</string>
     <string name="please_wait_a_moment">Please Wait a moment …</string>
-    <string name="chats_title_tab">CHATS</string>
-    <string name="contacts_title_tab">CONTACTS</string>
-    <string name="calls_title_tab">CALLS</string>
     <string name="current_language">current</string>
 
     <string name="block_user_make_sure">You will block this user ,so he will no longer be able to call you or send you messages .Are you sure ?</string>
@@ -467,7 +455,7 @@
     <string name="missed_voice_call">Missed voice call</string>
     <string name="outgoing_video_call">Outgoing Video call</string>
     <string name="outgoing_voice_call">Outgoing Voice call</string>
-    <string name="signup_terms" translatable="false">By Proceeding you also agree to application’s Terms of Service and
+    <string name="signup_terms">By Proceeding you also agree to application’s Terms of Service and
 		Privacy Policy.
 	</string>
     <!--new strigns-->
@@ -475,27 +463,34 @@
     <string name="invitation_from">Invitation from</string>
     <string name="your_session_expired">Your Session is Expired</string>
     <!--new strings-->
-    <string name="click_on" translatable="false">Click on </string>
-    <string name="to_choose_your_country_n_and_enter_your_phone_number" translatable="false"> to choose your country   and enter your phone number</string>
-    <string name="username" translatable="false">Username</string>
-    <string name="complete_registration_optional" translatable="false">This is an optional step you can skip it without edit anything</string>
-    <string name="complete_registration" translatable="false">Complete Registration</string>
-    <string name="dialog_loading" translatable="false">Loading...</string>
-    <string name="last_back_time" translatable="false">You last back up is done at :</string>
-    <string name="you_didnot_make_a_backup" translatable="false">You didn\'t make a backup yet</string>
-    <string name="creating_backup" translatable="false">Creating a local backup (</string>
-    <string name="backup_occur" translatable="false">%). Backups occur</string>
-    <string name="failed_to_backup_your_data" translatable="false">Failed to backup your messages</string>
-    <string name="backup_is_done" translatable="false">Back up is done successfully at :</string>
-    <string name="backup_drive_folder" translatable="false">Backup folder</string>
-    <string name="backup_drive_folder_not_set" translatable="false">N/A</string>
-    <string name="backup_drive_button_open_drive" translatable="false">Open drive</string>
-    <string name="backup_drive_recent" translatable="false">Recent Backups</string>
-    <string name="backup_drive_dialog_restore_title" translatable="false">Revet to previous version</string>
-    <string name="backup_drive_dialog_restore_desc" translatable="false">Restoring this backup will overwrite all existing data with the backup</string>
-    <string name="backup_drive_dialog_restore_details" translatable="false">Backup Details</string>
-    <string name="get_started" translatable="false">Get started</string>
-    <string name="number_not_match" translatable="false">This number not match the first one you insert to verify .please try again</string>
+    <string name="click_on">Click on </string>
+    <string name="to_choose_your_country_n_and_enter_your_phone_number"> to choose your country   and enter your phone number</string>
+    <string name="username">Username</string>
+    <string name="complete_registration_optional">This is an optional step you can skip it without edit anything</string>
+    <string name="complete_registration">Complete Registration</string>
+    <string name="dialog_loading">Loading…</string>
+    <string name="last_back_time">You last back up is done at :</string>
+    <string name="you_didnot_make_a_backup">You didn\'t make a backup yet</string>
+    <string name="creating_backup">Creating a local backup (</string>
+    <string name="backup_occur">%). Backups occur</string>
+    <string name="failed_to_backup_your_data">Failed to backup your messages</string>
+    <string name="backup_is_done">Back up is done successfully at :</string>
+    <string name="backup_drive_folder">Backup folder</string>
+    <string name="backup_drive_folder_not_set">N/A</string>
+    <string name="backup_drive_button_open_drive">Open drive</string>
+    <string name="backup_drive_recent">Recent Backups</string>
+    <string name="backup_drive_dialog_restore_title">Revet to previous version</string>
+    <string name="backup_drive_dialog_restore_desc">Restoring this backup will overwrite all existing data with the backup</string>
+    <string name="backup_drive_dialog_restore_details">Backup Details</string>
+    <string name="get_started">Get started</string>
+    <string name="number_not_match">This number not match the first one you insert to verify .please try again</string>
 
-    <string name="you_can_select_your_favorite_language_from_here" translatable="false">You can select your favorite language from here</string>
+    <string name="you_can_select_your_favorite_language_from_here">You can select your favorite language from here</string>
+    <string name="title_home">Home</string>
+    <string name="title_Friends">Friends</string>
+    <string name="voice_call_dialog_title">Voice</string>
+    <string name="video_call_dialog_title">Video</string>
+    <string name="new_messages_notify">new messages</string>
+    <string name="messages_from_notify">messages from</string>
+    <string name="chats_notify">chats</string>
 </resources>
