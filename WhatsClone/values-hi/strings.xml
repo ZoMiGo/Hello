@@ -186,45 +186,45 @@
     <string name="call_notifications_settings_tone_silent">मूक</string>
     <string name="connection_is_available">जुड़े हुए</string>
     <string name="connection_is_not_available">कोई इंटरनेट कनेक्शन नहीं</string>
-    <string name="select_one_at_least">"At least you must select one "</string>
-    <string name="participants">Participants :</string>
-    <string name="group_created_successfully">Group created successfully</string>
-    <string name="create_group_failed">Create group failed</string>
-    <string name="please_choose_an_avatar">Please choose an avatar</string>
-    <string name="slide_to_cancel_audio">Slide To Cancel</string>
-    <string name="message_is_copied">Message copied</string>
-    <string name="of">" of "</string>
-    <string name="failed_upload_image">"Failed  upload your image "</string>
+    <string name="select_one_at_least">"कम से कम आपको एक का चयन करना होगा "</string>
+    <string name="participants">प्रतिभागियों :</string>
+    <string name="group_created_successfully">समूह सफलतापूर्वक बनाया गया</string>
+    <string name="create_group_failed">समूह बनाएं विफल हुआ</string>
+    <string name="please_choose_an_avatar">कृपया एक अवतार चुनें</string>
+    <string name="slide_to_cancel_audio">रद्द करने के लिए स्लाइड करें</string>
+    <string name="message_is_copied">संदेश कॉपी किया गया</string>
+    <string name="of">" का "</string>
+    <string name="failed_upload_image">"आपकी छवि अपलोड करने में विफल "</string>
 
     <!--group adapters start -->
-    <string name="exit_group">Exit \"</string>
-    <string name="group_ex">\" group?</string>
-    <string name="exiting_group_dialog">" Exiting group … "</string>
-    <string name="deleting_group_dialog">" Deleting group … "</string>
-    <string name="created_by_you_at">Created by You at</string>
-    <string name="created_by">"Created by "</string>
+    <string name="exit_group">बाहर जाएं \"</string>
+    <string name="group_ex">\" समूह?</string>
+    <string name="exiting_group_dialog">" समूह निकल रहा है ..."</string>
+    <string name="deleting_group_dialog">" समूह हटाया जा रहा है ... "</string>
+    <string name="created_by_you_at">आपके द्वारा बनाया गया</string>
+    <string name="created_by">"के द्वारा बनाई गई"</string>
     <string name="group_at">at</string>
-    <string name="failed_to_delete_this_group_check_connection">Failed to delete this group check your connection</string>
-    <string name="failed_to_exit_this_group_check_connection">Failed to exit this group check your connection</string>
-    <string name="adding_new_status">Adding new status …</string>
-    <string name="add_to_group">"Add "</string>
-    <string name="member_to_group">" member to group"</string>
-    <string name="adding_member">" Adding member … "</string>
-    <string name="failed_to_add_member_to_group">Failed to add member(s) please try again later</string>
-    <string name="you">You</string>
+    <string name="failed_to_delete_this_group_check_connection">इस समूह को हटाने में विफल आपके कनेक्शन की जांच करें</string>
+    <string name="failed_to_exit_this_group_check_connection">इस समूह से बाहर आने में विफल आपके कनेक्शन की जांच करें</string>
+    <string name="adding_new_status">नई स्थिति जोड़ना…</string>
+    <string name="add_to_group">"जोड़ना "</string>
+    <string name="member_to_group">" समूह के सदस्य"</string>
+    <string name="adding_member">" सदस्य जोड़ना… "</string>
+    <string name="failed_to_add_member_to_group">सदस्य (सदस्यों) को जोड़ने में विफल कृपया कृपया बाद में फिर से प्रयास करें</string>
+    <string name="you">आप</string>
     <!--group member options start -->
-    <string name="message_group_option">"Message "</string>
-    <string name="view_group_option">"View "</string>
-    <string name="make_admin_group_option"> an admin</string>
-    <string name="make_member_group_option"> member</string>
-    <string name="make_group_option"> Make </string>
-    <string name="remove_group_option">"Remove "</string>
+    <string name="message_group_option">"संदेश "</string>
+    <string name="view_group_option">"राय "</string>
+    <string name="make_admin_group_option"> एक व्यवस्थापक</string>
+    <string name="make_member_group_option"> सदस्य</string>
+    <string name="make_group_option"> बनाना </string>
+    <string name="remove_group_option">"हटाना"</string>
     <!--group member options end -->
-    <string name="remove_from_group">"Remove "</string>
-    <string name="from_group">" from group"</string>
-    <string name="deleting_group">" Deleting member … "</string>
-    <string name="failed_to_make_member_as_admin">Failed to make this member(s) as an admin please try again later</string>
-    <string name="failed_to_remove_member">Failed to remove member(s) please try again later</string>
+    <string name="remove_from_group">"हटाना "</string>
+    <string name="from_group">" समूह से"</string>
+    <string name="deleting_group">" सदस्य हटाना… "</string>
+    <string name="failed_to_make_member_as_admin">इस सदस्य को व्यवस्थापक के रूप में बनाने में असफल कृपया बाद में फिर से प्रयास करें</string>
+    <string name="failed_to_remove_member">सदस्य (सदस्यों) को हटाने में विफल कृपया कृपया बाद में फिर से प्रयास करें</string>
     <!--group adapters end -->
     <!--conversations and messages  adapters start-->
     <string name="tap_to_create_group">Tap to create this group</string>
@@ -447,3 +447,4 @@
     <string name="messages_from_notify">messages from</string>
     <string name="chats_notify">chats</string>
 </resources>
+
