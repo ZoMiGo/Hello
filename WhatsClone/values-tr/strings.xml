@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">HELLO</string>
-    <string name="Hello_get" >Merhaba HELLO APP yüzden kolayca birbirinden ile sohbet edebilirsiniz olsun!</string>
-    <string name="Hi_there" >Merhaba! Ben kullanarak HELLO </string>
-
-
+    <string name="app_name" >Hello Messenger</string>
     <!-- Date format -->
     <string name="date_format_today">HH:mm</string>
     <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
@@ -20,25 +16,6 @@
     <string name="more">Daha fazla bilgi</string>
     <string name="title_sign_out">Çıkış</string>
     <string name="selected_count">%1$s Seçildi</string>
-    <!-- icons -->
-    <string name="icon_no_calls">\ue830</string>
-    <string name="icon_crash">\ue840</string>
-    <string name="icon_update">\ue865</string>
-    <string name="icon_no_contacts">\ue82b</string>
-    <string name="icon_no_conversations">\ue818</string>
-    <string name="icon_menu_home">\ue800</string>
-    <string name="icon_menu_chat_on">\ue83f</string>
-    <string name="icon_menu_entertainment">\ue824</string>
-    <string name="icon_menu_news">\ue853</string>
-    <string name="icon_menu_shopping">\ue82e</string>
-    <string name="icon_menu_my_profile">\ue82a</string>
-    <string name="icon_menu_settings">\ue810</string>
-    <string name="icon_menu_help_feedback">\ue87d</string>
-    <string name="icon_menu_about_us">\ue87c</string>
-    <string name="icon_menu_share">\ue84b</string>
-    <string name="icon_menu_edit">\ue802</string>
-
-    <!--end icons -->
     <string name="number">telefon numarası</string>
     <string name="NoMessages">Şimdi bir tane başlayabilir, henüz konuşmaları var</string>
     <string name="NoCalls">Arama yok</string>
@@ -419,9 +396,6 @@
     <string name="restore_is_done">Mesajlar yedekleniyor:</string>
     <string name="failed_to_restore_the_backup_try">Mesajlar yedeklenemiyor. Lütfen daha sonra tekrar deneyin.</string>
     <string name="please_wait_a_moment">Lütfen bir dakika bekleyin…</string>
-    <string name="chats_title_tab">Sohbetler</string>
-    <string name="contacts_title_tab">Kişiler</string>
-    <string name="calls_title_tab">Aramalar</string>
     <string name="current_language">current</string>
 
     <string name="block_user_make_sure">Engellenen kişiler sizi arayamaz veya size mesaj gönderemez.</string>
@@ -435,5 +409,37 @@
 
     <string name="invitation_from">dan Davet</string>
     <string name="your_session_expired">Your Session is Expired</string>
+    <!--new strings-->
+    <string name="click_on">Click on </string>
+    <string name="to_choose_your_country_n_and_enter_your_phone_number"> to choose your country   and enter your phone number</string>
+    <string name="username">Username</string>
+    <string name="complete_registration_optional">This is an optional step you can skip it without edit anything</string>
+    <string name="complete_registration">Complete Registration</string>
+    <string name="dialog_loading">Loading…</string>
+    <string name="last_back_time">You last back up is done at :</string>
+    <string name="you_didnot_make_a_backup">You didn\'t make a backup yet</string>
+    <string name="creating_backup">Creating a local backup (</string>
+    <string name="backup_occur">%). Backups occur</string>
+    <string name="failed_to_backup_your_data">Failed to backup your messages</string>
+    <string name="backup_is_done">Back up is done successfully at :</string>
+    <string name="backup_drive_folder">Backup folder</string>
+    <string name="backup_drive_folder_not_set">N/A</string>
+    <string name="backup_drive_button_open_drive">Open drive</string>
+    <string name="backup_drive_recent">Recent Backups</string>
+    <string name="backup_drive_dialog_restore_title">Revet to previous version</string>
+    <string name="backup_drive_dialog_restore_desc">Restoring this backup will overwrite all existing data with the backup</string>
+    <string name="backup_drive_dialog_restore_details">Backup Details</string>
+    <string name="get_started">Get started</string>
+    <string name="number_not_match">This number not match the first one you insert to verify .please try again</string>
 
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit">Set back and keep calm </string>
+    <string name="you_can_select_your_favorite_language_from_here">You can select your favorite language from here</string>
+    <string name="signup_terms">By Proceeding you also agree to application’s Terms of Service and
+		Privacy Policy.
+	</string>
+    <string name="voice_call_dialog_title">Voice</string>
+    <string name="video_call_dialog_title">Video</string>
+    <string name="new_messages_notify">new messages</string>
+    <string name="messages_from_notify">messages from</string>
+    <string name="chats_notify">chats</string>
 </resources>

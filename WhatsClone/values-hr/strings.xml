@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name" >HELLO</string>
-    <string name="Hello_get" >Hi Ja Koristim sada HELLO tako možemo lako razgovarati jedni s drugima!</string>
-    <string name="Hi_there" >Pozdrav ja koristim sada! HELLO </string>
-
+    <string name="app_name" >Hello Messenger</string>
     <!-- Date format -->
     <string name="date_format_today">HH:mm</string>
     <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
-    <string name="date_format_yesterday">Jučer</string>
+    <string name="date_format_yesterday">JUČER</string>
     <string name="date_format">dd/MM/yy</string>
 
     <string name="action_settings">Postavke</string>
@@ -75,8 +71,8 @@
     <string name="error_response_status">Ne može da se dobije status</string>
     <string name="title_activity_edit_status">Izmijeni status</string>
     <string name="deleteALL">Izbriši sve</string>
-    <string name="oops_something">Oops nešto jr pošlo po zlu</string>
-    <string name="oops_something_crashed">Oops !! Nešto jr pošlo po zlu. Pošaljite izvještaj programeru</string>
+    <string name="oops_something">Oops nešto je pošlo po zlu</string>
+    <string name="oops_something_crashed">Oops !! Nešto je pošlo po zlu. Pošaljite izvještaj programeru</string>
     <string name="no_status"> Nema statusa </string>
     <string name="no_username">Nema korisničkog imena</string>
     <string name="edit_status_activity_title">Izmijeni svoj status</string>
@@ -121,31 +117,31 @@
     <string name="hold_to_record">Držite za snimanje</string>
 
     <!-- Permissions strings start -->
-    <string name="camera_permission">Dozvoli Pristup Kamere</string>
-    <string name="audio_permission">Dozvoli Audio Pristup</string>
-    <string name="storage_permission">Storage Permission</string>
-    <string name="contacts_permission">Dozvoli Pristup na Kontakte</string>
-    <string name="vibrate_permission">Vibrate Permission</string>
-    <string name="receive_sms_permission">Dozvoli Pristup na Primanje SMS-a</string>
-    <string name="read_sms_permission">Dozvoli Pristup Citanje SMS-a</string>
-    <string name="call_phone_permission">Dozvoli Pristup na Mobilni</string>
-    <string name="get_accounts_permission">Dozvoli Pristup na Nalog</string>
-    <string name="write_sync_settings_permission">Dozvoli Pristup na Nalog</string>
-    <string name="read_sync_settings_permission">Dozvoli Pristup na Nalog</string>
-    <string name="camera_permission_message">Camera permission allows you to take pictures and capture videos. Please allow in App Settings for additional functionality.</string>
-    <string name="record_audio_permission_message">Snimanje zvuka dozvolu omogućuje snimanje audio. Dozvolite za dodatnu funkcionalnost u App Settings.</string>
-    <string name="settings_audio_permission_message">Modify audio permission allows us access to your audios. Please allow in App Settings for additional functionality.</string>
-    <string name="write_storage_permission_message">Write External permission allows us  access to your media. Please allow in App Settings for additional functionality.</string>
-    <string name="read_storage_permission_message">Read External permission allows us to read your media. Please allow in App Settings for additional functionality.</string>
-    <string name="read_contacts_permission_message">Read Contacts permission allows us to read your contacts. Please allow in App Settings for additional functionality.</string>
-    <string name="write_contacts_permission_message">Write Contacts permission allows you access to your contacts. Please allow in App Settings for additional functionality.</string>
-    <string name="vibrate_permission_message">Vibrate permission . Please allow in App Settings for additional functionality.</string>
-    <string name="receive_sms_permission_message">Receive sms permission allows you  to receive SMS messages. Please allow in App Settings for additional functionality.</string>
-    <string name="read_sms_permission_message">Read sms permission allows us access to your SMS messages. Please allow in App Settings for additional functionality.</string>
-    <string name="call_phone_permission_message">Call phone permission allows you make calls. Please allow in App Settings for additional functionality.</string>
-    <string name="get_accounts_permission_message">Get accounts permission . Please allow in App Settings for additional functionality.</string>
-    <string name="write_sync_settings_permission_message">Write Sync settings permission . Please allow in App Settings for additional functionality.</string>
-    <string name="read_sync_settings_permission_message">Read Sync settings permission . Please allow in App Settings for additional functionality.</string>
+    <string name="camera_permission">Dozvoli pristup kameri</string>
+    <string name="audio_permission">Dozvoli pristup zvuku</string>
+    <string name="storage_permission">Dozvoli pristup pohrani</string>
+    <string name="contacts_permission">Dozvoli pristup kontaktima</string>
+    <string name="vibrate_permission">Dozvoli pristup vibraciji</string>
+    <string name="receive_sms_permission">Dozvoli pristup primanju SMS-a</string>
+    <string name="read_sms_permission">Dozvoli pristup čitanju SMS-a</string>
+    <string name="call_phone_permission">Dozvoli pristup na telefon</string>
+    <string name="get_accounts_permission">Dozvoli pristup računima</string>
+    <string name="write_sync_settings_permission">Dozvoli pristup pisanju sinkronizacije</string>
+    <string name="read_sync_settings_permission">Dozvoli pristup čitanju sinkronizacije</string>
+    <string name="camera_permission_message">Dozvola za kameru dopušta Vam snimanje fotografija i videozapisa. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="record_audio_permission_message">Dozvola za snimanje zvuka dopušta snimanje zvuka. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="settings_audio_permission_message">Dozvola za modificiranje zvuka dopušta nam pristup Vašim zvukovima. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="write_storage_permission_message">Dozvola za pisanje u vanjsku pohranu dopušta nam pristup Vašim datotekama. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="read_storage_permission_message">Dozvola za čitanje vanjske pohrane dopušta nam da čitamo Vaše datoteke. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="read_contacts_permission_message">Dozvola za čitanje kontakata dopušta nam da čitamo Vaše kontakte. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="write_contacts_permission_message">Dozvola za pisanje u kontakte dopušta nam pristup Vašim kontaktima. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="vibrate_permission_message">Dozvola za vibraciju. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="receive_sms_permission_message">Dozvola za primanje SMS-a dopušta Vam da primate SMS poruke. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="read_sms_permission_message">Dozvola za čitanje SMS-a dopušta nam pristup Vašim SMS porukama. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="call_phone_permission_message">Dozvola za telefon dopušta Vam uspostavljanje poziva. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="get_accounts_permission_message">Dozvola za pristup računima. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="write_sync_settings_permission_message">Dozvola za pisanje u postavke sinkronizacije. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
+    <string name="read_sync_settings_permission_message">Dozvola za čitanje postavki sinkronizacije. Dozvolite u postavkama aplikаcije za dodatnu funkcionalnost.</string>
     <string name="no_thanks">Ne hvala</string>
     <string name="yes">Da</string>
 
@@ -241,7 +237,7 @@
     <string name="no_application_to_view_pdf">Nije dostupna aplikacija za prikazivanje PDF datoteka</string>
     <string name="no_application_to_send_sms">Nije dostupna aplikacija za slanje SMS Poruke</string>
     <!--conversations and messages adapters start-->
-    <string name="transfer_message_to">"Prenesi poruki ili podijeli sadržaj"</string>
+    <string name="transfer_message_to">"Prenesi poruku ili podijeli sadržaj"</string>
     <string name="no_app_to_play_video">"Nije dostupna aplikacija za reprodukciju video zapisa"</string>
     <string name="no_app_to_play_audio">"Nije dostupna aplikacija za reprodukciju audio zapisa"</string>
     <string name="delete_all_status_dialog">Brisanje svih statusa …</string>
@@ -276,7 +272,7 @@
     <string name="this_image_is_not_exist">Ova slika ne postoji više</string>
     <string name="this_audio_is_not_exist">Ovaj audio više ne postoji</string>
     <string name="this_document_is_not_exist">Ovaj dokument više ne postoji</string>
-    <string name="account_added_already">" Račun već postoji "</string>
+    <string name="account_added_already">"Račun već postoji"</string>
     <string name="you_cannot_delete_your_account_please_contac">Ne možete izbrisati svoj račun. Obratite se programeru za ovu svrhu</string>
 
     <!--Directories strings-->
@@ -289,16 +285,16 @@
     <string name="documents_directory">Dokumenti</string>
     <string name="images_other_directory">Ostale slike</string>
     <string name="directory_wallpaper">Pozadina</string>
-    <string name="directory_sent">Pošalji</string>
-      <string name="video_thumbnail">Umanjena sličica</string>
-      <string name="image_saved">Slika je spremljenaa</string>
-      <string name="save_to_gallery">Spremi u galeriju</string>
-      <string name="share_or_save">Spremi ili podijeli</string>
-      <string name="shareItem">Podijeli</string>
-      <string name="this_message_empty">Ova poruka je prazna</string>
-      <string name="share_message">Podijeli</string>
-      <string name="you_can_share_more_then_one">Ne možete dijeliti više od jedne stavke</string>
-      <!--others -->
+    <string name="directory_sent">Poslano</string>
+    <string name="video_thumbnail">Umanjena sličica</string>
+    <string name="image_saved">Slika je spremljena</string>
+    <string name="save_to_gallery">Spremi u galeriju</string>
+    <string name="share_or_save">Spremi ili podijeli</string>
+    <string name="shareItem">Podijeli</string>
+    <string name="this_message_empty">Ova poruka je prazna</string>
+    <string name="share_message">Podijeli</string>
+    <string name="you_can_share_more_then_one">Ne možete dijeliti više od jedne stavke</string>
+    <!--others -->
     <string name="add_to_you_contact">Dodaj ovu osobu svojim kontaktima </string>
     <string name="status_and_phone">Status i telefon</string>
     <string name="failed_to_the_current_status">Nismo dobili trenutni status</string>
@@ -312,7 +308,7 @@
     <string name="please_click_on_restore_button_to_restore_your_messages">Molimo kliknite za vraćanje Vaših poruka</string>
     <string name="backup">Sigurnosna kopija</string>
     <string name="chat_backup">Sigurnosna kopija</string>
-    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Napravite sigurnosnu kopiju svojih poruka. Da ih možete vratiti  prilikom reinstalacije pplikacije.</string>
+    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Napravite sigurnosnu kopiju svojih poruka. Da ih možete vratiti  prilikom reinstalacije aplikacije.</string>
     <string name="back_up">SIGURNOSNA KOPIJA</string>
     <string name="start_backing_up">Pokreni sigurnosnu kopiju</string>
     <string name="start_restore">Pokreni vraćanje sigurnosne kopije</string>
@@ -355,7 +351,7 @@
     <string name="delete_call_dialog">Brišem …</string>
     <string name="call_select_voice">Uputite govorni poziv</string>
     <string name="call_select_video">Uputite video poziv</string>
-    <string name="you_couldnt_call_this_user_network">Ne možete zvati. Provjerite da li vaš telefon ima internet vezu i pokušajte ponovno.</string>
+    <string name="you_couldnt_call_this_user_network">Ne možete zvati. Provjerite da li Vaš telefon ima internet vezu i pokušajte ponovno.</string>
     <string name="you_couldnt_call">Ne mogu da zovem.</string>
     <string name="duration">Trajanje</string>
     <string name="close">Zatvori</string>
@@ -402,19 +398,16 @@
     <string name="restore_is_done">Vraćanje sigurnosne kopije obavljeno uspješno:</string>
     <string name="failed_to_restore_the_backup_try">Nije uspjelo vraćanje sigurnosne kopije, molimo pokušajte ponovno</string>
     <string name="please_wait_a_moment">Molimo pričekajte trenutak …</string>
-    <string name="chats_title_tab">RAZGOVORI</string>
-    <string name="contacts_title_tab">KONTAKTI</string>
-    <string name="calls_title_tab">POZIVI</string>
     <string name="current_language">trenutno</string>
 
     <string name="block_user_make_sure">Hoćete li blokirati ovog korisnika, tako da on više nije u stanju da Vam se javi ili šalje poruke. Da li ste sigurni?</string>
     <string name="unblock_user_make_sure">Hoćete li odblokirati ovog korisnika, tako da će biti u stanju da Vas pozove i šalje poruke. Da li ste sigurni?</string>
     <string name="unblock_user">Odblokirati</string>
     <string name="title_blocked_contacts">Blokirani kontakti</string>
-    <string name="missed_video_call">Propušteni video pozivi</string>
+    <string name="missed_video_call">Propušteni video poziv</string>
     <string name="missed_voice_call">Propušteni poziv</string>
-    <string name="outgoing_video_call">Odlazni video pozivi</string>
-    <string name="outgoing_voice_call">Odlazni Pozivi</string>
+    <string name="outgoing_video_call">Odlazni video poziv</string>
+    <string name="outgoing_voice_call">Odlazni Poziv</string>
 
     <string name="invitation_from">Poziv od</string>
     <string name="your_session_expired">Vaša sesija je istekla</string>
@@ -436,7 +429,7 @@
     <string name="backup_drive_button_open_drive">Otvori drive</string>
     <string name="backup_drive_recent">Nedavne sigurnosne kopije</string>
     <string name="backup_drive_dialog_restore_title">Vrati na prethodnu verziju</string>
-    <string name="backup_drive_dialog_restore_desc">Vraćanje ove sigurnosne kpoije će zamjeniti sve postojeće podatke sigurnosnom kopijom.</string>
+    <string name="backup_drive_dialog_restore_desc">Vraćanje ove sigurnosne kopije će zamjeniti sve postojeće podatke sigurnosnom kopijom.</string>
     <string name="backup_drive_dialog_restore_details">Detalji sigurnosne kopije</string>
     <string name="get_started">Započnite</string>
     <string name="number_not_match">Broj nije identičan prvom. Molimo pokušajte ponovno</string>
@@ -445,4 +438,10 @@
     <string name="you_can_select_your_favorite_language_from_here">Ovdje možete izabrati Vaš jezik</string>
 
     <string name="signup_terms">Nastavljanjem prihvaćate uvjete korištenja aplikacije i policu privatnosti.</string>
+    <string name="voice_call_dialog_title">Voice</string>
+    <string name="video_call_dialog_title">Video</string>
+    <string name="new_messages_notify">new messages</string>
+    <string name="messages_from_notify">messages from</string>
+    <string name="chats_notify">chats</string>
+
 </resources>

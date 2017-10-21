@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Hello</string>
-    <string name="title_home">HOME</string>
-    <string name="Hello_get" >Hi Holl dir HELLO so können wir Gratis miteinander Telefonieren und chatten! </string>
-    <string name="Hi_there" >Hi! Ich benutze jetzt! HELLO </string>
+    <string name="app_name" >Hello Messenger</string>
     <string name="splash_message">Cette application vous permet d\'avoir un chat en temps réel avec vos amis, vous pouvez vous inscrire à votre numéro de téléphone.</string>
     <!-- Date format -->
     <string name="date_format_today">HH:mm</string>
@@ -19,13 +16,6 @@
     <string name="more">Plus</string>
     <string name="title_sign_out">Déconnecter</string>
     <string name="selected_count">%1$s selectionne</string>
-    <!-- icons -->
-    <string name="icon_no_calls">\ue830</string>
-    <string name="icon_crash">\ue840</string>
-    <string name="icon_update">\ue865</string>
-    <string name="icon_no_contacts">\ue82b</string>
-    <string name="icon_no_conversations">\ue818</string>
-
     <!--end icons -->
     <string name="number">Nombre de téléphone</string>
     <string name="NoMessages">Il n\'y a pas encore de conversations, vous pouvez en commencer une maintenant</string>
@@ -58,6 +48,7 @@
     <string name="hello_welcome_to_whats_clone">Bienvenue</string>
     <string name="next">Suivant</string>
     <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">Reculer et garder le calme vous recevrez un sms de vérification</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit">Reculer et garder le calme </string>
     <string name="resend">Vous n\'avez reçu aucun code? Renvoyer</string>
     <string name="enter_the_code_below_to_verify">Entrez le code ci-dessous pour vérifier</string>
     <string name="enter_your_code">-- -- -- -- -- --</string>
@@ -376,12 +367,12 @@
     <string name="fetching_urls_preview">En cours …</string>
     <string name="title_activity_privacy"><![CDATA[Confidentialité et Termes]]></string>
     <string name="terms_and_privacy_policy">Termes et politique de confidentialité</string>
-    <string name="english">English</string>
+    <string name="english">Anglais</string>
+    <string name="french">Français</string>
     <string name="german">Deutsch</string>
     <string name="srbski">Serbisch</string>
     <string name="bosnisch">Bosnisch</string>
     <string name="romaneste">Romänisch</string>
-    <string name="french">Französisch</string>
     <string name="turski">Türkisch</string>
     <string name="tschechisch">Tschechisch</string>
     <string name="grichisch">Grichisch</string>
@@ -391,6 +382,7 @@
     <string name="mazedonisch">Mazedonisch</string>
     <string name="rusisch">Rusisch</string>
     <string name="slovenisch">Slovenisch</string>
+    <string name="title_language">Langues</string>
     <!--new strings-->
 
     <string name="you_need_to_restart_the_application">Vous devez redémarrer l\'application</string>
@@ -404,9 +396,6 @@
     <string name="restore_is_done">La sauvegarde de restauration est effectuée avec succès à :</string>
     <string name="failed_to_restore_the_backup_try">Impossible de restaurer la sauvegarde, veuillez réessayer</string>
     <string name="please_wait_a_moment">Patientez s\'il-vous-plait …</string>
-    <string name="chats_title_tab">DISCUSSION</string>
-    <string name="contacts_title_tab">CONTACTS</string>
-    <string name="calls_title_tab">APPELS</string>
     <string name="current_language">actuel</string>
 
 
@@ -419,24 +408,41 @@
     <string name="outgoing_video_call">Appel vidéo sortant</string>
     <string name="outgoing_voice_call">Appel vocal sortant</string>
 
+    <string name="signup_terms">En procédant, vous acceptez également les Conditions de service d\'application et Politique de confidentialité.</string>
+
     <!--new strings g-->
     <string name="invitation_from">Invitation from</string>
     <string name="your_session_expired">Your Session is Expired</string>
 
     <!--new strings-->
-    <string name="title_language">Langues</string>
-
-    <string name="title_Friends">اصحاب</string>
-    <string name="icon_menu_home">\ue800</string>
-    <string name="icon_menu_chat_on">\ue83f</string>
-    <string name="icon_menu_entertainment">\ue824</string>
-    <string name="icon_menu_news">\ue853</string>
-    <string name="icon_menu_shopping">\ue82e</string>
-    <string name="icon_menu_my_profile">\ue82a</string>
-    <string name="icon_menu_settings">\ue810</string>
-    <string name="icon_menu_help_feedback">\ue87d</string>
-    <string name="icon_menu_about_us">\ue87c</string>
-    <string name="icon_menu_share">\ue84b</string>
-    <string name="icon_menu_edit">\ue802</string>
+    <string name="click_on">Cliquez sur </string>
+    <string name="to_choose_your_country_n_and_enter_your_phone_number">  pour choisir votre pays et entrez votre numéro de téléphone</string>
+    <string name="username">Username</string>
+    <string name="complete_registration_optional">This is an optional step you can skip it without edit anything</string>
+    <string name="complete_registration">Complete Registration</string>
+    <string name="dialog_loading">Loading…</string>
+    <string name="last_back_time">You last back up is done at :</string>
+    <string name="you_didnot_make_a_backup">You didn\'t make a backup yet</string>
+    <string name="creating_backup">Creating a local backup (</string>
+    <string name="backup_occur">%). Backups occur</string>
+    <string name="failed_to_backup_your_data">Failed to backup your messages</string>
+    <string name="backup_is_done">Back up is done successfully at :</string>
+    <string name="backup_drive_folder">Backup folder</string>
+    <string name="backup_drive_folder_not_set">N/A</string>
+    <string name="backup_drive_button_open_drive">Open drive</string>
+    <string name="backup_drive_recent">Recent Backups</string>
+    <string name="backup_drive_dialog_restore_title">Revet to previous version</string>
+    <string name="backup_drive_dialog_restore_desc">Restoring this backup will overwrite all existing data with the backup</string>
+    <string name="backup_drive_dialog_restore_details">Backup Details</string>
+    <string name="get_started">Get started</string>
+    <string name="number_not_match">This number not match the first one you insert to verify .please try again</string>
+    <string name="you_can_select_your_favorite_language_from_here">Vous pouvez sélectionner votre langue préférée à partir d\'ici</string>
+    <string name="title_home">accueil</string>
+    <string name="title_Friends">Amis</string>
+    <string name="voice_call_dialog_title">Voice</string>
+    <string name="video_call_dialog_title">Video</string>
+    <string name="new_messages_notify">new messages</string>
+    <string name="messages_from_notify">messages from</string>
+    <string name="chats_notify">chats</string>
 
 </resources>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">فيولا</string>
-    <string name="Hello_get" >مرحبا HELLO APP الحصول بسهولة حتى تتمكن من الدردشة مع بعضها البعض!</string>
-    <string name="Hi_there" >HELLO مرحبا هناك! يمكنني استخدام</string>
+    <string name="app_name" >Hello Messenger</string>
     <string name="Make_sure_delete_status">هل تريد حذف هذه الحالة</string>
     <string name="No">لا</string>
     <string name="NoCalls">ليس هناك اتصالات بعد,يمكنك البدء بذلك الآن</string>
@@ -59,7 +57,6 @@
     <string name="call_select_video">اجراء مكامة فيديو</string>
     <string name="call_select_voice">اجراء مكالمة صوتية</string>
     <string name="calling">جار اتصال</string>
-    <string name="calls_title_tab">الاتصالات</string>
     <string name="camera_permission">صلاحيات الكاميرا</string>
     <string name="camera_permission_message">تمكنك صلاحيات الكاميرا من التقاط الصور وتسجيل الفيديو.</string>
     <string name="cancel">إلغاء</string>
@@ -67,7 +64,6 @@
     <string name="chat_backup">نسخة احتياطية للدردشات</string>
     <string name="chat_settings">اعدادات الدردشة</string>
     <string name="chats">المحادثات</string>
-    <string name="chats_title_tab">المحداثات</string>
     <string name="clear_chat">مسح المحادثة</string>
     <string name="clear_log_call">مسح سجل الاتصال</string>
     <string name="click_to_make_an_action">انقر للقبول/الرفض</string>
@@ -165,7 +161,6 @@
     <string name="remove_from_log">حذف من السجل</string>
     <string name="remove_group_option">\"حذف\"</string>
     <string name="contacts_permission">صلاحيات جهات الاتصال</string>
-    <string name="contacts_title_tab">جهات الاتصال</string>
     <string name="conversation_tones">نغمة الدردشات</string>
     <string name="conversation_tones_off">تشغيل الصوت للرسائل الواردة و الصادرة</string>
     <string name="copy_message">نسخ</string>
@@ -362,26 +357,10 @@
     <string name="update_app_message">مرحباً , هذا الإصدار من</string>
     <string name="start_restore">إبدأ بالاستعادة أو تخطى ذلك</string>
     <string name="start_backing_up">إبدأ بأخذ نسخة احتياطية</string>
-    <string name="icon_crash"></string>
-    <string name="icon_no_calls"></string>
-    <string name="icon_no_contacts"></string>
-    <string name="icon_no_conversations"></string>
-    <string name="icon_update"></string>
     <string name="enter_key_on">Key Send</string>
     <string name="bosnisch">Arabski</string>
     <string name="grichisch">Grcki</string>
     <string name="german">Nemacki</string>
-    <string name="icon_menu_home">\ue800</string>
-    <string name="icon_menu_chat_on">\ue83f</string>
-    <string name="icon_menu_entertainment">\ue824</string>
-    <string name="icon_menu_news">\ue853</string>
-    <string name="icon_menu_shopping">\ue82e</string>
-    <string name="icon_menu_my_profile">\ue82a</string>
-    <string name="icon_menu_settings">\ue810</string>
-    <string name="icon_menu_help_feedback">\ue87d</string>
-    <string name="icon_menu_about_us">\ue87c</string>
-    <string name="icon_menu_share">\ue84b</string>
-    <string name="icon_menu_edit">\ue802</string>
     <string name="indonesisch">Indonesish</string>
     <string name="kroatisch">Hrvatski</string>
     <string name="mazedonisch">Makedonski</string>
@@ -392,5 +371,35 @@
     <string name="tschechisch">Ceski</string>
     <string name="turski">Turski</string>
     <string name="srbski">Srpski</string>
+    <string name="number_not_match">رقم الهاتف غير متطابق</string>
+    <string name="you_didnot_make_a_backup">لم تقم بإحتياط</string>
+    <string name="you_can_select_your_favorite_language_from_here">لا يمكنك إختيار اللغة من هنا</string>
+    <string name="username">إسم</string>
+    <string name="to_choose_your_country_n_and_enter_your_phone_number">إختر بلدك وقم بإدخال رقم هاتفك</string>
+    <string name="signup_terms">By Proceeding you also agree to application\\’s Terms of Service and Privacy Policy.</string>
+    <string name="click_on">Click on </string>
+    <string name="complete_registration_optional">This is an optional step you can skip it without edit anything</string>
+    <string name="complete_registration">Complete Registration</string>
+    <string name="dialog_loading">Loading…</string>
+    <string name="last_back_time">You last back up is done at :</string>
+    <string name="creating_backup">Creating a local backup (</string>
+    <string name="backup_occur">%). Backups occur</string>
+    <string name="failed_to_backup_your_data">Failed to backup your messages</string>
+    <string name="backup_is_done">Back up is done successfully at :</string>
+    <string name="backup_drive_folder">Backup folder</string>
+    <string name="backup_drive_folder_not_set">N/A</string>
+    <string name="backup_drive_button_open_drive">Open drive</string>
+    <string name="backup_drive_recent">Recent Backups</string>
+    <string name="backup_drive_dialog_restore_title">Revet to previous version</string>
+    <string name="backup_drive_dialog_restore_desc">Restoring this backup will overwrite all existing data with the backup</string>
+    <string name="backup_drive_dialog_restore_details">Backup Details</string>
+    <string name="get_started">Get started</string>
+
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit">Set back and keep calm </string>
+    <string name="voice_call_dialog_title">Voice</string>
+    <string name="video_call_dialog_title">Video</string>
+    <string name="new_messages_notify">new messages</string>
+    <string name="messages_from_notify">messages from</string>
+    <string name="chats_notify">chats</string>
 
 </resources>
