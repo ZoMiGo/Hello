@@ -40,6 +40,11 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
     @BindView(R.id.indicator_slovenisch)
     TextView indicatorSlovenisch;
 
+    @BindView(R.id.indicator_hindi)
+    TextView indicatorHindi;
+    @BindView(R.id.indicator_chinese)
+    TextView indicatorChinese;
+
     @BindView(R.id.english_btn)
     LinearLayout EnglishBtn;
     @BindView(R.id.french_btn)
@@ -71,6 +76,11 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
     @BindView(R.id.slovenisch_btn)
     LinearLayout SlovenischBtn;
 
+    @BindView(R.id.hindi_btn)
+    LinearLayout HindiBtn;
+    @BindView(R.id.chinese_btn)
+    LinearLayout ChineseBtn;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -79,82 +89,91 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         setupToolbar();
         EnglishBtn.setOnClickListener(view -> {
-            if (indicatorFrench.getVisibility() == View.VISIBLE) {
+            if (indicatorEnglish.getVisibility() == View.GONE) {
                 ChangeLanguage("en", "US");
             }
         });
         FrenchBtn.setOnClickListener(view -> {
-            if (indicatorEnglish.getVisibility() == View.VISIBLE) {
+            if (indicatorFrench.getVisibility() == View.GONE) {
                 ChangeLanguage("fr", null);
             }
         });
         ////////////
         GermanBtn.setOnClickListener(view -> {
-            if (indicatorGerman.getVisibility() == View.VISIBLE) {
+            if (indicatorGerman.getVisibility() == View.GONE) {
                 ChangeLanguage("de", null);
             }
         });
         RomanesteBtn.setOnClickListener(view -> {
-            if (indicatorRomaneste.getVisibility() == View.VISIBLE) {
+            if (indicatorRomaneste.getVisibility() == View.GONE) {
                 ChangeLanguage("ro", null);
             }
         });
         SrbskiBtn.setOnClickListener(view -> {
-            if (indicatorSrbski.getVisibility() == View.VISIBLE) {
+            if (indicatorSrbski.getVisibility() == View.GONE) {
                 ChangeLanguage("sr", null);
             }
         });
         BosnischBtn.setOnClickListener(view -> {
-            if (indicatorBosnisch.getVisibility() == View.VISIBLE) {
+            if (indicatorBosnisch.getVisibility() == View.GONE) {
                 ChangeLanguage("bs", null);
             }
         });
         TurskiBtn.setOnClickListener(view -> {
-            if (indicatorSrbski.getVisibility() == View.VISIBLE) {
+            if (indicatorSrbski.getVisibility() == View.GONE) {
                 ChangeLanguage("tr", null);
             }
         });
         TschechischBtn.setOnClickListener(view -> {
-            if (indicatorTschechisch.getVisibility() == View.VISIBLE) {
+            if (indicatorTschechisch.getVisibility() == View.GONE) {
                 ChangeLanguage("cs", null);
             }
         });
         GrichischBtn.setOnClickListener(view -> {
-            if (indicatorGrichisch.getVisibility() == View.VISIBLE) {
+            if (indicatorGrichisch.getVisibility() == View.GONE) {
                 ChangeLanguage("el", null);
             }
         });
         SpanischBtn.setOnClickListener(view -> {
-            if (indicatorSpanisch.getVisibility() == View.VISIBLE) {
+            if (indicatorSpanisch.getVisibility() == View.GONE) {
                 ChangeLanguage("es", null);
             }
         });
         KroatischBtn.setOnClickListener(view -> {
-            if (indicatorKroatisch.getVisibility() == View.VISIBLE) {
+            if (indicatorKroatisch.getVisibility() == View.GONE) {
                 ChangeLanguage("hr", null);
             }
         });
         IndonesischBtn.setOnClickListener(view -> {
-            if (indicatorIndonesisch.getVisibility() == View.VISIBLE) {
+            if (indicatorIndonesisch.getVisibility() == View.GONE) {
                 ChangeLanguage("id", null);
             }
         });
         MazedonischBtn.setOnClickListener(view -> {
-            if (indicatorMazedonisch.getVisibility() == View.VISIBLE) {
+            if (indicatorMazedonisch.getVisibility() == View.GONE) {
                 ChangeLanguage("mk", null);
             }
         });
         RusischBtn.setOnClickListener(view -> {
-            if (indicatorRusisch.getVisibility() == View.VISIBLE) {
+            if (indicatorRusisch.getVisibility() == View.GONE) {
                 ChangeLanguage("ru", null);
             }
         });
         SlovenischBtn.setOnClickListener(view -> {
-            if (indicatorSlovenisch.getVisibility() == View.VISIBLE) {
+            if (indicatorSlovenisch.getVisibility() == View.GONE) {
                 ChangeLanguage("sl", null);
             }
         });
-
+        HindiBtn.setOnClickListener(view -> {
+            if (indicatorHindi.getVisibility() == View.GONE) {
+                ChangeLanguage("b+phi", null);
+            }
+        });
+        ChineseBtn.setOnClickListener(view -> {
+            if (indicatorChinese.getVisibility() == View.GONE) {
+                ChangeLanguage("zh", null);
+            }
+        });
         loadLocale();
     }
 
@@ -238,270 +257,354 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
     public void loadLocale() {
         String language = PreferenceManager.getLanguage(this);
         AppHelper.LogCat("language " + language + " getDefault " + Locale.getDefault());
-        if (language.equals("fr")) {
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorFrench.setVisibility(View.VISIBLE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+        switch (language) {
+            case "fr":
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.VISIBLE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("en")) {
-            indicatorEnglish.setVisibility(View.VISIBLE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "en":
+                indicatorEnglish.setVisibility(View.VISIBLE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("de")) {
-            indicatorGerman.setVisibility(View.VISIBLE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "de":
+                indicatorGerman.setVisibility(View.VISIBLE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("sr")) {
-            indicatorSrbski.setVisibility(View.VISIBLE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "sr":
+                indicatorSrbski.setVisibility(View.VISIBLE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("ro")) {
-            indicatorRomaneste.setVisibility(View.VISIBLE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "ro":
+                indicatorRomaneste.setVisibility(View.VISIBLE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("tr")) {
-            indicatorTurski.setVisibility(View.VISIBLE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "tr":
+                indicatorTurski.setVisibility(View.VISIBLE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("bs")) {
-            indicatorBosnisch.setVisibility(View.VISIBLE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "bs":
+                indicatorBosnisch.setVisibility(View.VISIBLE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("cs")) {
-            indicatorTschechisch.setVisibility(View.VISIBLE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "cs":
+                indicatorTschechisch.setVisibility(View.VISIBLE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("el")) {
-            indicatorGrichisch.setVisibility(View.VISIBLE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "el":
+                indicatorGrichisch.setVisibility(View.VISIBLE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("es")) {
-            indicatorSpanisch.setVisibility(View.VISIBLE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "es":
+                indicatorSpanisch.setVisibility(View.VISIBLE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("hr")) {
-            indicatorKroatisch.setVisibility(View.VISIBLE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "hr":
+                indicatorKroatisch.setVisibility(View.VISIBLE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("id")) {
-            indicatorIndonesisch.setVisibility(View.VISIBLE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "id":
+                indicatorIndonesisch.setVisibility(View.VISIBLE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("mk")) {
-            indicatorMazedonisch.setVisibility(View.VISIBLE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "mk":
+                indicatorMazedonisch.setVisibility(View.VISIBLE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("ru")) {
-            indicatorRusisch.setVisibility(View.VISIBLE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorSlovenisch.setVisibility(View.GONE);
+                break;
+            case "ru":
+                indicatorRusisch.setVisibility(View.VISIBLE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
 
-        } else if (language.equals("sl")) {
-            indicatorSlovenisch.setVisibility(View.VISIBLE);
-            indicatorRusisch.setVisibility(View.GONE);
-            indicatorMazedonisch.setVisibility(View.GONE);
-            indicatorIndonesisch.setVisibility(View.GONE);
-            indicatorKroatisch.setVisibility(View.GONE);
-            indicatorSpanisch.setVisibility(View.GONE);
-            indicatorGrichisch.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
-            indicatorBosnisch.setVisibility(View.GONE);
-            indicatorTurski.setVisibility(View.GONE);
-            indicatorRomaneste.setVisibility(View.GONE);
-            indicatorFrench.setVisibility(View.GONE);
-            indicatorEnglish.setVisibility(View.GONE);
-            indicatorSrbski.setVisibility(View.GONE);
-            indicatorGerman.setVisibility(View.GONE);
-            indicatorTschechisch.setVisibility(View.GONE);
+                break;
+            case "sl":
+                indicatorSlovenisch.setVisibility(View.VISIBLE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorChinese.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                break;
+            case "b+phi":
+                indicatorHindi.setVisibility(View.VISIBLE);
+                indicatorChinese.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                break;
+            case "zh":
+                indicatorChinese.setVisibility(View.VISIBLE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                break;
         }
 
     }
-
-
 }
