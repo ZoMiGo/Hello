@@ -39,11 +39,12 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
     TextView indicatorRusisch;
     @BindView(R.id.indicator_slovenisch)
     TextView indicatorSlovenisch;
-
     @BindView(R.id.indicator_hindi)
     TextView indicatorHindi;
     @BindView(R.id.indicator_chinese)
     TextView indicatorChinese;
+    @BindView(R.id.indicator_filipino)
+    TextView indicatorFilipino;
 
     @BindView(R.id.english_btn)
     LinearLayout EnglishBtn;
@@ -75,11 +76,12 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
     LinearLayout RusischBtn;
     @BindView(R.id.slovenisch_btn)
     LinearLayout SlovenischBtn;
-
     @BindView(R.id.hindi_btn)
     LinearLayout HindiBtn;
     @BindView(R.id.chinese_btn)
     LinearLayout ChineseBtn;
+    @BindView(R.id.filipino_btn)
+    LinearLayout FilipinoBtn;
 
 
     @Override
@@ -166,12 +168,17 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
         });
         HindiBtn.setOnClickListener(view -> {
             if (indicatorHindi.getVisibility() == View.GONE) {
-                ChangeLanguage("b+phi", null);
+                ChangeLanguage("hi", null);
             }
         });
         ChineseBtn.setOnClickListener(view -> {
             if (indicatorChinese.getVisibility() == View.GONE) {
                 ChangeLanguage("zh", null);
+            }
+        });
+        FilipinoBtn.setOnClickListener(view -> {
+            if (indicatorFilipino.getVisibility() == View.GONE) {
+                ChangeLanguage("b+phi", null);
             }
         });
         loadLocale();
@@ -276,7 +283,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "en":
                 indicatorEnglish.setVisibility(View.VISIBLE);
@@ -296,7 +303,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "de":
                 indicatorGerman.setVisibility(View.VISIBLE);
@@ -316,7 +323,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "sr":
                 indicatorSrbski.setVisibility(View.VISIBLE);
@@ -336,7 +343,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "ro":
                 indicatorRomaneste.setVisibility(View.VISIBLE);
@@ -356,7 +363,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "tr":
                 indicatorTurski.setVisibility(View.VISIBLE);
@@ -376,7 +383,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "bs":
                 indicatorBosnisch.setVisibility(View.VISIBLE);
@@ -396,7 +403,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "cs":
                 indicatorTschechisch.setVisibility(View.VISIBLE);
@@ -416,7 +423,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "el":
                 indicatorGrichisch.setVisibility(View.VISIBLE);
@@ -437,7 +444,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "es":
                 indicatorSpanisch.setVisibility(View.VISIBLE);
@@ -458,7 +465,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "hr":
                 indicatorKroatisch.setVisibility(View.VISIBLE);
@@ -479,7 +486,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "id":
                 indicatorIndonesisch.setVisibility(View.VISIBLE);
@@ -500,7 +507,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "mk":
                 indicatorMazedonisch.setVisibility(View.VISIBLE);
@@ -521,7 +528,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "ru":
                 indicatorRusisch.setVisibility(View.VISIBLE);
@@ -542,7 +549,7 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorChinese.setVisibility(View.GONE);
-
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "sl":
                 indicatorSlovenisch.setVisibility(View.VISIBLE);
@@ -563,8 +570,9 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSrbski.setVisibility(View.GONE);
                 indicatorGerman.setVisibility(View.GONE);
                 indicatorTschechisch.setVisibility(View.GONE);
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
-            case "b+phi":
+            case "hi":
                 indicatorHindi.setVisibility(View.VISIBLE);
                 indicatorChinese.setVisibility(View.GONE);
                 indicatorSlovenisch.setVisibility(View.GONE);
@@ -583,9 +591,32 @@ public class PreferenceLanguageActivity extends AppCompatActivity {
                 indicatorSrbski.setVisibility(View.GONE);
                 indicatorGerman.setVisibility(View.GONE);
                 indicatorTschechisch.setVisibility(View.GONE);
+                indicatorFilipino.setVisibility(View.GONE);
                 break;
             case "zh":
                 indicatorChinese.setVisibility(View.VISIBLE);
+                indicatorHindi.setVisibility(View.GONE);
+                indicatorSlovenisch.setVisibility(View.GONE);
+                indicatorRusisch.setVisibility(View.GONE);
+                indicatorMazedonisch.setVisibility(View.GONE);
+                indicatorIndonesisch.setVisibility(View.GONE);
+                indicatorKroatisch.setVisibility(View.GONE);
+                indicatorSpanisch.setVisibility(View.GONE);
+                indicatorGrichisch.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorBosnisch.setVisibility(View.GONE);
+                indicatorTurski.setVisibility(View.GONE);
+                indicatorRomaneste.setVisibility(View.GONE);
+                indicatorFrench.setVisibility(View.GONE);
+                indicatorEnglish.setVisibility(View.GONE);
+                indicatorSrbski.setVisibility(View.GONE);
+                indicatorGerman.setVisibility(View.GONE);
+                indicatorTschechisch.setVisibility(View.GONE);
+                indicatorFilipino.setVisibility(View.GONE);
+                break;
+            case "b+phi":
+                indicatorFilipino.setVisibility(View.VISIBLE);
+                indicatorChinese.setVisibility(View.GONE);
                 indicatorHindi.setVisibility(View.GONE);
                 indicatorSlovenisch.setVisibility(View.GONE);
                 indicatorRusisch.setVisibility(View.GONE);
