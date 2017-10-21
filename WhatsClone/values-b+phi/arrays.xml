@@ -2,9 +2,9 @@
 <resources>
 
     <string-array name="message_font_size_names">
-        <item>Small</item>
-        <item>Medium</item>
-        <item>Large</item>
+        <item>Maliit</item>
+        <item>Daluyan</item>
+        <item>Malaking</item>
     </string-array>
 
 
@@ -16,13 +16,13 @@
 
 
     <string-array name="light_names">
-        <item>Blue</item>
+        <item>Asul</item>
         <item>White</item>
-        <item>Red</item>
-        <item>Yellow</item>
+        <item>Pula</item>
+        <item>Dilaw</item>
         <item>Green</item>
         <item>Cyan</item>
-        <item>Metallic</item>
+        <item>Metal</item>
     </string-array>
 
 
