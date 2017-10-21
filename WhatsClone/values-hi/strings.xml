@@ -369,22 +369,22 @@
 
     <string name="title_activity_privacy"><![CDATA[Privacy & Terms]]></string>
     <string name="terms_and_privacy_policy">Terms and Privacy Policy</string>
-    <string name="english">English</string>
-    <string name="french">French</string>
-    <string name="german">Deutsch</string>
-    <string name="srbski">Serbisch</string>
-    <string name="bosnisch">Bosnisch</string>
-    <string name="romaneste">Romänisch</string>
-    <string name="turski">Türkisch</string>
-    <string name="tschechisch">Tschechisch</string>
-    <string name="grichisch">Grichisch</string>
-    <string name="spanisch">Spanisch</string>
-    <string name="kroatisch">Kroatisch</string>
-    <string name="indonesisch">Indonesisch</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="french">फ्रेंच</string>
+    <string name="german">जर्मन</string>
+    <string name="srbski">सर्बियाई</string>
+    <string name="bosnisch">बोस्नियाई</string>
+    <string name="romaneste">रोमानियाई</string>
+    <string name="turski">तुर्की</string>
+    <string name="tschechisch">चेक</string>
+    <string name="grichisch">यूनानी</string>
+    <string name="spanisch">स्पेनिश</string>
+    <string name="kroatisch">क्रोएशियाई</string>
+    <string name="indonesisch">इन्डोनेशियाई</string>
     <string name="mazedonisch">Mazedonisch</string>
-    <string name="rusisch">Rusisch</string>
-    <string name="slovenisch">Slovenisch</string>
-    <string name="title_language">Languages</string>
+    <string name="rusisch">रूसी</string>
+    <string name="slovenisch">स्लोवेनियाई</string>
+    <string name="title_language">बोली</string>
     <!--new strings-->
 
     <string name="you_need_to_restart_the_application">You need to restart the application</string>
