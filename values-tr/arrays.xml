@@ -14,7 +14,6 @@
     </string-array>
 
 
-
     <string-array name="light_names">
         <item>Mavi</item>
         <item>Beyaz</item>
@@ -36,5 +35,6 @@
         <item>#00FFFF</item>
         <item>#0A7E8C</item>
     </string-array>
+
 
 </resources>

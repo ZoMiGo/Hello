@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="message_font_size_names">
-        <item>Mic</item>
-        <item>Mijloace</item>
-        <item>Mare</item>
+        <item>Petit</item>
+        <item>Moyen</item>
+        <item>Grand</item>
     </string-array>
 
 
@@ -14,15 +14,14 @@
     </string-array>
 
 
-
     <string-array name="light_names">
-        <item>Albastru</item>
-        <item>Alb</item>
-        <item>Roșu</item>
-        <item>galben</item>
-        <item>Verde</item>
+        <item>Bleu</item>
+        <item>Blanc</item>
+        <item>Rouge</item>
+        <item>Jaune</item>
+        <item>Vert</item>
         <item>Cyan</item>
-        <item>Metalic</item>
+        <item>Métallique</item>
     </string-array>
 
 
@@ -36,6 +35,5 @@
         <item>#00FFFF</item>
         <item>#0A7E8C</item>
     </string-array>
-
 
 </resources>

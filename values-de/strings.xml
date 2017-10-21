@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!-- Translation by Trajilovic Goran gorance@live.de -->
 
-    <string name="app_name" >HELLO</string>
-    <string name="Hello_get" >Hi Holl dir %s so können wir Gratis miteinander Telefonieren und chatten! </string>
-    <string name="Hi_there" >Hi! Ich benutze jetzt! %s </string>
-
+    <string name="app_name" >Hello Messenger</string>
     <!-- Date format -->
     <string name="date_format_today">HH:mm</string>
     <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
@@ -21,25 +17,6 @@
     <string name="more">Mehr</string>
     <string name="title_sign_out">Abmelden</string>
     <string name="selected_count">%1$s ausgewählt</string>
-    <!-- icons -->
-    <string name="icon_no_calls">\ue830</string>
-    <string name="icon_crash">\ue840</string>
-    <string name="icon_update">\ue865</string>
-    <string name="icon_no_contacts">\ue82b</string>
-    <string name="icon_no_conversations">\ue818</string>
-    <string name="icon_menu_home">\ue800</string>
-    <string name="icon_menu_chat_on">\ue83f</string>
-    <string name="icon_menu_entertainment">\ue824</string>
-    <string name="icon_menu_news">\ue853</string>
-    <string name="icon_menu_shopping">\ue82e</string>
-    <string name="icon_menu_my_profile">\ue82a</string>
-    <string name="icon_menu_settings">\ue810</string>
-    <string name="icon_menu_help_feedback">\ue87d</string>
-    <string name="icon_menu_about_us">\ue87c</string>
-    <string name="icon_menu_share">\ue84b</string>
-    <string name="icon_menu_edit">\ue802</string>
-
-    <!--end icons -->
     <string name="number">Handynummer</string>
     <string name="NoMessages">Es gibt noch keine Gespräche, du kannst jetzt eins beginnen</string>
     <string name="NoCalls">Es gibt noch keine Anrufe, du kannst jetzt Anrufen</string>
@@ -308,15 +285,15 @@
     <string name="images_other_directory"> Sonstige Bilder</string>
     <string name="directory_wallpaper">Wallpaper</string>
     <string name="directory_sent">Senden</string>
-    <string name="video_thumbnail">Thumbnail</string>
-    <string name="image_saved">Bild gespeichert</string>
-    <string name="save_to_gallery">In Galerie speichern</string>
-    <string name="share_or_save">Teilen oder speichern</string>
-    <string name="shareItem">Teilen</string>
-    <string name="this_message_empty">Diese Nachricht ist leer</string>
-    <string name="share_message">Teilen</string>
-    <string name="you_can_share_more_then_one">Sie können nicht mehr als ein Element teilen</string>
-    <!--others -->
+        <string name="video_thumbnail">Thumbnail</string>
+        <string name="image_saved">Bild gespeichert</string>
+        <string name="save_to_gallery">In Galerie speichern</string>
+        <string name="share_or_save">Teilen oder speichern</string>
+        <string name="shareItem">Teilen</string>
+        <string name="this_message_empty">Diese Nachricht ist leer</string>
+        <string name="share_message">Teilen</string>
+        <string name="you_can_share_more_then_one">Sie können nicht mehr als ein Element teilen</string>
+        <!--others -->
     <string name="add_to_you_contact">HINZUFÜGEN DIESE PERSON ZU IHREM KONTAKT </string>
     <string name="status_and_phone">Status und Telefon</string>
     <string name="failed_to_the_current_status">Fehler beim aktuellen Status</string>
@@ -420,9 +397,6 @@
     <string name="restore_is_done">Backup wiederherstellen war erfolgreich :</string>
     <string name="failed_to_restore_the_backup_try">Fehler beim Wiederherstellen des Backups, bitte versuchen Sie es erneut</string>
     <string name="please_wait_a_moment">Bitte warte einen Moment …</string>
-    <string name="chats_title_tab">CHATS</string>
-    <string name="contacts_title_tab">KONTAKTE</string>
-    <string name="calls_title_tab">ANRUFE</string>
     <string name="current_language">aktuell</string>
 
     <string name="block_user_make_sure">Sie werden diesen Benutzer blockieren, also wird er nicht mehr in der Lage sein, Sie anzurufen oder Ihnen Nachrichten zuzusenden. Sind Sie sicher?</string>
@@ -436,5 +410,37 @@
 
     <string name="invitation_from">Einladung von</string>
     <string name="your_session_expired">Ihre Sitzung ist abgelaufen</string>
+    <!--new strings-->
+    <string name="click_on">Click on </string>
+    <string name="to_choose_your_country_n_and_enter_your_phone_number"> to choose your country   and enter your phone number</string>
+    <string name="username">Username</string>
+    <string name="complete_registration_optional">This is an optional step you can skip it without edit anything</string>
+    <string name="complete_registration">Complete Registration</string>
+    <string name="dialog_loading">Loading…</string>
+    <string name="last_back_time">You last back up is done at :</string>
+    <string name="you_didnot_make_a_backup">You didn\'t make a backup yet</string>
+    <string name="creating_backup">Creating a local backup (</string>
+    <string name="backup_occur">%). Backups occur</string>
+    <string name="failed_to_backup_your_data">Failed to backup your messages</string>
+    <string name="backup_is_done">Back up is done successfully at :</string>
+    <string name="backup_drive_folder">Backup folder</string>
+    <string name="backup_drive_folder_not_set">N/A</string>
+    <string name="backup_drive_button_open_drive">Open drive</string>
+    <string name="backup_drive_recent">Recent Backups</string>
+    <string name="backup_drive_dialog_restore_title">Revet to previous version</string>
+    <string name="backup_drive_dialog_restore_desc">Restoring this backup will overwrite all existing data with the backup</string>
+    <string name="backup_drive_dialog_restore_details">Backup Details</string>
+    <string name="get_started">Get started</string>
+    <string name="number_not_match">This number not match the first one you insert to verify .please try again</string>
 
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit">Set back and keep calm </string>
+    <string name="you_can_select_your_favorite_language_from_here">You can select your favorite language from here</string>
+    <string name="signup_terms">By Proceeding you also agree to application’s Terms of Service and
+		Privacy Policy.
+	</string>
+    <string name="voice_call_dialog_title">Voice</string>
+    <string name="video_call_dialog_title">Video</string>
+    <string name="new_messages_notify">new messages</string>
+    <string name="messages_from_notify">messages from</string>
+    <string name="chats_notify">chats</string>
 </resources>
