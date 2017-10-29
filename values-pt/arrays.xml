@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017.  Alex Media Modification by Trajilovic Goran
+  -->
+
 <resources>
 
     <string-array name="message_font_size_names">
-        <item>Maliit</item>
-        <item>Daluyan</item>
-        <item>Malaking</item>
+        <item>Pequeno</item>
+        <item>Médio</item>
+        <item>Ampla</item>
     </string-array>
 
 
@@ -16,13 +20,13 @@
 
 
     <string-array name="light_names">
-        <item>Asul</item>
-        <item>White</item>
-        <item>Pula</item>
-        <item>Dilaw</item>
-        <item>Green</item>
-        <item>Cyan</item>
-        <item>Metal</item>
+        <item>Azul</item>
+        <item>Branco</item>
+        <item>Vermelho</item>
+        <item>Amarelo</item>
+        <item>Verde</item>
+        <item>Ciano</item>
+        <item>Metálico</item>
     </string-array>
 
 

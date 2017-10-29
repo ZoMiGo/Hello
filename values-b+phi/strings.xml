@@ -369,21 +369,6 @@
 
     <string name="title_activity_privacy"><![CDATA[Privacy & Terms]]></string>
     <string name="terms_and_privacy_policy">Mga Tuntunin at Patakaran sa Pagkapribado</string>
-    <string name="english">English</string>
-    <string name="french">French</string>
-    <string name="german">Deutsch</string>
-    <string name="srbski">Serbisch</string>
-    <string name="bosnisch">Bosnisch</string>
-    <string name="romaneste">Romänisch</string>
-    <string name="turski">Türkisch</string>
-    <string name="tschechisch">Tschechisch</string>
-    <string name="grichisch">Grichisch</string>
-    <string name="spanisch">Spanisch</string>
-    <string name="kroatisch">Kroatisch</string>
-    <string name="indonesisch">Indonesisch</string>
-    <string name="mazedonisch">Mazedonisch</string>
-    <string name="rusisch">Rusisch</string>
-    <string name="slovenisch">Slovenisch</string>
     <string name="title_language">Languages</string>
     <!--new strings-->
 

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017.  Alex Media Modification by Trajilovic Goran
+  -->
+
 <resources>
 
     <string name="app_name" >Hello Messenger</string>
@@ -317,7 +321,7 @@
 
     <!-- Rate Strings -->
     <string name="rate_title">Bewerten %s</string>
-    <string name="rate_message">Wenn dir die APP,%s Gefählt, würde es dir etwas ausmachen, die APP zu Bewerten? Danke für deine Unterstützung!</string>
+    <string name="rate_message">Wenn dir die APP %s, Gefählt, würde es dir etwas ausmachen, die APP zu Bewerten? Danke für deine Unterstützung!</string>
     <string name="rate">Ja, Bewerten %s</string>
     <string name="rate_later">Erinnere mich später</string>
     <string name="rate_cancel">Nein Danke</string>
@@ -368,21 +372,6 @@
     <string name="splash_message"> Genießen Sie Ihre Zeit, während Sie diese "Echtzeit" Chat-Anwendung verwenden.</string>
     <string name="title_activity_privacy"><![CDATA[Datenschutz]]></string>
     <string name="terms_and_privacy_policy">AGB und Datenschutz</string>
-    <string name="english">English</string>
-    <string name="german">Deutsch</string>
-    <string name="srbski">Serbisch</string>
-    <string name="bosnisch">Bosnisch</string>
-    <string name="romaneste">Romänisch</string>
-    <string name="french">Französisch</string>
-    <string name="turski">Türkisch</string>
-    <string name="tschechisch">Tschechisch</string>
-    <string name="grichisch">Griechisch</string>
-    <string name="spanisch">Spanisch</string>
-    <string name="kroatisch">Kroatisch</string>
-    <string name="indonesisch">Indonesisch</string>
-    <string name="mazedonisch">Mazedonisch</string>
-    <string name="rusisch">Russisch</string>
-    <string name="slovenisch">Slovenisch</string>
     <string name="title_language">Sprachen</string>
     <!--new strings-->
 
@@ -438,9 +427,9 @@
     <string name="signup_terms">By Proceeding you also agree to application’s Terms of Service and
 		Privacy Policy.
 	</string>
-    <string name="voice_call_dialog_title">Voice</string>
-    <string name="video_call_dialog_title">Video</string>
-    <string name="new_messages_notify">new messages</string>
-    <string name="messages_from_notify">messages from</string>
+    <string name="voice_call_dialog_title">Sprach Anruf</string>
+    <string name="video_call_dialog_title">Video Anruf</string>
+    <string name="new_messages_notify">neue Nachricht</string>
+    <string name="messages_from_notify">Nachricht vom</string>
     <string name="chats_notify">chats</string>
 </resources>

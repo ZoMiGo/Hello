@@ -368,21 +368,6 @@
     <string name="splash_message"> Nikmati waktu Anda saat Anda menggunakan aplikasi chat \"real-time \" ini.</string>
     <string name="title_activity_privacy"><![CDATA[Ketentuan dan Kebijakan Privasi]]></string>
     <string name="terms_and_privacy_policy">Ketentuan dan Kebijakan Privasi</string>
-    <string name="english">Inggris</string>
-    <string name="german">Jerman</string>
-    <string name="srbski">Serbia</string>
-    <string name="bosnisch">Bosnia</string>
-    <string name="romaneste">Rumania</string>
-    <string name="french">Perancis</string>
-    <string name="turski">Turki</string>
-    <string name="tschechisch">Ceko</string>
-    <string name="grichisch">Yunani</string>
-    <string name="spanisch">Spanyol</string>
-    <string name="kroatisch">Kroasia</string>
-    <string name="indonesisch">Indonesia</string>
-    <string name="mazedonisch">Macedonian</string>
-    <string name="rusisch">Rusia</string>
-    <string name="slovenisch">Slovenia</string>
     <string name="title_language">Bahasa Aplikasi</string>
     <!--new strings-->
 

@@ -370,21 +370,6 @@
     <string name="splash_message"> Уживајте во вашето време додека ја користите оваа \"во реално време\" разговор апликација.</string>
     <string name="title_activity_privacy"><![CDATA[Услови и Приватност]]></string>
     <string name="terms_and_privacy_policy">Услови и Приватност</string>
-    <string name="english">Англиски</string>
-    <string name="german">Германски</string>
-    <string name="srbski">Српски</string>
-    <string name="bosnisch">босанските</string>
-    <string name="romaneste">Романскиот</string>
-    <string name="french">Француски</string>
-    <string name="turski">Турски</string>
-    <string name="tschechisch">Чешка</string>
-    <string name="grichisch">грчките</string>
-    <string name="spanisch">Шпански</string>
-    <string name="kroatisch">хрватскиот</string>
-    <string name="indonesisch">индонезиски</string>
-    <string name="mazedonisch">македонски</string>
-    <string name="rusisch">Руски</string>
-    <string name="slovenisch">словенечкиот</string>
     <string name="title_language">Јазик на апликацијата</string>
     <!--new strings-->
 

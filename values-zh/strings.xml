@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" >你好信使</string>
-    <string name="splash_message">本应用程序允许您与朋友进行实时聊天，您可以使用您的电话号码进行注册。</string>
+    <string name="app_name" >你好 - 信使</string>
     <!-- Date format -->
     <string name="date_format_today">HH:mm</string>
     <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
     <string name="date_format_yesterday">昨天</string>
     <string name="date_format">dd/MM/yy</string>
 
+    <string name="splash_message">本应用程序允许您与朋友进行实时聊天，您可以使用您的电话号码进行注册。</string>
     <string name="action_settings">设置</string>
     <string name="title_conversations">聊天</string>
     <string name="title_settings">设置</string>
@@ -370,21 +370,6 @@
 
     <string name="title_activity_privacy"><![CDATA[隐私权与条款]]></string>
     <string name="terms_and_privacy_policy">条款和隐私政策</string>
-    <string name="english">英语</string>
-    <string name="french">法国</string>
-    <string name="german">德语</string>
-    <string name="srbski">塞尔维亚</string>
-    <string name="bosnisch">波斯尼亚</string>
-    <string name="romaneste">罗马尼亚</string>
-    <string name="turski">图尔克</string>
-    <string name="tschechisch">捷克</string>
-    <string name="grichisch">希腊语</string>
-    <string name="spanisch">西班牙</string>
-    <string name="kroatisch">克罗地亚</string>
-    <string name="indonesisch">印度尼西亚</string>
-    <string name="mazedonisch">马其顿</string>
-    <string name="rusisch">俄语</string>
-    <string name="slovenisch">斯洛文尼亚</string>
     <string name="title_language">语言</string>
     <!--new strings-->
 

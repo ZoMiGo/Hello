@@ -367,21 +367,6 @@
     <string name="splash_message"> Uživajte vaš čas, medtem ko uporabljate ta \"v realnem času\" chat aplikacijo.</string>
     <string name="title_activity_privacy"><![CDATA[Pogoji in pravilnik o zasebnosti]]></string>
     <string name="terms_and_privacy_policy">Pogoji in pravilnik o zasebnosti</string>
-    <string name="english">Angleščina</string>
-    <string name="german">Nemški</string>
-    <string name="srbski">Srbščina</string>
-    <string name="bosnisch">Bosanski</string>
-    <string name="romaneste">Romunski</string>
-    <string name="french">Francosko</string>
-    <string name="turski">Turški</string>
-    <string name="tschechisch">Češki</string>
-    <string name="grichisch">Grški</string>
-    <string name="spanisch">španski</string>
-    <string name="kroatisch">Hrvaški</string>
-    <string name="indonesisch">Indonezijski</string>
-    <string name="mazedonisch">Makedonski</string>
-    <string name="rusisch">Ruski</string>
-    <string name="slovenisch">Slovenski</string>
     <string name="title_language">Jezik aplikacije</string>
     <!--new strings-->
 

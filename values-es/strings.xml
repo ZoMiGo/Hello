@@ -370,21 +370,6 @@
     <string name="splash_message"> Disfrutar de su tiempo mientras está usando este \ "en tiempo real \" aplicación de chat.</string>
     <string name="title_activity_privacy"><![CDATA[Términos y Privacidad]]></string>
     <string name="terms_and_privacy_policy">Términos y Privacidad</string>
-    <string name="english">Inglés</string>
-    <string name="german">Alemán</string>
-    <string name="srbski">Serbio</string>
-    <string name="bosnisch">Bosnio</string>
-    <string name="romaneste">Rumano</string>
-    <string name="french">Francés</string>
-    <string name="turski">Turca</string>
-    <string name="tschechisch">Checa</string>
-    <string name="grichisch">Griego</string>
-    <string name="spanisch">Español</string>
-    <string name="kroatisch">Croata</string>
-    <string name="indonesisch">Indonesio</string>
-    <string name="mazedonisch">Macedonia</string>
-    <string name="rusisch">Ruso</string>
-    <string name="slovenisch">Esloveno</string>
     <string name="title_language">Idioma de la aplicación</string>
     <!--new strings-->
 

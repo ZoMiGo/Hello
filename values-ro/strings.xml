@@ -368,21 +368,6 @@
     <string name="splash_message"> Bucurați-vă de timp în timp ce utilizați acest \"în timp real\" aplicație de chat.</string>
     <string name="title_activity_privacy"><![CDATA[Confidențialitate și termeni]]></string>
     <string name="terms_and_privacy_policy">Termeni și Politica de confidențialitate</string>
-    <string name="english">Engleză</string>
-    <string name="german">Germana</string>
-    <string name="srbski">Sârbă</string>
-    <string name="bosnisch">Bosniac</string>
-    <string name="romaneste">Romaneste</string>
-    <string name="french">Franceză</string>
-    <string name="turski">Turcă</string>
-    <string name="tschechisch">Cehă</string>
-    <string name="grichisch">Greacă</string>
-    <string name="spanisch">Spaniolă</string>
-    <string name="kroatisch">Croat</string>
-    <string name="indonesisch">Indoneziană</string>
-    <string name="mazedonisch">Macedoneană</string>
-    <string name="rusisch">Rusă</string>
-    <string name="slovenisch">Slovenă</string>
     <string name="title_language">Limbi</string>
     <!--new strings-->
 

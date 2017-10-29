@@ -369,21 +369,6 @@
     <string name="splash_message"> Уживајте у свом времену користећи ову апликацију за ћаскање.</string>
     <string name="title_activity_privacy"><![CDATA[Приватност и Увети]]></string>
     <string name="terms_and_privacy_policy">Увети и правила о приватности</string>
-    <string name="english">Енглески</string>
-    <string name="german">Немачки</string>
-    <string name="srbski">Србски</string>
-    <string name="bosnisch">Босански</string>
-    <string name="romaneste">Румунски</string>
-    <string name="french">Француски</string>
-    <string name="turski">Турски</string>
-    <string name="tschechisch">Чешки</string>
-    <string name="grichisch">Грчки</string>
-    <string name="spanisch">Шпански</string>
-    <string name="kroatisch">Хрватски</string>
-    <string name="indonesisch">Индонезијски</string>
-    <string name="mazedonisch">Македонски</string>
-    <string name="rusisch">Руски</string>
-    <string name="slovenisch">Словеначки</string>
     <string name="title_language">Језик</string>
     <!--new strings-->
 

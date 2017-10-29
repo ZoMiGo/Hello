@@ -369,21 +369,6 @@
     <string name="splash_message"> Uživajte u svom vremenu koristeći ovu chat aplikaciju.</string>
     <string name="title_activity_privacy"><![CDATA[Polica privatnosti i uvjeti korištenja]]></string>
     <string name="terms_and_privacy_policy">Uvjeti korištenja i polica privatnosti</string>
-    <string name="english">Engleski</string>
-    <string name="german">Njemački</string>
-    <string name="srbski">Srpski</string>
-    <string name="bosnisch">Bosanski</string>
-    <string name="romaneste">Rumunjski</string>
-    <string name="french">Francuski </string>
-    <string name="turski">Turski</string>
-    <string name="tschechisch">Češki</string>
-    <string name="grichisch">Grčki</string>
-    <string name="spanisch">Španjolski</string>
-    <string name="kroatisch">Hrvatski</string>
-    <string name="indonesisch">Indonezijski</string>
-    <string name="mazedonisch">Makedonski</string>
-    <string name="rusisch">Ruski</string>
-    <string name="slovenisch">Slovenski </string>
     <string name="title_language">Jezik</string>
     <!--new strings-->
 
@@ -438,9 +423,9 @@
     <string name="you_can_select_your_favorite_language_from_here">Ovdje možete izabrati Vaš jezik</string>
 
     <string name="signup_terms">Nastavljanjem prihvaćate uvjete korištenja aplikacije i policu privatnosti.</string>
-    <string name="voice_call_dialog_title">Voice</string>
-    <string name="video_call_dialog_title">Video</string>
-    <string name="new_messages_notify">new messages</string>
-    <string name="messages_from_notify">messages from</string>
+    <string name="voice_call_dialog_title">Govorni Poziv</string>
+    <string name="video_call_dialog_title">Video Poziv</string>
+    <string name="new_messages_notify">nova poruka</string>
+    <string name="messages_from_notify">poruka od</string>
     <string name="chats_notify">chats</string>
 </resources>

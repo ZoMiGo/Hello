@@ -367,21 +367,6 @@
     <string name="splash_message"> Bu \"gerçek zamanlı\" uygulamasını sohbet kullanırken vakit geçirin.</string>
     <string name="title_activity_privacy"><![CDATA[Koşullar ve Gizlilik Politikası]]></string>
     <string name="terms_and_privacy_policy">Koşullar ve Gizlilik Politikası</string>
-    <string name="english">İngilizce</string>
-    <string name="german">Alman</string>
-    <string name="srbski">Sırp</string>
-    <string name="bosnisch">Boşnakça</string>
-    <string name="romaneste">Romen</string>
-    <string name="french">Fransız</string>
-    <string name="turski">Türkisch</string>
-    <string name="tschechisch">Çek</string>
-    <string name="grichisch">Yunan</string>
-    <string name="spanisch">İspanyolca</string>
-    <string name="kroatisch">Hırvat</string>
-    <string name="indonesisch">Endonezya</string>
-    <string name="mazedonisch">Makedonyalı</string>
-    <string name="rusisch">Rus</string>
-    <string name="slovenisch">Sloven</string>
     <string name="title_language">Uygulama Dili</string>
     <!--new strings-->
 

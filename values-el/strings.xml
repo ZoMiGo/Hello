@@ -369,21 +369,6 @@
     <string name="splash_message"> Απολαύστε το χρόνο σας ενώ χρησιμοποιείτε αυτήν την εφαρμογή \ "πραγματικού χρόνου \" συνομιλίας.</string>
     <string name="title_activity_privacy"><![CDATA[Όροι χρήσης και Πολιτική απορρήτου]]></string>
     <string name="terms_and_privacy_policy">Όροι χρήσης και Πολιτική απορρήτου</string>
-    <string name="english">Αγγλικά</string>
-    <string name="german">Γερμανός</string>
-    <string name="srbski">Σέρβος</string>
-    <string name="bosnisch">Βοσνιακά</string>
-    <string name="romaneste">Της Ρουμανίας</string>
-    <string name="french">γαλλική γλώσσα</string>
-    <string name="turski">Τουρκικά</string>
-    <string name="tschechisch">Τσεχίας</string>
-    <string name="grichisch">ελληνικά</string>
-    <string name="spanisch">ισπανικά</string>
-    <string name="kroatisch">Κροατία</string>
-    <string name="indonesisch">Ινδονησίας</string>
-    <string name="mazedonisch">Μακεδόνας</string>
-    <string name="rusisch">ρωσικός</string>
-    <string name="slovenisch">της Σλοβενίας</string>
     <string name="title_language">Γλώσσα εφαρμογής</string>
     <!--new strings-->
 
