@@ -6,20 +6,12 @@ Talk to your friends and family for free*, even if they’re in another country.
 Send photos ,audio notes and videos on HELLO instantly. You can even capture the moments that matter to you most with a built-in camera.
 
 Language Translation for HELLO
-This Language Files are Compatible with WhatsClone
-Go to  AppConstants.java
-find line 26 and replace it with: 
 
 -----------------------------------------------------------------------------------------------------     
-public static final String INVITE_MESSAGE_SMS = ""+ WhatscloneApplication.getInstance().getString(R.string.Hello_get);// this is the sms to invite  friends
-----------------------------------------------------------------------------------------------------------
-
-
-
 Facebook Group
 https://www.facebook.com/globcast.eu/
 
 Download HELLO APP from Google Play Store
 https://play.google.com/store/apps/details?id=com.globcast.hello
 
-
+----------------------------------------------------------------------------------------------------------
