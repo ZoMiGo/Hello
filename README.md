@@ -29,7 +29,13 @@ Language Translation for HELLO
 Facebook Group
 https://www.facebook.com/globcast.eu/
 
+Official Homepage
+https://globcast.eu/
+
 Download HELLO APP from Google Play Store
 https://play.google.com/store/apps/details?id=com.globcast.hello
+
+Contact Us
+gorance@live.de
 
 ----------------------------------------------------------------------------------------------------------
